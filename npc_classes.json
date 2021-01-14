@@ -1296,6 +1296,40 @@
       "ubrg_npcf_mine_spider"
     ],
     "power": 100
+  },
+  {
+    "id": "ubrg_npc_stormcaller",
+    "name": "Stormcaller",
+    "role": "artillery",
+    "info": {
+      "flavor": "Attempts to weaponize weather often end in failure, as the practicalities of meteorological influence technologies match poorly with the rapidly changing nature of combat theatres on the ground. Stormcaller frames are perhaps the closest approximation of success, using ionizing discharges to fine tune the local atmosphere and rain down electrical destruction. Even these elaborate mechs lack any great precision, but a thunderous barrage of lightning strikes can serve as a powerful incentive for defenders to abandon a fortified position.",
+      "tactics": "The Stormcaller works by area coverage rather than precision, threatening a potentially massive area of the battlefield. Although unable to lay down consistent high levels of damage on a single target, its Lighting Strike ability is very likely to hit someone. Fast-moving enemies can easily flee the storm, although this still acts as a form of area denial, while those caught within it can cover for each other with the Bolster action and its save-boosting benefits."
+    },
+    "stats": {
+      "armor": [1,1,1],
+      "hp": [10,10,10],
+      "evade": [6,6,6],
+      "edef": [14,17,20],
+      "heatcap": [8,10,12],
+      "speed": [2,2,3],
+      "sensor": [25,25,25],
+      "save": [11,13,16],
+      "hull": [0,0,0],
+      "agility": [-2,-2,-2],
+      "systems": [2,4,6],
+      "engineering": [2,4,6],
+      "size": [[2],[2],[2]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_light_cannon_stormcaller",
+      "ubrg_npcf_atmospheric_circuit_stormcaller",
+      "ubrg_npcf_earthed_stormcaller",
+      "ubrg_npcf_lightning_strike_stormcaller"
+    ],
+    "optional_features": [
 
+    ],
+    "power": 100
   }
 ]

@@ -82,14 +82,14 @@
     "type": "System",
     "effect": "The APC emanates a Blast 3 shockwave, forcing all characters caught within it to pass a Hull save or suffer Knockback 3 away from the APC. Targets in soft or hard cover can add the Difficulty they’d usually impose on attacks against them as bonus Accuracy to this saving throw instead.",
     "tags": [
-	{
-    "id": "tg_recharge",
-    "val": 5
-	},
-	{
-	  "id": "tg_quick_action"
-	}
-	]
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
   },
   {
     "id": "ubrg_npcf_full_context_deployment_apc",
@@ -5892,6 +5892,72 @@
       "base": false
     },
     "locked": false
+  },
+  {
+    "id": "ubrg_npcf_light_cannon_stormcaller",
+    "name": "LIGHT DEFENCE CANNON",
+    "origin": {
+      "type": "Class",
+      "name": "STORMCALLER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon can fore twice at tier III.",
+    "tags": [
+      {
+        "id": "tg_ordnance"
+      }
+    ],
+    "weapon_type": "Main Cannon",
+    "attack_bonus": [1,1,1],
+    "accuracy": [0,0,0],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [5,5,5]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      },
+      {
+        "type": "Blast",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_atmospheric_circuit_stormcaller",
+    "name": "ATMOSPHERIC CIRCUIT CONVERGENCE SYSTEMS",
+    "type": "Tech",
+    "tech_type": "Full",
+    "tags": [
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "effect": "The Stormcaller picks a space within its sensor range, and an electromagnetic storm grows into existence across a burst 6 area around the space. The Stormcaller does not need line of sight to the target location. Characters who make any flying movement in the area suffer {2/3/4} energy damage. The storm fades at the end of the scene, or when the Stormcaller uses this ability to create another one.",
+    "origin": {
+      "type": "Class",
+      "name": "STORMCALLER",
+      "base": true
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_earthed_stormcaller",
+    "name": "EARTHED",
+    "type": "Trait",
+    "effect": "The Stormcaller has resistance to energy damage and external sources of heat.",
+    "tags": [],
+    "origin": {
+      "type": "Class",
+      "name": "STORMCALLER",
+      "base": true
+    }
   }
 
 ]
