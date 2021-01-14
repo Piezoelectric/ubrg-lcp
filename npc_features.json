@@ -6040,6 +6040,83 @@
     },
     "locked": false,
     "effect": "Any character within the electromagnetic storm who makes a tech attack suffers 1 Difficulty on the attack roll."
+  },
+  {
+    "id": "ubrg_npcf_submachine_gun_stormwing",
+    "name": "SUBMACHINE GUN [STORMWING]",
+    "type": "Weapon",
+    "origin": {
+      "type": "Class",
+      "name": "STORMWING",
+      "base": true
+    },
+    "locked": false,
+    "weapon_type": "Main CQB",
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": 2
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "attack_bonus": [1,1,1],
+    "accuracy": [0,0,0],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [5,7,9]
+      }
+    ],
+    "effect": "This weapon does not suffer DIFFICULTY from being fired while the Stormwing is ENGAGED."
+  },
+  {
+    "id": "ubrg_npcf_flanker_stormwing",
+    "name": "FLANKER",
+    "type": "Trait",
+    "effect": "During its turn, the Stormwing gains 1 Accuracy on attacks and tech attacks made against enemies who it was not in line of sight of at the beginning of its turn.",
+    "origin": {
+      "type": "Class",
+      "name": "STORMWING",
+      "base": true
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_thunderbolt_jumpjets_stormwing",
+    "name": "THUNDERBOLT JUMPJETS",
+    "type": "System",
+    "effect": "The Stormwing can fly when it boosts, but must end its turn standing on a surface or it will fall. If it provokes attacks from reactions while boosting, those attacks suffer an additional 1 Difficulty.",
+    "origin": {
+      "type": "Class",
+      "name": "STORMWING",
+      "base": true
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_stormfall_stormwing",
+    "name": "STORMFALL",
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_round"
+      }
+    ],
+    "trigger": "The STORMWING ends a BOOST action in which it flew.",
+    "effect": "The Stormwing may emanate a burst 2 pulse of disrupting electricity around itself. All enemies within the area must pass a Systems check or suffer {1/2/3} energy damage and become Impaired until the end of their next turn."
   }
 
 ]

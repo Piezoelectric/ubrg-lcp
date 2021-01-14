@@ -1335,5 +1335,44 @@
       "ubrg_npcf_whiteout_stormcaller"
     ],
     "power": 100
+  },
+  {
+    "id": "ubrg_npcc_stormwing",
+    "name": "STORMWING",
+    "role": "striker",
+    "info": {
+      "flavor": "Stormwing-class mechs are elite light assault frames, designed to enter fortified positions and structures via aerial angles to surprise and overwhelm dug-in hostiles. Smaller models are essentially top-end exoskeletons for use in human-sized confines, while heavier chassis see use as flankers and storm troopers in field and urban engagements. The high skill floor needed for effective Stormwing operation comes from the doctrine’s combination of short-range quick-fire armaments and tech superiority, demanding both rapid reflexes and quick wits to keep pace with unfolding threats and opportunities within the immediate battlespace.",
+      "tactics": "Stormwings want to hit hard and fast, coming in from flanks to attack targets vulnerable to close-quarters battle or overwhelm hardier prey as quickly as possible. They can keep moving fast to get in and out of firefights, but suffer if pinned in place and forced to partake in sustained engagements against heavier mechs."
+    },
+    "stats": {
+      "armor": [1,1,1],
+      "hp": [10,12,14],
+      "evade": [10,12,14],
+      "edef": [8,9,10],
+      "heatcap": [6,6,6],
+      "speed": [5,6,6],
+      "sensor": [8,10,12],
+      "save": [11,13,15],
+      "hull": [0,0,1],
+      "agility": [2,4,6],
+      "systems": [1,2,3],
+      "engineering": [-1,-1,-1],
+      "size": [[0.5,1],[0.5,1],[0.5,1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_submachine_gun_stormwing",
+      "ubrg_npcf_flanker_stormwing",
+      "ubrg_npcf_thunderbolt_jumpjets_stormwing",
+      "ubrg_npcf_stormfall_stormwing"
+    ],
+    "optional_features": [
+      "ubrg_npcf_breaching_impact_stormwing",
+      "ubrg_npcf_harpy_turbojets_stormwing",
+      "ubrg_npcf_full_spectrum_overload_stormwing",
+      "ubrg_npcf_reflex_heavy_pistol_stormwing",
+      "ubrg_npcf_smoke_charges_stormwing"
+    ],
+    "power": 100
   }
 ]
