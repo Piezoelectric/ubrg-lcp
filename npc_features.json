@@ -5903,14 +5903,14 @@
     },
     "locked": false,
     "type": "Weapon",
-    "effect": "This weapon can fore twice at tier III.",
+    "effect": "This weapon can fire twice at tier III.",
     "tags": [
       {
         "id": "tg_ordnance"
       }
     ],
     "weapon_type": "Main Cannon",
-    "attack_bonus": [1,1,1],
+    "attack_bonus": [1,2,3],
     "accuracy": [0,0,0],
     "damage": [
       {
@@ -6068,7 +6068,7 @@
         "val": 2
       }
     ],
-    "attack_bonus": [1,1,1],
+    "attack_bonus": [1,2,3],
     "accuracy": [0,0,0],
     "damage": [
       {
@@ -6117,6 +6117,122 @@
     ],
     "trigger": "The STORMWING ends a BOOST action in which it flew.",
     "effect": "The Stormwing may emanate a burst 2 pulse of disrupting electricity around itself. All enemies within the area must pass a Systems check or suffer {1/2/3} energy damage and become Impaired until the end of their next turn."
+  },
+  {
+    "id": "ubrg_npcf_breaching_impact_stormwing",
+    "name": "BREACHING IMPACT",
+    "type": "Trait",
+    "effect": "When the Stormwing finishes the movement of a BOOST action, it may deal 10 AP damage to an adjacent object or piece of terrain.",
+    "origin": {
+      "type": "Class",
+      "name": "STORMWING",
+      "base": false
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_harpy_turbojets_stormwing",
+    "name": "HARPY TURBOJETS",
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 3
+      }
+    ],
+    "effect": "When the Stormwing boosts, it may use this system to double its speed for the duration of the boost action.",
+    "origin": {
+      "type": "Class",
+      "name": "STORMWING",
+      "base": false
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_full_spectrum_overload_stormwing",
+    "name": "FULL-SPECTRUM OVERLOAD",
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [1,2,3],
+    "effect": "The target takes {2/3/4} heat and loses the ability to make reactions until the end of its next turn.",
+    "origin": {
+      "type": "Class",
+      "name": "STORMWING",
+      "base": false
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_reflex_heavy_pistol_stormwing",
+    "name": "REFLEX HEAVY PISTOL SYSTEM",
+    "type": "Weapon",
+    "weapon_type": "Auxiliary CQB",
+    "tags": [
+      {
+        "id": "tg_ap"
+      },
+      {
+        "id": "tg_knockback",
+        "val": 1
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [2,3,4]
+      }
+    ],
+    "effect": "When the Stormwing Skirmishes with its submachine gun, it can also make an attack with the Reflex Heavy Pistol System.",
+    "origin": {
+      "type": "Class",
+      "name": "STORMWING",
+      "base": false
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_smoke_charges_stormwing",
+    "name": "SMOKE CHARGES",
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_grenade"
+      },
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "effect": "The Stormwing throws a smoke Grenade (Range 5, Blast 2) which creates a blast area granting soft cover to all characters and objects. The area lasts until the end of the Stormwing’s next turn.",
+    "origin": {
+      "type": "Class",
+      "name": "STORMWING",
+      "base": false
+    },
+    "locked": false
   }
 
 ]
