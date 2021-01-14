@@ -5957,7 +5957,89 @@
       "type": "Class",
       "name": "STORMCALLER",
       "base": true
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_ball_lightning_stormcaller",
+    "name": "BALL LIGHTNING",
+    "type": "Trait",
+    "effect": "When the Stormcaller uses its ATMOSPHERIC CIRCUIT CONVERGENCE SYSTEMS, it may place a ball lightning anywhere in the affected area. The ball lightning is a size 1 object with evasion 10 and 10 HP, but it is immune to all forms of damage apart from energy and it cannot be shredded. At the end of the Stormcaller’s turn, the ball lightning moves up to four spaces in a straight line towards the nearest enemy, and then deals {2/3/4} energy damage and {1/2/3} heat to all enemies in a blast 2 area around its current position. It is immediately destroyed when the Stormcaller creates a new electromagnetic storm or if it moves out of the storm’s area.",
+    "tags": [],
+    "origin": {
+      "type": "Class",
+      "name": "STORMCALLER",
+      "base": false
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_corona_blaze_stormcaller",
+    "name": "CORONA BLAZE",
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ],
+    "effect": "The stormcaller initiates a corona discharge in the electromagnetic storm, as long as at least one square of the storm’s effects is within its sensor range; it does not require line of sight to do this. Every character with the Lock On condition in the affected area must pass an Engineering save or suffer {3/4/5} energy damage and become Jammed until the end of their next turn; this does not end the Lock On condition on them.",
+    "locked": false,
+    "origin": {
+      "type": "Class",
+      "name": "STORMCALLER",
+      "base": false
     }
+  },
+  {
+    "id": "ubrg_npcf_pressure_front_stormcaller",
+    "name": "PRESSURE FRONT",
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ],
+    "effect": "The Stormcaller initiates a drastic shift of air currents in its electromagnetic storm, as long as at least one square of the storm’s effects is within its sensor range; it does not require line of sight to do this. The Stormcaller chooses a direction and applies Knockback 1 to every character within the affected area, pushing them in the nominated direction.",
+    "origin": {
+      "type": "Class",
+      "name": "STORMCALLER",
+      "base": false
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_static_halo_stormcaller",
+    "name": "STATIC HALO",
+    "type": "Trait",
+    "origin": {
+      "type": "Class",
+      "name": "STORMCALLER",
+      "base": false
+    },
+    "locked": false,
+    "effect": "Allies within the electromagnetic storm add 2 energy damage to their melee attacks."
+  },
+  {
+    "id": "ubrg_npcf_whiteout_stormcaller",
+    "name": "WHITEOUT",
+    "type": "Trait",
+    "origin": {
+      "type": "Class",
+      "name": "STORMCALLER",
+      "base": false
+    },
+    "locked": false,
+    "effect": "Any character within the electromagnetic storm who makes a tech attack suffers 1 Difficulty on the attack roll."
   }
 
 ]

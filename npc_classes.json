@@ -1328,7 +1328,11 @@
       "ubrg_npcf_lightning_strike_stormcaller"
     ],
     "optional_features": [
-
+      "ubrg_npcf_ball_lightning_stormcaller",
+      "ubrg_npcf_corona_blaze_stormcaller",
+      "ubrg_npcf_pressure_front_stormcaller",
+      "ubrg_npcf_static_halo_stormcaller",
+      "ubrg_npcf_whiteout_stormcaller"
     ],
     "power": 100
   }
