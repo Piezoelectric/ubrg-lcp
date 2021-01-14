@@ -1,0 +1,1301 @@
+[
+  {
+    "id": "ubrg_npcc_apc",
+    "name": "APC",
+    "role": "support",
+    "info": {
+      "flavor": "Despite the mechanized cavalry chassis and energy weapons of modern warfare, infantry remains a key component of many military doctrines. With mobility being a vital element of infantry deployments, it’s no surprise that designers have sought to fuse the manoeuvrability of mech frames with the troop-carrying capacity of personnel fighting vehicles. Sporting light weaponry intended to assist an onboard detachment to take and hold tactical locations, ‘APC’ mechs are built for resilience and speed at the expense of potential damage output.",
+      "tactics": "The APC can haul allied infantry squads across the battlefield, offering them improved mobility and protection on the go. Ultimately, the APC works best when there’s a specific place or task that the infantry need to be shepherded towards; once the squad is out, it can offer some protection and fire support but will struggle to overcome enemy armour on its own terms."
+    },
+    "stats": {
+      "armor": [1,1,1],
+      "hp": [15,18,20],
+      "evade": [10,11,12],
+      "edef": [10,11,12],
+      "heatcap": [5,5,5],
+      "speed": [6,7,8],
+      "sensor": [10,10,10],
+      "save": [10,11,11],
+      "hull": [1,2,3],
+      "agility": [1,2,3],
+      "systems": [1,1,2],
+      "engineering": [-1,-1,-1],
+      "size": [[2],[2],[2]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_automatic_grenade_launcher_apc",
+      "ubrg_npcf_fire_ports_apc",
+      "ubrg_npcf_guardian_apc",
+	    "ubrg_npcf_squad_compartment_apc"
+    ],
+    "optional_features": [
+      "ubrg_npcf_deployment_clearance_pulse_apc",
+      "ubrg_npcf_full_context_deployment_apc",
+      "ubrg_npcf_protective_cbrnpdw_envelope_apc",
+      "ubrg_npcf_rapid_deployment_ejection_pods_apc",
+      "ubrg_npcf_smoke_charges_apc"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_apostate",
+    "name": "APOSTATE",
+    "role": "controller",
+    "info": {
+      "flavor": "Apostates are a rare breed of cutting-edge Blink tech chassis, praised by some technozealots and reviled by others. This sophisticated design of frame seeks to achieve a greater level of harmony between pilot and Blinkspace manipulation via exposure to the Blink—something that humans usually perceive as nothing, but which can be somewhat simulated by connecting the candidate to the carefully filtered experience of an NHP in the Blink. This inevitably drives the NHP mad and takes a heavy toll on the human as well. Some technocults encourage potential Apostate pilots to cultivate and bond with ‘sacrificial lamb’ NHPs who will serve as their bridge into such a limited Blink immersion, keeping and tending to the ruined resulting entity as a form of contradictory penance for the crime of seeking greater enlightenment through the Blink.",
+      "tactics": "Apostates are lightweight controllers interfering with enemy abilities via Blink manipulation. Wrath-Swallowing Needles are a flexible tool for shutting down the offensive potential of enemies who rely on area-of-effect weapons, while Fool-Rebuking Mudra and the PERSEPHONE-Class NHP give some ability to fend off advances and close assaults. The Apostate’s immunity to kinetic damage can give it some breathing space during intense firefights before enemies figure its defences out, but it needs to keep mobile and keep dancing around enemies to avoid getting pinned down and obliterated by weight of fire."
+    },
+    "stats": {
+      "armor": [0,0,0],
+      "hp": [10,12,14],
+      "evade": [12,15,18],
+      "edef": [12,15,18],
+      "heatcap": [8,8,8],
+      "speed": [5,5,5],
+      "sensor": [10,10,10],
+      "save": [12,15,18],
+      "hull": [0,1,2],
+      "agility": [1,2,3],
+      "systems": [2,4,5],
+      "engineering": [0,1,3],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_wrath_swallowing_needles_apostate",
+      "ubrg_npcf_fool_rebuking_mudra_apostate",
+      "ubrg_npcf_persephone_class_nhp_apostate",
+      "ubrg_npcf_world_splitting_mudra_apostate"
+    ],
+    "optional_features": [
+      "ubrg_npcf_baleful_crowd_shraap_apostate",
+      "ubrg_npcf_false_markings_in_the_labyrinth_apostate",
+      "ubrg_npcf_hunter_needles_apostate",
+      "ubrg_npcf_stolen_heart_shraap_apostate",
+      "ubrg_npcf_tear_down_the_sacred_gate_apostate"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_armourer",
+    "name": "ARMOURER",
+    "role": "support",
+    "info": {
+      "flavor": "Armourer-class mechs are the pack mules of a mechanized cavalry unit’s force chart, lugging onboard printers and volatile containment systems to ensure the guns never run dry. When a firefight starts, far from running for cover, these heavily-plated logistics frames do their part directly. An Armourer runs real-time diagnostics to fine-tune and flash-fabricate one-use modifications for weaponry systems or defensive capabilities.",
+      "tactics": "The Armourer boosts its allies damage output by upgrading their weapon systems, and provides some defensive and repositioning capability as well. The Armourer is extremely resilient and so not under great threat by enemy fire as long as the mechs it is supporting are still functional, but unless it takes the Emergency Weapon Fabricators optional system it has very little capacity to harm enemies and is better off using its crane to yank open escape routes."
+    },
+    "stats": {
+      "armor": [2,2,2],
+      "hp": [20,23,26],
+      "evade": [8,9,10],
+      "edef": [8,9,10],
+      "heatcap": [8,8,10],
+      "speed": [5,5,6],
+      "sensor": [10,10,10],
+      "save": [10,11,12],
+      "hull": [1,2,2],
+      "agility": [-2,-2,-2],
+      "systems": [0,0,1],
+      "engineering": [2,4,6],
+      "size": [[2],[2],[2]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_battlefield_diagnostics_armourer",
+      "ubrg_npcf_ablative_reinforcement_armourer",
+      "ubrg_npcf_crane_armourer"
+    ],
+    "optional_features": [
+      "ubrg_npcf_baffler_defence_bolt_ons_armourer",
+      "ubrg_npcf_emergency_weapon_fabricators_armourer",
+      "ubrg_npcf_killzone_armourer",
+      "ubrg_npcf_overcharge_offensive_capabilities_armourer",
+      "ubrg_npcf_rapid_fabrication_solutions_armourer"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_avalanche",
+    "name": "AVALANCHE",
+    "role": "striker",
+    "info": {
+      "flavor": "The enormous Avalanche class of superheavy chassis is a simple enough concept: take a very large frame, and pack armour and guns onto it until the limitations of physics are reached. A mobile firepoint, the Avalanche acts as one would expect from the name, moving forward inexorably across the battlefield and hammering anyone unwise enough to make their presence known with a thunderous barrage of cannon-fire. Often considered a ‘heavy assault’ cousin to the more conventional Assault doctrine, the Avalanche overawes and terrifies those who have the unfortunate task of standing in its way and trying, desperately, to turn aside its wrath.",
+      "tactics": "The Avalanche is a slow but steady striker, moving forward to engage the enemy via overwhelming mid-range firepower. Although very resilient, the Avalanche lacks clever tricks beyond pushing hostiles back out of an area, taking on some elements of the defender role in its ability to shove enemies away with its attacks. Brace makes it tougher than one might initially think, but it struggles to capitalize on the very opportunities its Knockback tags can open up, and needs lighter support to avoid being outflanked and overwhelmed."
+    },
+    "stats": {
+      "armor": [2,2,2],
+      "hp": [18,22,26],
+      "evade": [7,8,9],
+      "edef": [9,11,13],
+      "heatcap": [8,8,8],
+      "speed": [3,3,3],
+      "sensor": [10,10,10],
+      "save": [10,12,14],
+      "hull": [2,4,6],
+      "agility": [-1,-1,-1],
+      "systems": [0,1,2],
+      "engineering": [0,1,1],
+      "size": [[3],[3],[3]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_heavy_cannon_mass_battery_avalanche",
+      "ubrg_npcf_brace_avalanche",
+      "ubrg_npcf_heavy_frame_avalanche",
+      "ubrg_npcf_implacable_avalanche"
+    ],
+    "optional_features": [
+      "ubrg_npcf_decimator_shells_avalanche",
+      "ubrg_npcf_hellstream_missile_racks_avalanche",
+      "ubrg_npcf_plasma_scythe_avalanche",
+      "ubrg_npcf_rapid_repair_systems_avalanche",
+      "ubrg_npcf_titan_battle_shield_avalanche"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_avenger",
+    "name": "AVENGER",
+    "role": "defender",
+    "info": {
+      "flavor": "The Avenger is a close support aerial chassis, with a finely tuned balance between raw speed, incredibly heavy armour, and punishing rotary cannons that can reduce an armoured vehicle to a smoking wreck in mere seconds. Avenger designs exist to provide fire at the bow wave of an assault, darting in to pour shells into any hard pockets of resistance and relying on thick plating to weather any return fire before redeploying to a new position. Avengers are usually known for practical, blunt visuals, sometimes derided as ‘flying bricks’ for their lack of finesse and grace — but watching one of these mechs pulverize a firebase with an unrelenting stream of fire quickly dispels any notions that their ungainliness might make them ineffectual.",
+      "tactics": "The Avenger is an airborne defender, positioning itself over a fight and brutally punishing anyone who attacks its allies while relying on its belly plating to hold firm. Due to its short range, it needs to rely on its mobility to position for best effect, but it can take serious punishment and hold firm over a protected area to give fire support even in intense battles. The Avenger’s weakspot is other flyers, however, against whom it lacks serious protection and who can usually strike from beyond its reach."
+    },
+    "stats": {
+      "armor": [1,1,1],
+      "hp": [13,16,19],
+      "evade": [10,12,14],
+      "edef": [8,9,10],
+      "heatcap": [6,6,6],
+      "speed": [6,7,8],
+      "sensor": [12,15,18],
+      "save": [10,12,15],
+      "hull": [1,2,3],
+      "agility": [1,2,3],
+      "systems": [0,1,2],
+      "engineering": [0,1,2],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_skyhammer_rotary_cannons_avenger",
+      "ubrg_npcf_retributive_attack_run_avenger",
+      "ubrg_npcf_full_flight_suite_avenger",
+      "ubrg_npcf_heavy_belly_armour_avenger"
+    ],
+    "optional_features": [
+      "ubrg_npcf_afterburners_avenger",
+      "ubrg_npcf_eagle_claw_aerial_takedown_avenger",
+      "ubrg_npcf_emergency_landing_avenger",
+      "ubrg_npcf_scorcher_missile_rack_avenger",
+      "ubrg_npcf_waiting_retribution_avenger"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_blitzer",
+    "name": "BLITZER",
+    "role": "striker",
+    "info": {
+      "flavor": "‘Putting the HE in Hedgehog’, as the marketing blurb goes, the Blitzer line of heavy assault mechs serve as first-in, direct frontal assault frames. A Blitzer is designed to weather the worst firepower a fortified defence can throw at it and push on through to create a breach. Advanced 360-degree explosive saturation systems can clear enclosed areas in moments once the Blitzer breaks through, but it has to fold back some of its notoriously heavy armour to clear its fire ports. This leaves it briefly vulnerable in the aftermath — mechs of this kind rely on the shock and awe of their initial impact to follow through. As well as shock troop roles in military engagements, some heavy-handed governmental organizations use modified Blitzers loaded with non-lethal suppression charges to breach and clear against insurgent and dissident groups during policing actions.",
+      "tactics": "The immensely heavy armour of the Blitzer lets it shrug off most fire that lacks the AP tag, and its clusterbombs and rams provide a ferocious initial opener to a close-quarters battle. However, once the Blitzer fires its grenades and its armour drops, it becomes very vulnerable. It is best matched against light enemies who will need to fall back from the initial barrage, or with support from other close assault mechs who can buy it time to reload and armour up once more."
+    },
+    "stats": {
+      "armor": [4,4,4],
+      "hp": [14,17,20],
+      "evade": [6,6,6],
+      "edef": [8,10,12],
+      "heatcap": [5,5,5],
+      "speed": [4,4,5],
+      "sensor": [5,5,5],
+      "save": [10,10,10],
+      "hull": [4,5,6],
+      "agility": [-2,-2,-2],
+      "systems": [-1,-1,0],
+      "engineering": [-1,-1,0],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_hedgehog_clusterbomb_discharge_blitzer",
+      "ubrg_npcf_blitzkrieg_blitzer",
+      "ubrg_npcf_guardian_blitzer",
+      "ubrg_npcf_heavy_juggernaut_blitzer"
+    ],
+    "optional_features": [
+      "ubrg_npcf_full_spectrum_dazzle_charges_blitzer",
+      "ubrg_npcf_hedgehogs_dilemma_blitzer",
+      "ubrg_npcf_shunt_blitzer",
+      "ubrg_npcf_smoke_charges_blitzer",
+      "ubrg_npcf_typhoon_shockwave_munitions_blitzer"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_blockbuster",
+    "name": "BLOCKBUSTER",
+    "role": "artillery",
+    "info": {
+      "flavor": "Blockbusters combine the destructive power of conventional bomber aircraft with the tactical flexibility of mechanized cavalry. These heavy mechs deliver colossally powerful payloads capable of flattening whole streets in a single blast, with potent engines allowing extended loiter modes for further aerial fire support.",
+      "tactics": "The Blockbuster’s signature trick is the high capacity bombs in its heavy bombing bay, with which it can clear swathes of cover and obstacles off the board. It does need to get a little closer than conventional artillery to get the best use out of its bombs, but by remaining near the flight ceiling it can retain a range advantage. However, the Blockbuster is a clumsy and relatively slow aerial mech and, while large, it isn’t very resilient; aerial engagement in particular can leave it out of options."
+    },
+    "stats": {
+      "armor": [0,0,0],
+      "hp": [14,17,20],
+      "evade": [7,8,9],
+      "edef": [10,12,14],
+      "heatcap": [10,10,12],
+      "speed": [4,4,5],
+      "sensor": [15,15,15],
+      "save": [11,13,15],
+      "hull": [0,1,2],
+      "agility": [-1,-1,-1],
+      "systems": [1,2,3],
+      "engineering": [2,3,5],
+      "size": [[2],[2],[2]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_liberator_air_to_ground_cannon_blockbuster",
+      "ubrg_npcf_heavy_bombing_bay_blockbuster",
+      "ubrg_npcf_heavy_flight_suite_blockbuster"
+    ],
+    "optional_features": [
+      "ubrg_npcf_afterburners_blockbuster",
+      "ubrg_npcf_bomb_printer_blockbuster",
+      "ubrg_npcf_defensive_machine_gun_blockbuster",
+      "ubrg_npcf_devastation_warheads_blockbuster",
+      "ubrg_npcf_greywash_bomb_blockbuster"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_bridgelayer",
+    "name": "BRIDGELAYER",
+    "role": "support",
+    "info": {
+      "flavor": "Bridgelayers are huge logistics frames, designed to operate under heavy fire wherever a force needs critical route-creation or defensive excavations. Laden with armour and massive, unfolding bridges for strategic deployment, Bridgelayers trudge forward in an implacable advance. Lesser mechs are advised to run or else risk being tossed aside like leaves.",
+      "tactics": "Bridgelayers lack any direct means of attack, but can reshape the battlefield by laying bridges across rivers or dangerous areas, raise up fortified sections, gouge swathes of difficult terrain to slow attackers, and offer some benefits to allies in their immediate vicinity. Their sheer resilience and heavy armour means a Bridgelayer can effectively spearhead an attack, acting as a pseudo-defender via sheer bulk and overcoming any obstacles the enemy might place in its path."
+    },
+    "stats": {
+      "armor": [3,3,3],
+      "hp": [30,35,40],
+      "evade": [5,6,6],
+      "edef": [10,12,14],
+      "heatcap": [10,10,12],
+      "speed": [3,3,3],
+      "sensor": [10,10,10],
+      "save": [11,13,15],
+      "hull": [5,6,6],
+      "agility": [-5,-5,-5],
+      "systems": [1,1,1],
+      "engineering": [3,3,4],
+      "size": [[3],[3],[3]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_bridgelayer_bridgelayer",
+      "ubrg_npcf_excavator_bridgelayer",
+      "ubrg_npcf_guardian_bridgelayer",
+      "ubrg_npcf_heavy_frame_bridgelayer",
+      "ubrg_npcf_implacable_bridgelayer"
+    ],
+    "optional_features": [
+      "ubrg_npcf_bulldozer_bridgelayer",
+      "ubrg_npcf_crane_claw_bridgelayer",
+      "ubrg_npcf_environmental_shielding_generator_bridgelayer",
+      "ubrg_npcf_extended_carriage_racks_bridgelayer",
+      "ubrg_npcf_refinery_bridgelayer"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_chorus",
+    "name": "CHORUS",
+    "role": "defender",
+    "info": {
+      "flavor": "The less said about Choruses the better, so that those who never have to face them need not know of their horror. The result of horrific NHP research, every Chorus mounts a bizarre multi-casket container of fragmented, psychologically mutilated NHPs – a choir of the broken, howling out a data-wail into the infosphere. Chorus pilots are usually either stone cold or cruelly expressive, unleashing the torment and malice of their ruined stable upon foes in the area. The simple but awful nature of the Chorus makes them effective area-control agents. No-one wants to get too close to a Chorus, not even its own allies.",
+      "tactics": "The Chorus is a tech defender that can Jam its opponents unless they attack it, and will spend most of its time using Infoscream to draw fire. Tech attackers will be deeply wary of its Banshee Transmissions and it is a terror for NHP-users at close range, giving nearby allies some protection. However, it can’t do a lot of actual damage. Direct Neurofeedback Shriek deserves special mention as an optional system because it can have narrative effects, making combat against a Chorus a mentally scarring experience for characters in the long-term."
+    },
+    "stats": {
+      "armor": [2,2,2],
+      "hp": [14,17,20],
+      "evade": [7,8,9],
+      "edef": [14,16,18],
+      "heatcap": [8,8,8],
+      "speed": [4,4,4],
+      "sensor": [10,10,10],
+      "save": [11,13,15],
+      "hull": [1,2,3],
+      "agility": [-1,-1,-1],
+      "systems": [2,4,6],
+      "engineering": [0,0,1],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_invasion_harpoon_chorus",
+      "ubrg_npcf_banshee_transmissions_chorus",
+      "ubrg_npcf_infoscream_chorus",
+      "ubrg_npcf_wailing_chorus_chorus"
+    ],
+    "optional_features": [
+      "ubrg_npcf_direct_neurofeedback_shriek_chorus",
+      "ubrg_npcf_hobble_prey_chorus",
+      "ubrg_npcf_nightmare_static_chorus",
+      "ubrg_npcf_prison_of_screams_chorus",
+      "ubrg_npcf_technobile_chorus"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_counterbattery",
+    "name": "COUNTERBATTERY",
+    "role": "defender",
+    "info": {
+      "flavor": "Counterbattery mechs engage in artillery duels with enemy fire support, offering pound-for-pound retaliation with precision weapons that can track and reply to detected launch arcs with incredible accuracy. Standard doctrine uses Counterbattery frames alongside mid-range combat chassis to provide a protective umbrella during firefights.",
+      "tactics": "As a hybrid of defender and artillery, the Counterbattery provides a bubble within which hostile long-range fire is brutally punished. The NPC does best when positioned as part of a firebase of fellow mechs who would otherwise make a tempting artillery target, but it’s also effective against lighter mid-to-long range combatants who want to keep a distance from any assault troops accompanying the Counterbattery. In turn, this defender is itself weak to close range combat, where its autocannon becomes an unwieldy tool."
+    },
+    "stats": {
+      "armor": [0,0,0],
+      "hp": [16,18,20],
+      "evade": [8,9,10],
+      "edef": [10,12,14],
+      "heatcap": [6,6,8],
+      "speed": [3,3,3],
+      "sensor": [20,20,20],
+      "save": [10,11,12],
+      "hull": [2,2,3],
+      "agility": [-2,-2,-2],
+      "systems": [2,3,4],
+      "engineering": [0,1,2],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_repeater_response_autocannon_counterbattery",
+      "ubrg_npcf_counterfire_counterbattery",
+      "ubrg_npcf_fire_signature_calculations_counterbattery"
+    ],
+    "optional_features": [
+      "ubrg_npcf_detonate_ammo_reserves_counterbattery",
+      "ubrg_npcf_interception_trajectories_counterbattery",
+      "ubrg_npcf_light_them_up_counterbattery",
+      "ubrg_npcf_proximity_alert_counterbattery",
+      "ubrg_npcf_squelch_target_lock_counterbattery"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_cryo",
+    "name": "CRYO",
+    "role": "controller",
+    "info": {
+      "flavor": "Often seen as an icy counterpart to the Pyro, the Cryo chassis-pattern takes a rather different approach to battlespace control. Cryo mechs lock down dangerous targets by literally freezing them in place, using cutting-edge energy transfer technologies to induce extreme cryogenic conditions in the local area. These systems are often both experimental and temperamental, and so the Cryo combat doctrine remains a rarely-applied art of war.",
+      "tactics": "The Cryo is a close-range controller, forcing enemies to either keep on the move and run their engines hot or risk being Immobilized and Impaired. It works well if paired with other units who can inflict heat, leaving victims with a very fine balance to maintain with their reactors. The Cryo is itself vulnerable to effects that inflict heat as it has to juggle the demands of its primary systems."
+    },
+    "stats": {
+      "armor": [1,1,1],
+      "hp": [15,16,18],
+      "evade": [6,6,6],
+      "edef": [10,12,14],
+      "heatcap": [12,15,18],
+      "speed": [3,3,3],
+      "sensor": [10,10,10],
+      "save": [12,14,16],
+      "hull": [1,2,2],
+      "agility": [-2,-2,-2],
+      "systems": [1,1,2],
+      "engineering": [3,5,6],
+      "size": [[2],[2],[2]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_magnetocaloric_cryorail_cyro",
+      "ubrg_npcf_endothermic_field_cryo",
+      "ubrg_npcf_insulated_cryo"
+    ],
+    "optional_features": [
+      "ubrg_npcf_shatterbolt_rifle_cryo",
+      "ubrg_npcf_cryo_mine_cryo",
+      "ubrg_npcf_heat_pump_cryo",
+      "ubrg_npcf_ice_nine_cryo",
+      "ubrg_npcf_ice_wall_cryo"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_despoiler",
+    "name": "DESPOILER",
+    "role": "controller",
+    "info": {
+      "flavor": "The feared Despoiler doctrine emphasizes area denial through the use of intense but short-lived exotic energies or tailored radiation bursts with high exponential decay. Modern Despoiler chassis can thus render a region untenable for hostile forces to remain within, while still allowing for allied advance within hours at most and a minimum of long-term impact on non-military exploitation prospects. Older models, using more conventional forms of radiation, would leave scars on the landscape that might linger for decades, or even centuries.",
+      "tactics": "The Despoiler controls the battlefield by spreading dangerous terrain around, so it can close off lanes of advance or drive characters out from cover. However, a Despoiler’s devastation can harm its own allies as well as enemies, and mobile characters may be able to keep away from defiled zones. Think very carefully before fielding more than one Despoiler with a Micro-Nuke optional system at a time."
+    },
+    "stats": {
+      "armor": [1,1,1],
+      "hp": [15,18,21],
+      "evade": [8,9,10],
+      "edef": [8,9,10],
+      "heatcap": [10,10,10],
+      "speed": [3,4,4],
+      "sensor": [5,5,5],
+      "save": [10,12,14],
+      "hull": [-1,-1,0],
+      "agility": [-1,-1,-1],
+      "systems": [-1,-1,-1],
+      "engineering": [3,4,6],
+      "size": [[2],[2],[2]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_desolation_rad_beamer_despoiler",
+      "ubrg_npcf_defile_despoiler",
+      "ubrg_npcf_radiological_shielding_despoiler",
+      "ubrg_npcf_extreme_energy_signature_despoiler"
+    ],
+    "optional_features": [
+      "ubrg_npcf_blanket_emissions_despoiler",
+      "ubrg_npcf_du_pyrophoric_high_velocity_cannon_despoiler",
+      "ubrg_npcf_micro_nuke_despoiler",
+      "ubrg_npcf_salt_the_earth_despoiler",
+      "ubrg_npcf_trail_of_destruction_despoiler"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_deviant",
+    "name": "DEVIANT",
+    "role": "striker",
+    "info": {
+      "flavor": "<span class=\"horus--subtle\">Deviants</span> are a fine example of the perils inherent to paracausal science. No consistent, repeatable process exists to create <span class=\"horus--subtle\">Deviant</span>-class frames; each is a one-off, whether an accidental design born from a rupturing piece of blink technology or the hard-won prize from countless failed experiments. Rarely, several are forged at once in a moment of disaster, left as fizzing, blurred shapes burned into reality in an exploding gateway’s shockwave. Piloting a <span class=\"horus--subtle\">Deviant</span> takes a heavy toll on the mind of the pilot, whose psyche is exposed to concepts and perhaps even realities she cannot easily explain. In the field, a <span class=\"horus--subtle\">Deviant</span> displays capabilities that foes and allies alike find equally hard to rationalize. In short, <span class=\"horus--subtle\">Deviants</span> aren’t playing quite the same game that everyone else is.",
+      "tactics": "The <span class=\"horus--subtle\">Deviant</span> is a complex NPC designed for groups who want to have some fun breaching the fourth wall or experiencing a weird extreme of paracausality. A lot of the <span class=\"horus--subtle\">Deviant’s</span> abilities work based off out-of-character elements, attack unusual aspects of the game (such as Triggers and Downtime actions), or require additional game props like new dice or cards to work properly. The <span class=\"horus--subtle\">Deviant’s</span> an all-round striker but really the threat it poses comes from the sheer weirdness of what it can do and how it spreads damage around. For maximum chaos with the Predatory Lexicon optional system, the GM can choose a word like ‘target’, ‘mech’, ‘action’, or other phrase that’s tricky for the players to work around."
+    },
+    "stats": {
+      "armor": [1,1,1],
+      "hp": [12,15,18],
+      "evade": [9,11,13],
+      "edef": [9,11,13],
+      "heatcap": [8,8,8],
+      "speed": [7,8,9],
+      "sensor": [10,10,10],
+      "save": [11,14,17],
+      "hull": [1,2,3],
+      "agility": [1,2,3],
+      "systems": [1,2,3],
+      "engineering": [1,2,3],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_paradox_entangled_beamer_deviant",
+      "ubrg_npcf_name_eating_blade_deviant",
+      "ubrg_npcf_folding_battlespace_deviant",
+      "ubrg_npcf_quantum_fluctuation_larceny_deviant"
+    ],
+    "optional_features": [
+      "ubrg_npcf_fragile_outcome_thread_realignment_deviant",
+      "ubrg_npcf_hostile_probability_slice_deviant",
+      "ubrg_npcf_ontological_knife_deviant",
+      "ubrg_npcf_past_echo_resonance_amplifier_deviant",
+      "ubrg_npcf_predatory_lexicon_deviant"
+    ],
+    "//homebrew_cognitohazards_effect": [
+      {
+        "id": "ubrg_npcf_homebrew_cognitohazards_deviant",
+        "name": "HOMEBREW COGNITOHAZARDS",
+        "origin": {
+          "type": "Class",
+          "name": "DEVIANT",
+          "base": false
+        },
+        "type": "reaction",
+        "locked": true,
+        "trigger": "A player opens the UBRG LCP file and examines the <span class=\"horus--subtle\">Deviant’s</span> npc_classes definition.",
+        "effect": "That player (yes, that means YOU) becomes Stunned until they close this file.",
+        "tags": []
+      }
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_disciple",
+    "name": "DISCIPLE",
+    "role": "striker",
+    "info": {
+      "flavor": "Disciples are esoteric chassis built and used by technocultists and adherents of paracausal philosophies, fusing the pilot’s reflexes with data and code to an instinctual, intimate level. Disciples are frighteningly fast in both the physical world and the datasphere, directly interfacing with opponents’ systems via close-proximity nodes or even contact-pads on the mech’s manipulators. Every Disciple is a demonstration of the user’s enlightenment to the unity between knowledge and gross matter, between flesh and machine, between possibility and impossibility.",
+      "tactics": "The Disciple is a fast but fragile melee assault mech, vulnerable to Reliable weapons but wielding tech attacks with punishing effect in hand-to-hand combat. A Disciple can set enemies up for its allies through Lock Ons and weakened e-defence, and its ability to ignore engagement lets it dance through a close firefight with relative impunity."
+    },
+    "stats": {
+      "armor": [0,0,0],
+      "hp": [10,12,14],
+      "evade": [14,16,18],
+      "edef": [14,16,18],
+      "heatcap": [6,6,6],
+      "speed": [6,7,7],
+      "sensor": [5,5,5],
+      "save": [10,11,12],
+      "hull": [1,2,2],
+      "agility": [1,2,4],
+      "systems": [2,4,6],
+      "engineering": [0,0,0],
+      "size": [
+        [0.5,1],
+        [0.5,1],
+        [0.5,1]
+      ],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_heavens_judgement_fists_disciple",
+      "ubrg_npcf_thought_purging_strike_disciple",
+      "ubrg_npcf_agile_disciple",
+      "ubrg_npcf_counterattack_disciple"
+    ],
+    "optional_features": [
+      "ubrg_npcf_conflagration_stoking_prana_disciple",
+      "ubrg_npcf_core_shattering_palm_disciple",
+      "ubrg_npcf_cascade_of_light_disciple",
+      "ubrg_npcf_flurry_of_calculations_disciple",
+      "ubrg_npcf_purify_code_and_form_disciple"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_electro",
+    "name": "ELECTRO",
+    "role": "striker",
+    "info": {
+      "flavor": "Electro-class frames feature a ravenous level of energy draw, enough to tax even a coldcore power source. This doctrine espouses the use of flash printers and an overclocked reactor to create and deploy electrical conduits into the battlespace, extending the Electro’s sphere of influence and forming feedback loops that overload unwary opponents. These mechs excel in disperse-and-disrupt roles where they can turn close-quarters fighting into a nightmare of crackling lightning traps and bursts of disorientating static.",
+      "tactics": "The Electro is a close-quarters area-denial specialist who can rapidly increase its own output if allowed to remain in one place, spreading damage among large numbers of enemies and capable of taking out troublesome systems in melee. Heavily armoured mechs can weather the worst of the low but consistent damage from densely-clustered amplifiers, however."
+    },
+    "stats": {
+      "armor": [0,0,0],
+      "hp": [12,15,18],
+      "evade": [8,9,10],
+      "edef": [13,14,15],
+      "heatcap": [6,8,10],
+      "speed": [4,4,4],
+      "sensor": [10,10,10],
+      "save": [11,13,16],
+      "hull": [2,4,6],
+      "agility": [0,0,0],
+      "systems": [2,4,6],
+      "engineering": [-2,-2,-2],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_arc_projector_electro",
+      "ubrg_npcf_directed_overload_amplifiers_electro",
+      "ubrg_npcf_earthed_electro",
+      "ubrg_npcf_overload_discharge_electro"
+    ],
+    "optional_features": [
+      "ubrg_npcf_burnout_electro",
+      "ubrg_npcf_lightning_scourge_electro",
+      "ubrg_npcf_scramblepulse_protocols_electro",
+      "ubrg_npcf_static_bridge_electro",
+      "ubrg_npcf_stormpod_launcher_electro"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_ghul",
+    "name": "GHUL",
+    "role": "striker",
+    "info": {
+      "flavor": "Ghul-doctrine frames usually come with more appealing names than their strategic moniker – the Dormier Engines’ <i>Reclaimer</i> model, for example, or the <i>Harvestman</i> from New Circle Frontiers. These mechs are notable because their combat efficiency comes paired with the ability to degrade hostile logistics via direct engagement. Ghul weaponry is designed for precision, destroying vital components that are hard to replace, and using flash printers and nanite hives to directly gather their resupply from the battlefield. Although Ghul pilots are sometimes derided by their fellows for being vultures, most detachments are pleased enough with the resources these keen-eyed scavengers bring back from combat.",
+      "tactics": "The Ghul threatens an unusual target – the player characters’ Repairs and their ability to restore damage. Ghuls are surprisingly durable melee combatants as they can repair themselves and gain more protection as an engagement continues via Cannibalize. Although fast, they have very little capacity at range; they can harry targets but without the healing from their melee attacks, they’ll soon come apart under sustained fire."
+    },
+    "stats": {
+      "armor": [0,0,0],
+      "hp": [14,16,18],
+      "evade": [10,12,14],
+      "edef": [6,6,8],
+      "heatcap": [5,5,6],
+      "speed": [5,6,6],
+      "sensor": [5,5,5],
+      "save": [10,12,14],
+      "hull": [2,4,5],
+      "agility": [2,4,5],
+      "systems": [-1,-1,0],
+      "engineering": [-1,-1,0],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_devourer_nexus_ghul",
+      "ubrg_npcf_vivisection_close_combat_suite_ghul",
+      "ubrg_npcf_cannibalize_ghul"
+    ],
+    "optional_features": [
+      "ubrg_npcf_chassis_recovery_systems_ghul",
+      "ubrg_npcf_climber_ghul",
+      "ubrg_npcf_engine_evisceration_ghul",
+      "ubrg_npcf_scavenger_mine_ghul",
+      "ubrg_npcf_sever_cooling_systems_ghul"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_hoplite",
+    "name": "HOPLITE",
+    "role": "defender",
+    "info": {
+      "flavor": "Hoplites are a broad classification of heavyweight mechs that focus on close-quarters situation control. Typically, they ward allies with energy projection tech while preventing engaged hostiles from tactical advance or retreat opportunities. The original chassis was designed for garrison or patrol duties where buying time for reinforcements to engage could be vital, but later iterations have earned a fearsome reputation as first-line mechs with arm’s-reach domination capabilities of close quarter battles.",
+      "tactics": "The Hoplite is a sticky defender who can pin enemies to itself via Immobilizing them with overwatch attacks if they try to move away, and is particularly punishing for characters who might usually just accept the engagement penalties and fire ranged attacks at other targets anyway. It can soak up a lot of damage, and works well alongside other melee attackers who can prey on hostiles the Hoplite has pinned down."
+    },
+    "stats": {
+      "armor": [1,1,2],
+      "hp": [20,22,24],
+      "evade": [8,10,12],
+      "edef": [6,7,8],
+      "heatcap": [6,6,6],
+      "speed": [4,4,4],
+      "sensor": [10,10,10],
+      "save": [10,11,12],
+      "hull": [3,5,6],
+      "agility": [-1,-1,-1],
+      "systems": [0,0,0],
+      "engineering": [0,1,2],
+      "size": [[2],[2],[2]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_mass_impact_doru_hoplite",
+      "ubrg_npcf_energyweave_aspis_hoplite",
+      "ubrg_npcf_hoplite_vanguard_hoplite",
+      "ubrg_npcf_melee_domination_hoplite"
+    ],
+    "optional_features": [
+      "ubrg_npcf_achilles_reactive_plating_hoplite",
+      "ubrg_npcf_akontia_light_rocket_pod_hoplite",
+      "ubrg_npcf_hades_class_nhp_hoplite",
+      "ubrg_npcf_kinetic_driver_xiphos_hoplite",
+      "ubrg_npcf_rank_discipline_hoplite"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_hunter",
+    "name": "HUNTER",
+    "role": "support",
+    "info": {
+      "flavor": "Hunter doctrine emphasises the tactical advantages of stealth and ambushes, using nanite hives and advanced systems packages to enhance the outflanking efforts of other mechs with the Hunter serving as a pathfinder of sorts in both physical and data spheres. Hunters can numb alarm systems, fuzz mech sensors with subtle static that barely registers as abnormal, and pick out approach routes that another pilot might discount as unmanageable. These lean but fragile chassis are favoured by support specialists for small, elite forces of lancers, by frontier militia veterans, and by insurgents engaged in asymmetrical warfare; they’re often custom-built to match a specialist’s needs, rather than being mass produced for deployment.",
+      "tactics": "A single Hunter can greatly enhance the abilities of a task force to hide and launch ambushes, as well as opening up new approaches through heavy terrain for non-flyers. Ideally, the Hunter wants to stay back from an actual firefight, contributing with long-ranged shots and Lock Ons. Ultimately, the Hunter needs cover to get the most out of its abilities, and this does risk the clumping of hidden allies into areas that determined enemies may well just bombard with area of effect weapons."
+    },
+    "stats": {
+      "armor": [0,0,0],
+      "hp": [12,12,14],
+      "evade": [8,9,10],
+      "edef": [10,12,14],
+      "heatcap": [5,6,8],
+      "speed": [5,6,7],
+      "sensor": [15,15,15],
+      "save": [10,11,12],
+      "hull": [-1,-1,-1],
+      "agility": [1,2,3],
+      "systems": [2,4,6],
+      "engineering": [0,0,0],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_shock_longarm_hunter",
+      "ubrg_npcf_chameleon_hive_node_hunter",
+      "ubrg_npcf_predator_prey_guidance_systems_hunter",
+      "ubrg_npcf_wayfinder_analysis_protocols_hunter"
+    ],
+    "optional_features": [
+      "ubrg_npcf_ambush_tactics_hunter",
+      "ubrg_npcf_fractal_camo_cloak_hunter",
+      "ubrg_npcf_mechbreaker_trap_hunter",
+      "ubrg_npcf_nightfall_hunter",
+      "ubrg_npcf_only_where_i_tread_hunter"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_masquer",
+    "name": "MASQUER",
+    "role": "support",
+    "info": {
+      "flavor": "Masquers are sophisticated e-warfare frames that mass-produce micro-duration AIs within their data cores and set these brief pseudo-intelligences to rapid calculation and reaction tasks. These make effective fire-and-forget autonomous intrusion measures, but lack the long-term integrity to render the Masquer a potent subversion platform. Instead, mechs built for this doctrine use their systems to aid and augment allies, even briefly taking over other chassis when an AI recognizes the opportunity to dodge an attack or counterbalance an electronic assault. For Masquers to be most effective, fellow mechanized cavalry have to be willing to open up their steeds’ systems fully so that they can be outright puppeted, a surrender of autonomy that can be hard for a pilot to swallow.",
+      "tactics": "Masquers support and enhance their fellows through countering mobility-related conditions and aiding them with saves and checks, so this NPC shines most when enemies are using Knockback, knocking allies prone, Slowing them, and Stunning them. Its ability to outright puppet Stunned or destroyed allies and to juggle defensive values can significantly blunt an enemy attack, but foes who are using few clever tricks and primarily focusing on reliable damage can neuter its effectiveness."
+    },
+    "stats": {
+      "armor": [0,0,0],
+      "hp": [10,10,12],
+      "evade": [12,14,16],
+      "edef": [12,14,16],
+      "heatcap": [6,8,8],
+      "speed": [5,5,5],
+      "sensor": [15,15,20],
+      "save": [11,13,15],
+      "hull": [0,0,1],
+      "agility": [2,3,4],
+      "systems": [2,4,6],
+      "engineering": [-2,-2,-2],
+      "size": [[0.5,1],[0.5,1],[0.5,1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_cut_the_threads_masquer",
+      "ubrg_npcf_pull_the_strings_masquer",
+      "ubrg_npcf_bolstering_masques_masquer",
+      "ubrg_npcf_shifting_masks_masquer"
+    ],
+    "optional_features": [
+      "ubrg_npcf_cloak_of_masques_masquer",
+      "ubrg_npcf_dance_of_the_masques_masquer",
+      "ubrg_npcf_faceless_illogic_package_masquer",
+      "ubrg_npcf_mirror_match_masquer",
+      "ubrg_npcf_total_override_masque_engram_masquer"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_medium",
+    "name": "MEDIUM",
+    "role": "controller",
+    "info": {
+      "flavor": "Only a small number of corprostates possess the highly-vetted permissions to create Medium-class mechs; outside of these elite manufacturers, Mediums are the work of dubious technocults, unethical independent scientists and the occasional desperate technical crew bodging together whatever they can find to stop an unshackled NHP. Mediums are designed as a counter to technologically advanced opponents – like hostile NHPs – who can take control of systems and rapidly spread their influence, because the Medium does something similar. A battlefield strewn with damaged mech chassis is a banquet for the nanite hive-racks housed on a Medium’s frame, and it can silence the mad chattering of hostile NHPs with cruel solipsism/nihilism viruses. Just don’t listen to what comes forth from the onboard AI sarcophagus if ever it unshackles.",
+      "tactics": "The Medium is an all-round controller that can generate more Grunts from the debris of the battle as conflict continues, raising wrecks and sending them back at their former comrades. It’s frail, but a broad spectrum of tech attacks can strip foes of supporting bonuses and NHPs, manipulate their movement, and set them up to be battered by the Medium’s retinue of automata. The Medium is a complex controller and has some abilities that can persist beyond a battle into narrative play, making them a good choice for adding paranoia or doubt through hidden info-traps, NHPs that start to act erratically, and other such signs of narrative trouble."
+    },
+    "stats": {
+      "armor": [0,0,0],
+      "hp": [10,12,14],
+      "evade": [7,8,9],
+      "edef": [10,12,14],
+      "heatcap": [6,7,8],
+      "speed": [4,4,4],
+      "sensor": [15,15,15],
+      "save": [11,13,16],
+      "hull": [0,0,1],
+      "agility": [0,1,1],
+      "systems": [2,4,6],
+      "engineering": [0,0,1],
+      "size": [[0.5,1],[0.5,1],[0.5,1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_electric_ghosts_medium",
+      "ubrg_npcf_infomuzzle_medium",
+      "ubrg_npcf_revival_nanites_medium",
+      "ubrg_npcf_medium_nexus_medium",
+      "ubrg_npcf_ai_sepulchre_medium"
+    ],
+    "optional_features": [
+      "ubrg_npcf_advanced_automata_medium",
+      "ubrg_npcf_automatic_cycling_muzzle_medium",
+      "ubrg_npcf_ghost_rider_medium",
+      "ubrg_npcf_infestation_hive_medium",
+      "ubrg_npcf_reactor_knell_medium"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_miner",
+    "name": "MINER",
+    "role": "striker",
+    "info": {
+      "flavor": "Mining frames converted for combat use is almost a stereotype, a cliché, a tired old trope — but it’s that way for a good reason. The heavy, destructive forces that miners bring to bear against planetary flesh is just as terrible against frail mortal bodies, and in many cases nothing more than a change of access permissions can turn an excavation chassis into a terrible beast of war gouging unexpected avenues of attack. Some militaries and mercenary companies make use of extensively overhauled mining frames as sappers and engineers.",
+      "tactics": "The Miner is a short-range striker with an unusual movement mode, capable of keeping itself safe and in cover until it reaches its target. However, while this protects it from ranged attackers, it isn’t particularly resilient against melee combatants, so is best sent to overwhelm units who are weak in close quarters battle rather than facing down with specialist scrappers. In short, the Miner works via asymmetrical warfare, and needs to pick its battles carefully."
+    },
+    "stats": {
+      "armor": [1,1,1],
+      "hp": [10,12,15],
+      "evade": [7,8,9],
+      "edef": [7,8,9],
+      "heatcap": [10,12,14],
+      "speed": [4,5,5],
+      "sensor": [10,10,10],
+      "save": [10,11,12],
+      "hull": [2,3,4],
+      "agility": [-1,-1,-1],
+      "systems": [-1,-1,-1],
+      "engineering": [2,3,4],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_rock_grinder_miner",
+      "ubrg_npcf_mining_laser_miner",
+      "ubrg_npcf_tunneller_miner"
+    ],
+    "optional_features": [
+      "ubrg_npcf_bulldozer_miner",
+      "ubrg_npcf_collapse_plating_miner",
+      "ubrg_npcf_foundry_blaster_miner",
+      "ubrg_npcf_knocker_code_invasion_miner",
+      "ubrg_npcf_pulverizer_charge_miner"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_paragon",
+    "name": "PARAGON",
+    "role": "defender",
+    "info": {
+      "flavor": "Paragon-style mechs are custom-engineered beauties. Each is one-of-a-kind and built to the personal specifications of the elite soldier, champion, or magnate who will pilot it into battle. These warriors stride into combat in search of worthy foes, using brute-force invasion packages and well-honed martial practices to draw out, confront, and defeat those they deem a challenge. Many Paragon pilots ensure their frames are designed to allow for the flourishes, postures, and aesthetic movements of their favoured martial art.",
+      "tactics": "The Paragon is an aggressive defender, in that it marks and pursues its targets to force their attention onto itself rather than allies. Fast, resilient, and hard-hitting, the Paragon has few immediate weak spots, but watch for hackers; the Paragon can carve up most light invasion frames if it can reach them, but may be overwhelmed and overheated if they can keep their distance."
+    },
+    "stats": {
+      "armor": [1,1,1],
+      "hp": [16,19,22],
+      "evade": [13,15,17],
+      "edef": [7,8,9],
+      "heatcap": [7,8,9],
+      "speed": [5,5,6],
+      "sensor": [15,15,15],
+      "save": [10,11,12],
+      "hull": [2,4,6],
+      "agility": [0,1,2],
+      "systems": [2,4,6],
+      "engineering": [0,1,2],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_rival_grand_blade_paragon",
+      "ubrg_npcf_light_machine_gun_paragon",
+      "ubrg_npcf_seek_challenger_paragon",
+      "ubrg_npcf_lunge_paragon"
+    ],
+    "optional_features": [
+      "ubrg_npcf_challenge_all_comers_paragon",
+      "ubrg_npcf_combat_master_paragon",
+      "ubrg_npcf_en_garde_paragon",
+      "ubrg_npcf_interceptor_shield_paragon",
+      "ubrg_npcf_one_against_thousands_paragon"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_pounder",
+    "name": "POUNDER",
+    "role": "artillery",
+    "info": {
+      "flavor": "The Pounder doctrine brings close artillery support to the field, loading relatively mobile and armoured frames with as large an array of mortars as possible, combined with sustained-fire and trajectory-analysis systems to maintain a punishing barrage on target areas. Frames of this kind sport sophisticated targeting systems that allow them to drop fire support into active combats with relatively little chance of friendly fire, but the trade-off comes with a limited range; Pounders are tactical, not strategic, in the scale of their reach.",
+      "tactics": "Pounders are mid-range artillery capable of hitting and rendering inhospitable a whole section of a firefight. They’re good at blocking lanes of advancement, but survive best if able to park themselves behind heavy cover or blocking terrain where they can make the most out of their arcing fire. A Pounder is less vulnerable to close attack than some artillery pieces, but the slow rate of fire on its main guns gives enemies some breathing space in which to manoeuvre and respond, and forced movement through hacking or Knockback weaponry can put a stop to its area denial barrage."
+    },
+    "stats": {
+      "armor": [2,2,2],
+      "hp": [10,12,14],
+      "evade": [8,10,12],
+      "edef": [6,7,8],
+      "heatcap": [8,8,8],
+      "speed": [4,4,4],
+      "sensor": [15,15,15],
+      "save": [10,11,12],
+      "hull": [1,2,3],
+      "agility": [0,0,0],
+      "systems": [1,2,3],
+      "engineering": [0,0,0],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_mortar_battery_pounder",
+      "ubrg_npcf_adjusted_trajectories_pounder",
+      "ubrg_npcf_blast_plating_pounder"
+    ],
+    "optional_features": [
+      "ubrg_npcf_emp_shells_pounder",
+      "ubrg_npcf_hand_of_thunder_pounder",
+      "ubrg_npcf_incendiary_shells_pounder",
+      "ubrg_npcf_light_laser_battery_pounder",
+      "ubrg_npcf_shockwave_spectrum_mapping_pounder"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_predator",
+    "name": "PREDATOR",
+    "role": "artillery",
+    "info": {
+      "flavor": "Predator-class drone platforms are mechanized cavalry chassis built around heavyweight drone nexuses and strategic nanite hives. Designed for on-the-move aerial support and observation duties, a Predator chassis flings airborne autonomous UAVs with their own nexus load-outs; these hunter-killers cast ominous shadows as they snarl overhead, watching for the telltale signals of mechanized prey to disgorge their payload of bomblet-drones towards.",
+      "tactics": "Predators become more dangerous as the battle continues and they can fill the skies with a full flock of UAVs, forcing enemies to either hunker down and hide or risk bombardment if they make a dash for it. The mobility of the Raptors, and the support they can bring with the Close Co-Ordination or Eye in the Sky optional systems, gives the Predator great flexibility to adapt to a changing battlefield. However, as its entire payload relies on smart weaponry, it struggles with high e-defence targets, and like most artillery it is vulnerable to enemies who can close with it."
+    },
+    "stats": {
+      "armor": [0,0,0],
+      "hp": [15,18,22],
+      "evade": [6,6,6],
+      "edef": [8,10,12],
+      "heatcap": [4,5,6],
+      "speed": [3,3,3],
+      "sensor": [25,25,25],
+      "save": [10,10,10],
+      "hull": [0,0,1],
+      "agility": [-2,-2,-2],
+      "systems": [2,4,6],
+      "engineering": [2,4,6],
+      "size": [[2],[2],[2]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_predator_heavy_drone_system_predator",
+      "ubrg_npcf_raptor_hunter_killer_predator",
+      "ubrg_npcf_defence_swarms_predator",
+      "ubrg_npcf_target_priority_predator"
+    ],
+    "optional_features": [
+      "ubrg_npcf_close_co_ordination_barrage_predator",
+      "ubrg_npcf_explosive_decommission_predator",
+      "ubrg_npcf_eye_in_the_sky_predator",
+      "ubrg_npcf_kinetic_kill_flock_predator",
+      "ubrg_npcf_loiter_mode_predator"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_raider",
+    "name": "RAIDER",
+    "role": "striker",
+    "info": {
+      "flavor": "A moniker including several official manufacturers’ skirmisher frames and a large number of unofficial configurations encountered in the hands of pirates and renegades, Raiders are agile close-quarters assault mechs using area-denial thermal weaponry combined with sophisticated wolf-pack co-ordination protocols. Manufacturers skirt legality clauses around Union’s rules of engagement with incendiary weapons by using short-burn chemical compounds or molecular agitation technology that falls just on the right side of the law, but nonetheless DoJ/HR keeps a close watch on deployment and use of these chassis.",
+      "tactics": "The Raider is a flanker, its damage output significantly improving when it can manoeuver round opponents who are already pinned by allies in a hammer-and-anvil situation. Ideally, the Raider wants to operate in areas with plenty of soft cover that it can dart in and out of for the Flanker trait bonus, while ignoring with its own flame projector. While relatively sturdy, the Raider struggles against dedicated close combat frames, and is weakened when separated from allies who can set up its Wolfpack bonus."
+    },
+    "stats": {
+      "armor": [0,0,0],
+      "hp": [15,18,21],
+      "evade": [10,12,14],
+      "edef": [7,8,9],
+      "heatcap": [10,10,10],
+      "speed": [5,6,7],
+      "sensor": [10,10,10],
+      "save": [10,12,14],
+      "hull": [0,1,2],
+      "agility": [2,3,5],
+      "systems": [0,1,2],
+      "engineering": [1,2,3],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_overcharged_flame_projector_raider",
+      "ubrg_npcf_flanker_raider",
+      "ubrg_npcf_initiative_raider",
+      "ubrg_npcf_wolfpack_raider"
+    ],
+    "optional_features": [
+      "ubrg_npcf_energy_net_raider",
+      "ubrg_npcf_fan_the_flames_raider",
+      "ubrg_npcf_raider_skirmisher_raider",
+      "ubrg_npcf_reactor_bleed_supercharger",
+      "ubrg_npcf_seether_rotary_shotgun_raider"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_ranger",
+    "name": "RANGER",
+    "role": "striker",
+    "info": {
+      "flavor": "A lightweight variation on the Assault doctrine, Rangers provide precision fire support in ambush and skirmisher roles. Using superior stealth systems and rapid-deployment area denial devices, a Ranger combines the hard-hitting impact of a true sniper with environment-agnostic manoeuvrability to dominate firefights in support of heavier allies. Favoured by special forces, pathfinders, and insurgents, Ranger frames have proved themselves critical in harassment roles across innumerable conflicts.",
+      "tactics": "Rangers want to rapidly move themselves into areas of dense terrain where they can settle down and fire from, relying on chameleonic cloaking and traps to keep them safe from retribution. While the right optional systems can give them close-range bite as well, Rangers are less resilient than their Assault cousins, and more vulnerable to hacking and tech approaches that can exploit their poor e-defense, as well as area-of-effect responses fired blindly into terrain that they’ve dug into. The more difficult terrain and cover, the tougher a Ranger is going to be to deal with."
+    },
+    "stats": {
+      "armor": [0,0,0],
+      "hp": [14,16,18],
+      "evade": [10,12,14],
+      "edef": [6,7,8],
+      "heatcap": [8,8,8],
+      "speed": [5,5,5],
+      "sensor": [10,10,10],
+      "save": [10,11,12],
+      "hull": [1,2,3],
+      "agility": [2,4,6],
+      "systems": [-1,-1,-1],
+      "engineering": [0,1,2],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_dmr_rifle_ranger",
+      "ubrg_npcf_chameleonic_cloaking_ranger",
+      "ubrg_npcf_pathfinder_ranger",
+      "ubrg_npcf_trapper_raider"
+    ],
+    "optional_features": [
+      "ubrg_npcf_assault_cables_raider",
+      "ubrg_npcf_autotargeting_ranger",
+      "ubrg_npcf_charged_machete_ranger",
+      "ubrg_npcf_napalm_mine_ranger",
+      "ubrg_npcf_adw_shotgun_ranger"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_reaver",
+    "name": "REAVER",
+    "role": "controller",
+    "info": {
+        "flavor": "Reaver-pattern mechs use high-performance kinetic transfer and storage technologies to control the immediate battlespace, shunting hostile armour around with force far behind a frame’s apparent weight-class. Reavers see use among professional shock troops and privateers alike, capable of opening breaches through defensive positions or herding foes into fire lanes and killzones. Reaver pilots need an inclination to live dangerously and an excellent sense of split-second judgement when it comes to the absorption and release of the devastating kinetic forces they must shepherd to be successful.",
+        "tactics": "Reavers are melee controllers, and excel in scattering enemy formations to let allies into position, prying vulnerable targets loose for pack tactics, or in setting targets up for friendly area-of-effect attacks. However, they’re not particularly hardy, and lose some of their impact if facing energy weapons; heavy-framed, larger mechs who can simply ignore their Knockback are also a strong counter."
+    },
+    "stats": {
+      "armor": [1,1,1],
+      "hp": [12,14,16],
+      "evade": [10,12,14],
+      "edef": [8,8,8],
+      "heatcap": [5,5,6],
+      "speed": [5,5,6],
+      "sensor": [10,10,10],
+      "save": [10,12,14],
+      "hull": [1,2,3],
+      "agility": [1,2,3],
+      "systems": [1,2,3],
+      "engineering": [1,2,3],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_kinetic_glaive_reaver",
+      "ubrg_npcf_hyperkinetic_boosters_reaver",
+      "ubrg_npcf_hook_sweep_reaver",
+      "ubrg_npcf_kinetic_pendulum_reaver"
+    ],
+    "optional_features": [
+      "ubrg_npcf_aftershocks_reaver",
+      "ubrg_npcf_kinetic_buckler_reaver",
+      "ubrg_npcf_polearm_interdiction_reaver",
+      "ubrg_npcf_projected_pulse_missile_reaver",
+      "ubrg_npcf_razorchain_concertina_reaver"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_relay",
+    "name": "RELAY",
+    "role": "support",
+    "info": {
+      "flavor": "The Relay doctrine sees common use in forces that focus on electronic warfare, with sophisticated MEWSS omnihook adaptations greatly expanding the battlespace influence of allied hackers. Nearby friendlies benefit from the Relay’s own counter-intrusion umbrella, although the protection such chassis offer can be a rather thankless task; Relays are often priority targets for enemy forces.",
+      "tactics": "Friendly mechs can use the Relay as a node to bounce their tech actions through from a more comfortable distance, keeping out of close-range retaliation. However, most of the Relay’s support and defensive capabilities will be shut down if it becomes Jammed, cutting it off from the network and leaving it ineffective."
+    },
+    "stats": {
+      "armor": [1,1,1],
+      "hp": [10,13,16],
+      "evade": [8,9,10],
+      "edef": [8,10,12],
+      "heatcap": [6,7,8],
+      "speed": [5,5,5],
+      "sensor": [10,10,10],
+      "save": [10,12,14],
+      "hull": [0,0,1],
+      "agility": [1,2,3],
+      "systems": [3,5,6],
+      "engineering": [-2,-2,-2],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_smart_rifle_relay",
+      "ubrg_npcf_lightning_rod_relay",
+      "ubrg_npcf_tech_node_relay"
+    ],
+    "optional_features": [
+      "ubrg_npcf_chainbreaker_relay",
+      "ubrg_npcf_parallel_os_relay",
+      "ubrg_npcf_logic_trap_relay",
+      "ubrg_npcf_signal_boost_relay",
+      "ubrg_npcf_exploit_weak_network_link"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_rocketeer",
+    "name": "ROCKETEER",
+    "role": "artillery",
+    "info": {
+      "flavor": "Rocketeers put the mobile into mobile artillery, packing as much heavy firepower as possible onto a lightweight, manoeuvrable frame. Rocketeer doctrine emphasises shoot-and-scoot approaches to tactical situations, favouring outrider and vulture roles that can rapidly exploit unfolding opportunities within a battlespace and pick off weakened targets without exposing themselves to close-range counterfire.",
+      "tactics": "A Rocketeer wants to stay mobile, dancing around the edge of firefights and pouring direct fire into critical targets. Jumpjets and the emergency redeploy system allow it to act as a hard-hitting skirmisher, but its manoeuvrability is heat-intensive so the Rocketeer is at risk from heat weapons and hacking. Its extensive use of Smart weapons is punishing for targets who rely on their evasion, but can give it issues facing opponents with a strong E-D value."
+    },
+    "stats": {
+      "armor": [0,0,0],
+      "hp": [12,14,16],
+      "evade": [10,12,14],
+      "edef": [8,9,10],
+      "heatcap": [8,9,10],
+      "speed": [4,4,5],
+      "sensor": [15,15,15],
+      "save": [10,11,12],
+      "hull": [-2,-2,-2],
+      "agility": [2,4,6],
+      "systems": [1,2,3],
+      "engineering": [1,2,3],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_missile_battery_rocketeer",
+      "ubrg_npcf_jumpjets_rocketeer",
+      "ubrg_npcf_emergency_redeploy_rocketeer"
+    ],
+    "optional_features": [
+      "ubrg_npcf_corebuster_launcher_rocketeer",
+      "ubrg_npcf_vulture_opportunity_analysis_protocols_rocketeer",
+      "ubrg_npcf_fractal_lightwarp_camo_rocketeer",
+      "ubrg_npcf_tsunami_concussion_dispersal_system_rocketeer",
+      "ubrg_npcf_tactical_oversight_rocketeer"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_salamander",
+    "name": "SALAMANDER",
+    "role": "controller",
+    "info": {
+      "flavor": "A lighter-weight doctrine than the feared Pyro, the Salamander is cutting-edge engineering turned to fiery purpose. Instead of direct assault, the Salamander focuses on area denial and sustained zone control, forcing hostile forces out of the battlespace via overheating fragile systems and advancing curtains of flame.",
+      "tactics": "The Salamander has a dangerous role that requires it to remain close to the front line, but its Plasma Field and Volatile Cloud can block of avenues of approach or force enemies out of a favourable position. It fares best against lightly armoured enemies and those with fragile reactors whose heat it can stoke into overload, but lacks the resilience to go toe-to-toe with well-engineered counterparts."
+    },
+    "stats": {
+      "armor": [1,1,1],
+      "hp": [10,12,14],
+      "evade": [8,9,10],
+      "edef": [10,12,14],
+      "heatcap": [10,12,14],
+      "speed": [4,4,4],
+      "sensor": [10,10,10],
+      "save": [11,13,16],
+      "hull": [0,0,0],
+      "agility": [0,1,2],
+      "systems": [1,2,3],
+      "engineering": [2,4,6],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_flame_projector_salamander",
+      "ubrg_npcf_plasma_field_salamander",
+      "ubrg_npcf_volatile_cloud_salamander",
+      "ubrg_npcf_insulated_salamander"
+    ],
+    "optional_features": [
+      "ubrg_npcf_ash_vents_salamander",
+      "ubrg_npcf_fan_flames_salamander",
+      "ubrg_npcf_pyrophore_salamander",
+      "ubrg_npcf_reactor_override_salamander",
+      "ubrg_npcf_thermal_javelin_salamander"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_showdown",
+    "name": "SHOWDOWN",
+    "role": "striker",
+    "info": {
+      "flavor": "Showdown patterns feature high-accuracy CQB capabilities ideal for one-on-one combat or brief firefight engagements. Lightly armed for their weight class, these chassis devote the excess capacity to refining and optimizing pilot/system reaction times, rapid situation analysis and pinpoint force application. Showdown pilots often favour a certain romantic attachment to the ideals and mystique of their mech, with a flair for the dramatic and for just-in-time deployments to pull allies’ rears out of the fire.",
+      "tactics": "The Showdown is a disruptive but short-ranged striker with hints of controller and defender, and excels in delivering shots where they need to go at critical moments. Its damage output is limited enough that it may struggle against very tough opponents, and it is vulnerable to heat and hacking approaches – especially longer-ranged opponents who can keep it at arm’s reach."
+    },
+    "stats": {
+      "armor": [1,1,1],
+      "hp": [10,13,16],
+      "evade": [12,14,16],
+      "edef": [7,8,9],
+      "heatcap": [5,5,5],
+      "speed": [4,5,5],
+      "sensor": [10,10,10],
+      "save": [10,12,14],
+      "hull": [1,2,3],
+      "agility": [3,5,6],
+      "systems": [1,2,3],
+      "engineering": [-2,-2,-2],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_deadeye_pistol_showdown",
+      "ubrg_npcf_disarm_showdown",
+      "ubrg_npcf_quickdraw_showdown"
+    ],
+    "optional_features": [
+      "ubrg_npcf_brawler_showdown",
+      "ubrg_npcf_deadmans_trigger_showdown",
+      "ubrg_npcf_hyperfibre_poncho_showdown",
+      "ubrg_npcf_staredown_showdown",
+      "ubrg_npcf_trickshot_showdown"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_skybreaker",
+    "name": "SKYBREAKER",
+    "role": "defender",
+    "info": {
+      "flavor": "The chattering autocannons of Skybreaker-pattern chassis prove themselves again and again in conflicts across known space. These heavy anti-aircraft platforms provide ferocious close-proximity protection for mechanized cavalry columns, flashpoints and strongholds, combining sheer volume of fire with sophisticated targeting and analysis systems into one terrifying package. Skybreaker doctrine emphasises resilience during sustained engagements, and many chassis feature squat or even arachnid profiles ideal for entrenchment.",
+      "tactics": "The Skybreaker is a defender that denies an area to flying foes via the threat of its hard-hitting weaponry and enhanced overwatch. As well as pure fliers, it excels against mobile characters who use flying to augment their movement and those who make extensive use of drones. The mech loses much of its impact against opponents who stick to the ground, and wants to remain in one place if possible. Enemies who can draw their desired targets out of its protective envelope of overwatch can prey without fear of retribution."
+    },
+    "stats": {
+      "armor": [2,2,3],
+      "hp": [14,17,20],
+      "evade": [6,6,6],
+      "edef": [10,12,12],
+      "heatcap": [6,6,6],
+      "speed": [2,2,3],
+      "sensor": [15,15,15],
+      "save": [10,10,10],
+      "hull": [2,4,6],
+      "agility": [-2,-2,-2],
+      "systems": [2,4,6],
+      "engineering": [0,0,0],
+      "size": [[2],[2],[2]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_interdictor_skybreaker",
+      "ubrg_npcf_interceptor_skybreaker",
+      "ubrg_npcf_entrenchment_stabilisers_skybreaker"
+    ],
+    "optional_features": [
+      "ubrg_npcf_aerial_alarm_network_skybreaker",
+      "ubrg_npcf_close_air_support_systems_skybreaker",
+      "ubrg_npcf_microtarget_skybreaker",
+      "ubrg_npcf_trench_talons_skybreaker",
+      "ubrg_npcf_vigilance_skybreaker"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_spider",
+    "name": "SPIDER",
+    "role": "controller",
+    "info": {
+      "flavor": "Using onboard assembly hives to rapidly spin out tempered threads by the kilometre, Spider-class mechs are walking factories that clog their surroundings with glittering razorwire and darting nanodrones. A formation of Spiders can render dense terrain into a nightmare hiding energized spools that can snare even heavy frames. Once prey is caught, the mechs emerge from cover to inject their victims with nano-concoctions that burrow into and hijack systems or simply shred an engine from within.",
+      "tactics": "The Spider is an ambushing controller, catching hostiles in its webs to render them easy prey. By itself, a Spider can be a serious pain, but it works best when it has fellow mechs to pounce on ensnared victims. Bring Burn weapons to break through a Spider’s tricks quickly, albeit at the cost of getting singed."
+    },
+    "stats": {
+      "armor": [0,0,0],
+      "hp": [12,14,16],
+      "evade": [10,11,12],
+      "edef": [10,12,14],
+      "heatcap": [8,8,8],
+      "speed": [5,5,5],
+      "sensor": [10,10,10],
+      "save": [11,13,16],
+      "hull": [-1,-1,-1],
+      "agility": [1,2,3],
+      "systems": [2,4,6],
+      "engineering": [0,0,0],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_nanowire_spider",
+      "ubrg_npcf_leeching_spider",
+      "ubrg_npcf_tangleweb_spider",
+      "ubrg_npcf_predator_spider"
+    ],
+    "optional_features": [
+      "ubrg_npcf_climber_spider",
+      "ubrg_npcf_disassembler_spider",
+      "ubrg_npcf_monowire_spider",
+      "ubrg_npcf_hyperwire_spider",
+      "ubrg_npcf_mine_spider"
+    ],
+    "power": 100
+
+  }
+]

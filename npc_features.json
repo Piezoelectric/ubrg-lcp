@@ -1,0 +1,5897 @@
+[
+  {
+    "id": "ubrg_npcf_automatic_grenade_launcher_apc",
+    "name": "AUTOMATIC GRENADE LAUNCHER",
+    "origin": {
+      "type": "Class",
+      "name": "APC",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Main Launcher",
+    "attack_bonus": [1, 2, 3],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [4, 5, 6]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      },
+      {
+        "type": "Blast",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_fire_ports_apc",
+    "name": "FIRE PORTS",
+    "origin": {
+      "type": "Class",
+      "name": "APC",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "A unit with the Squad tag mounted in the APC can still make a Skirmish action during its turn to fire weapons from the APC’s position as if its own. However, the squad suffers 1 Difficulty on all attack rolls, increased to 2 Difficulty if the APC made any movement on its last turn.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_guardian_apc",
+    "name": "GUARDIAN",
+    "origin": {
+      "type": "Class",
+      "name": "APC",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Adjacent allies can use the APC for hard cover.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_squad_compartment_apc",
+    "name": "SQUAD COMPARTMENT",
+    "origin": {
+      "type": "Class",
+      "name": "APC",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "As a Quick Action, a unit with the Squad tag in an adjacent space can mount the APC, or can dismount into an adjacent space. While mounted, the squad cannot be targeted or damaged. If the APC is destroyed, the squad is unharmed but can now be targeted and damaged, and must still take a Quick Action to escape the wreckage and dismount.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_deployment_clearance_pulse_apc",
+    "name": "DEPLOYMENT CLEARANCE PULSE",
+    "origin": {
+      "type": "Class",
+      "name": "APC",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The APC emanates a Blast 3 shockwave, forcing all characters caught within it to pass a Hull save or suffer Knockback 3 away from the APC. Targets in soft or hard cover can add the Difficulty they’d usually impose on attacks against them as bonus Accuracy to this saving throw instead.",
+    "tags": [
+	{
+    "id": "tg_recharge",
+    "val": 5
+	},
+	{
+	  "id": "tg_quick_action"
+	}
+	]
+  },
+  {
+    "id": "ubrg_npcf_full_context_deployment_apc",
+    "name": "FULL-CONTEXT DEPLOYMENT",
+    "origin": {
+      "type": "Class",
+      "name": "APC",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The APC is not Slowed and counts as having a propulsion system in low and zero-gravity environments and in the water. In normal conditions, when it boosts, it flies, but must end its boost on the ground or other manageable surface or otherwise fall.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_protective_cbrnpdw_envelope_apc",
+    "name": "PROTECTIVE CBRN/PDW ENVELOPE",
+    "origin": {
+      "type": "Class",
+      "name": "APC",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Units with the Squad tag within Sensors of the APC gain 1 Accuracy on all saving throws. Once per round, the APC can take 1 heat as a reaction to a squad within range having to make a saving throw to increase this bonus to 2 Accuracy for that roll. A squad can only benefit from one Protective CBRN Envelope at a time.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_rapid_deployment_ejection_pods_apc",
+    "name": "RAPID DEPLOYMENT EJECTION PODS",
+    "origin": {
+      "type": "Class",
+      "name": "APC",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "A mounted unit with the Squad tag can dismount from the APC as a Free action at the beginning of its turn, rather than a Quick action, and can deploy into a free space up to Range 5 from the APC rather than adjacent to it.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_smoke_charges_apc",
+    "name": "SMOKE CHARGES",
+    "origin": {
+      "type": "Class",
+      "name": "APC",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The APC launches a smoke grenade (Grenade, Range 5, Blast 2), which creates a Blast area granting soft cover to all characters and objects within it. The area lasts until the end of the APC’s next turn.",
+    "tags": [
+	{
+      "id": "tg_grenade"
+    },
+    {
+      "id": "tg_recharge",
+      "val": 5
+    },
+    {
+      "id": "tg_quick_action"
+    }
+	]
+  },
+
+  {
+    "id": "ubrg_npcf_wrath_swallowing_needles_apostate",
+    "name": "WRATH-SWALLOWING NEEDLES",
+    "origin": {
+      "type": "Class",
+      "name": "APOSTATE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Throwing Wrath-Swallowing Needles does not disarm the Apostate of this weapon.",
+    "tags": [
+      {
+        "id": "tg_thrown",
+        "val": 12
+      }
+    ],
+    "weapon_type": "Auxiliary Melee",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [2,3,4]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": "Targets struck by Wrath-Swallowing Needles have the value of any Blast, Burst, Cone, and Line weapons reduced to 0 until the end of their next turn, affecting only a single target within range instead of an area; weapons that have no Range value gain Range equal to the original value of their Blast, Burst, Cone, or Line trait."
+  },
+  {
+    "id": "ubrg_npcf_fool_rebuking_mudra_apostate",
+    "name": "FOOL-REBUKING MUDRA",
+    "origin": {
+      "type": "Class",
+      "name": "APOSTATE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Apostate makes a tech attack vs Evasion against a character within Sensors. On a success, the target is teleported up to 3 squares directly away from the Apostate and becomes Impaired until the end of its next turn. If it would teleport into a space already taken by another character or obstacle, it takes {1/2/3} AP kinetic damage and the teleport fails.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [2,4,6]
+  },
+  {
+    "id": "ubrg_npcf_persephone_class_nhp_apostate",
+    "name": "PERSEPHONE-CLASS NHP",
+    "origin": {
+      "type": "Class",
+      "name": "APOSTATE",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Apostate has the AI tag. At the beginning of its turn as a protocol, it may emit a burst 3 area of dangerous terrain dealing kinetic damage; this area remains until the beginning of its next turn. It may then teleport to a space it has line of sight to within Range 10. The PERSEPHONE-Class NHP cannot unshackle.",
+    "tags": [
+      {
+        "id": "tg_ai"
+      },
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_protocol"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 3
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_world_splitting_mudra_apostate",
+    "name": "WORLD-SPLITTING MUDRA",
+    "origin": {
+      "type": "Class",
+      "name": "APOSTATE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Apostate is immune to kinetic damage."
+  },
+  {
+    "id": "ubrg_npcf_baleful_crowd_shraap_apostate",
+    "name": "BALEFUL CROWD SHRAAP",
+    "origin": {
+      "type": "Class",
+      "name": "APOSTATE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Apostate makes a tech attack vs Evasion against a character within Sensors. On a success, the target takes {2/3/4} heat and allies of the Apostate treat the Threat of their weapons as 5 higher for attacks and overwatch against the target until the end of the Apostate’s next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [2,4,6]
+  },
+  {
+    "id": "ubrg_npcf_false_markings_in_the_labyrinth_apostate",
+    "name": "FALSE MARKINGS IN THE LABYRINTH",
+    "origin": {
+      "type": "Class",
+      "name": "APOSTATE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever an enemy voluntarily makes teleportation movement within Range 50 of an Apostate, it takes {1/2/3} AP kinetic damage. This effect does not stack from multiple Apostates in the area; a target only takes the damage once with each incidence of teleportation.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_hunter_needles_apostate",
+    "name": "HUNTER NEEDLES",
+    "origin": {
+      "type": "Class",
+      "name": "APOSTATE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Apostate’s Wrath-Swallowing Needles gain the Seeking and Smart traits.",
+    "tags": [
+      {
+        "id": "tg_seeking"
+      },
+      {
+        "id": "tg_smart"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_stolen_heart_shraap_apostate",
+    "name": "STOLEN HEART SHRAAP",
+    "origin": {
+      "type": "Class",
+      "name": "APOSTATE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Apostate makes a tech attack vs Evasion against a character within Sensors. On a success, the target takes {2/3/4} AP kinetic damage. Place a die next to the target, turned to the number of the current round (or 6 if it is round 7 or later). Whenever the target takes a Quick Action, Full Action, or reaction, increase the number on the die by 1. When the die would be increased from 6, a singularity into the Blink tears apart local spacetime, dealing {2/3/4} AP kinetic damage to the target and every enemy within a burst 3 area around the target, turning that area into dangerous terrain dealing kinetic damage until the end of the target’s next turn, and teleporting the target up to 5 squares in a direction of the Apostate’s choice. The effect ends when the singularity bursts open, or when the target takes a Full Action and succeeds at an Engineering check.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [2,4,6]
+  },
+  {
+    "id": "ubrg_npcf_tear_down_the_sacred_gate_apostate",
+    "name": "TEAR DOWN THE SACRED GATE",
+    "origin": {
+      "type": "Class",
+      "name": "APOSTATE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Apostate creates a line 6 area of distorted reality within Sensors. Once per round as a reaction to any character beginning its turn or moving into the line or any space adjacent to it, the Apostate may teleport the target up to 5 squares in a direction of its choice. Attempting to teleport the target into a space already containing a character or obstacle causes the movement to fail.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick"
+  },
+
+  {
+    "id": "ubrg_npcf_battlefield_diagnostics_armourer",
+    "name": "BATTLEFIELD DIAGNOSTICS",
+    "origin": {
+      "type": "Class",
+      "name": "ARMOURER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Armourer can either reload a single Loading weapon on an adjacent ally, remove the Ordnance tag from one weapon on an adjacent ally until the end of that ally’s next turn, or add the AP, Seeking, Reliable 2 or Knockback 3 tags to one weapon on an adjacent ally until the end of that ally’s next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_ablative_reinforcement_armourer",
+    "name": "ABLATIVE REINFORCEMENT",
+    "origin": {
+      "type": "Class",
+      "name": "ARMOURER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Armourer chooses resistance to energy, explosive, kinetic, or Burn damage. One adjacent ally gains that resistance against the first attack that hits it before the end of the Armourer’s next turn, whether or not the attack does the damage type in question.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_crane_armourer",
+    "name": "CRANE",
+    "origin": {
+      "type": "Class",
+      "name": "ARMOURER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "At the beginning of its turn, the Armourer can target a single character within Range 2 of its position and move that character to another free location within Range 2. If the target is unwilling, it can attempt an Agility save and avoid being moved on a success.",
+    "tags": [
+      {
+        "id": "tg_protocol"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_baffler_defence_bolt_ons_armourer",
+    "name": "BAFFLER DEFENCE BOLT-ONS",
+    "origin": {
+      "type": "Class",
+      "name": "ARMOURER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "One adjacent ally becomes unaffected by the Seeking and Smart weapon tags on attacks made against it until the end of the Armourer’s next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_emergency_weapon_fabricators_armourer",
+    "name": "EMERGENCY WEAPON FABRICATORS",
+    "origin": {
+      "type": "Class",
+      "name": "ARMOURER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Armourer fabricates itself a one-use weapon with the following profile:<br><li>Main Cannon/CQB/Launcher/Rifle (pick one)<li>AP/Seeking/Smart/Reliable 2/Knockback 3 (pick one)<li>Range 12/Cone 5/Threat 5 and Range 5 (pick one)<li>+1 vs evasion/tier (or e-defence if Smart)<li>{4/6/8} energy/explosive/kinetic damage (pick one)<br>This weapon lasts until the beginning of the Armourer’s next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_killzone_armourer",
+    "name": "KILLZONE",
+    "origin": {
+      "type": "Class",
+      "name": "ARMOURER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Armourer places down a line 5 zone with at least one space adjacent to itself. Until the end of the Armourer’s next turn, any friendly attacks that trace line of effect across the zone add {1/2/3} energy damage against targets.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_overcharge_offensive_capabilities_armourer",
+    "name": "OVERCHARGE OFFENSIVE CAPABILITIES",
+    "origin": {
+      "type": "Class",
+      "name": "ARMOURER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "Until the end of the Armourer’s next turn, whenever one adjacent ally forces a target to make a save against one of the ally’s weapons or systems, that target suffers an additional 2 Difficulty on the save.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_rapid_fabrication_solutions_armourer",
+    "name": "RAPID FABRICATION SOLUTIONS",
+    "origin": {
+      "type": "Class",
+      "name": "ARMOURER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Allies who begin their turn adjacent to the Armourer gain a +1 bonus on all Recharge rolls they make that turn.",
+    "tags": []
+  },
+
+  {
+    "id": "ubrg_npcf_heavy_cannon_mass_battery_avalanche",
+    "name": "HEAVY CANNON MASS BATTERY",
+    "origin": {
+      "type": "Class",
+      "name": "AVALANCHE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon can attack 1-3 characters at a time. If this weapon only fires at a single target, it loses the 1 Difficulty on its attack roll and instead gains 1 Accuracy, and its Knockback tag increases to 4.",
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": 2
+      },
+      {
+        "id": "tg_inaccurate"
+      }
+    ],
+    "weapon_type": "Heavy Cannon",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [5,7,9]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 12
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_brace_avalanche",
+    "name": "BRACE",
+    "origin": {
+      "type": "Class",
+      "name": "AVALANCHE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Avalanche gains resistance to all damage from that attack.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "The Avalanche is hit by an attack."
+  },
+  {
+    "id": "ubrg_npcf_heavy_frame_avalanche",
+    "name": "HEAVY FRAME",
+    "origin": {
+      "type": "Class",
+      "name": "AVALANCHE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Avalanche cannot be knocked back, prone, pushed, or pulled by any actor smaller than itself."
+  },
+  {
+    "id": "ubrg_npcf_implacable_avalanche",
+    "name": "IMPLACABLE",
+    "origin": {
+      "type": "Class",
+      "name": "AVALANCHE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Avalanche ignores difficult terrain."
+  },
+  {
+    "id": "ubrg_npcf_decimator_shells_avalanche",
+    "name": "DECIMATOR SHELLS",
+    "origin": {
+      "type": "Class",
+      "name": "AVALANCHE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Avalanche’s Heavy Cannon Mass Battery deals {10/15/20} AP explosive damage to objects and terrain, and damage from the weapon can never be reduced by resistance, only by armour and immunity."
+  },
+  {
+    "id": "ubrg_npcf_hellstream_missile_racks_avalanche",
+    "name": "HELLSTREAM MISSILE RACKS",
+    "origin": {
+      "type": "Class",
+      "name": "AVALANCHE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Targets attacked by this weapon who are in cover suffer 1 Difficulty on all ranged attacks and saves until the end of their next turn, unless they move out of cover.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_ordnance"
+      }
+    ],
+    "weapon_type": "Main Launcher",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [3,4,5]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      },
+      {
+        "type": "Blast",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_plasma_scythe_avalanche",
+    "name": "PLASMA SCYTHE",
+    "origin": {
+      "type": "Class",
+      "name": "AVALANCHE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [4,5,6]
+      }
+    ],
+    "range": [
+      {
+        "type": "Burst",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_rapid_repair_systems_avalanche",
+    "name": "RAPID REPAIR SYSTEMS",
+    "origin": {
+      "type": "Class",
+      "name": "AVALANCHE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Avalanche heals {8/12/16} HP.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 4
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_titan_battle_shield_avalanche",
+    "name": "TITAN BATTLE SHIELD",
+    "origin": {
+      "type": "Class",
+      "name": "AVALANCHE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Avalanche reduces all damage from auxiliary weapons to 1, and all damage from the Reliable tag to 1.",
+    "tags": [
+      {
+        "id": "tg_shield"
+      }
+    ]
+  },
+
+  {
+    "id": "ubrg_npcf_skyhammer_rotary_cannons_avenger",
+    "name": "SKYHAMMER ROTARY CANNONS",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "When fired at a ground target while the Avenger is flying, the Difficulty imposed by any cover the target is in is reduced by 1.",
+    "tags": [
+      {
+        "id": "tg_ap"
+      },
+      {
+        "id": "tg_reliable",
+        "val": 2
+      }
+    ],
+    "weapon_type": "Heavy CQB",
+    "attack_bonus": [1,2,3],
+    "accuracy": [1,1,1],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [6,8,10]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 3
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_retributive_attack_run_avenger",
+    "name": "RETRIBUTIVE ATTACK RUN",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Avenger may move up to its speed towards that enemy and then attack with the Skyhammer Rotary Cannons if within range.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "An enemy within Sensors of the Avenger makes an attack that does not include the Avenger as a target while the Avenger is flying."
+  },
+  {
+    "id": "ubrg_npcf_full_flight_suite_avenger",
+    "name": "FULL FLIGHT SUITE",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Avenger can hover whenever they move or Boost.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_heavy_belly_armour_avenger",
+    "name": "HEVAY BELLY ARMOUR",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "As long as the Avenger is flying, it has 3 armour against attacks made by enemies who are not flying.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_afterburners_avenger",
+    "name": "AFTERBURNERS",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When the Avenger boosts after making an attack with the Skyhammer Rotary Cannons in the same turn, it can activate this system to count as being in soft cover until the start of its next turn, and to increase its speed by 3 for the distance the boost can travel.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_eagle_claw_aerial_takedown_avenger",
+    "name": "EAGLE CLAW AERIAL TAKEDOWN",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "One flying target adjacent to the Avenger must pass an Agility save or immediately fall to the ground, taking falling damage and being knocked prone in the process.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_emergency_landing_avenger",
+    "name": "EMERGENCY LANDING",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Avenger can immediately drop to the ground and gain resistance to all damage from that attack.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "The Avenger is flying and is hit by an enemy attack."
+  },
+  {
+    "id": "ubrg_npcf_scorcher_missile_rack_avenger",
+    "name": "SCORCHER MISSILE RACK",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "One space the target is in becomes dangerous terrain until the end of the scene, dealing Burn damage.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "weapon_type": "Auxiliary Launcher",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Burn",
+        "damage": [1,2,3]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_waiting_retribution_avenger",
+    "name": "WAITING RETRIBUTION",
+    "origin": {
+      "type": "Class",
+      "name": "AVENGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "If the Avenger is flying but does not move during its turn, at the end of its turn the Range and Threat on its Skyhammer Rotary Cannons increases to 5 and it can perform a Retributive Attack Run reaction twice per round.",
+    "tags": []
+  },
+
+  {
+    "id": "ubrg_npcf_hedgehog_clusterbomb_discharge_blitzer",
+    "name": "‘HEDGEHOG’ CLUSTERBOMB DISCHARGE",
+    "origin": {
+      "type": "Class",
+      "name": "BLITZER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Characters do not benefit from cover against this weapon. After firing this weapon, the Blitzer’s Armour drops to 1 until it reloads.",
+    "tags": [
+      {
+        "id": "tg_loading"
+      },
+      {
+        "id": "tg_knockback",
+        "val": 1
+      },
+      {
+        "id": "tg_inaccurate"
+      }
+    ],
+    "weapon_type": "Main CQB",
+    "attack_bonus": [2,4,6],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [6,8,10]
+      }
+    ],
+    "range": [
+      {
+        "type": "Burst",
+        "val": 3
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_blitzkrieg_blitzer",
+    "name": "BLITZKRIEG",
+    "origin": {
+      "type": "Class",
+      "name": "BLITZER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Blitzer can freely move through characters the same size or smaller than itself when it takes the boost action. It ignores difficult terrain and deals {10/15/20} AP kinetic damage to terrain and objects it attempts to pass through while boosting, and can keep moving if this is enough to destroy the obstacle.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_guardian_blitzer",
+    "name": "GUARDIAN",
+    "origin": {
+      "type": "Class",
+      "name": "BLITZER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Adjacent allies can use the Blitzer for hard cover.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_heavy_juggernaut_blitzer",
+    "name": "HEAVY JUGGERNAUT",
+    "origin": {
+      "type": "Class",
+      "name": "BLITZER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Blitzer’s ram attacks deal 4/5/6 kinetic damage, have Knockback 3, and 1 Accuracy. Rammed targets must pass a Hull save with 1 Difficulty or be knocked prone.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_full_spectrum_dazzle_charges_blitzer",
+    "name": "FULL SPECTRUM DAZZLE CHARGES",
+    "origin": {
+      "type": "Class",
+      "name": "BLITZER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Blitzer discharges a burst 1 area of dazzle charges. All characters within this area must pass a Systems check or only have line of sight to adjacent squares until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_hedgehogs_dilemma_blitzer",
+    "name": "HEDGEHOG’S DILEMMA",
+    "origin": {
+      "type": "Class",
+      "name": "BLITZER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Blitzer can fire the Hedgehog Clusterbomb Discharge. If it does so, the Knockback of the weapon is increased to 3.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "An enemy moves adjacent to the Blitzer."
+  },
+  {
+    "id": "ubrg_npcf_shunt_blitzer",
+    "name": "SHUNT",
+    "origin": {
+      "type": "Class",
+      "name": "BLITZER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Blitzer boosts, it may try and shunt a single character of its size or smaller that it moves through on its path. If the target fails an Agility check, they are pushed ahead of the Blitzer and moved to an adjacent space in front of its movement direction when it comes to rest. If there is no space for them to be pushed into due to obstacles or other characters, they suffer {3/4/5} kinetic damage and are pushed into the nearest adjacent space possible.",
+    "tags": []
+  },
+  {
+   "id": "ubrg_npcf_smoke_charges_blitzer",
+   "name": "SMOKE CHARGES",
+    "origin": {
+    "type": "Class",
+    "name": "BLITZER",
+    "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Blitzer launches a smoke grenade (Range 5, Blast 2), which creates a Blast area granting soft cover to all characters and objects. The area lasts until the end of the Blitzer’s next turn.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_grenade"
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_typhoon_shockwave_munitions_blitzer",
+    "name": "TYPHOON SHOCKWAVE MUNITIONS",
+    "origin": {
+      "type": "Class",
+      "name": "BLITZER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Hedgehog Clusterbomb Discharge also inflicts the Slowed condition on targets until the end of their next turn.",
+    "tags": []
+  },
+
+  {
+    "id": "ubrg_npcf_liberator_air_to_ground_cannon_blockbuster",
+    "name": "LIBERATOR AIR-TO-GROUND CANNON",
+    "origin": {
+      "type": "Class",
+      "name": "BLOCKBUSTER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "When fired at a ground target while the Blockbuster is flying, the Difficulty imposed by any cover the target is in is reduced by 1. When firing at an flying target, the weapon suffers 2 Difficulty.",
+    "tags": [
+      {
+        "id": "tg_arcing",
+        "val": 2
+      }
+    ],
+    "weapon_type": "Heavy Cannon",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [4,6,8]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 15
+      },
+      {
+        "type": "Blast",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_heavy_bombing_bay_blockbuster",
+    "name": "HEAVY BOMBING BAY",
+    "origin": {
+      "type": "Class",
+      "name": "BLOCKBUSTER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Once per round when this mech moves or boosts and is flying, as a free action it can drop a bomb on one character or space below its current elevation that it passes directly over or passes over a space adjacent to. The Blockbuster can choose one of the following munitions to drop when it does so.<li>High Capacity Bomb: The bomb creates a Blast 4 area with at least one space on the target. Characters within the area must pass an Agility save or suffer {6/8/10} explosive damage and be knocked prone. Structures, objects, and terrain in the affected area automatically suffer {15/30/45} AP explosive damage.<li>Cluster Air-Mines: The Blockbuster deploys a mine into the target space; if placed in an elevated space, the mine can float there. The mine is invisible and untargetable but can be revealed and disarmed in the usual manner for mines. It triggers when a hostile character moves adjacent to its space, detonating in a Blast 3 area wherein all characters must pass an Agility save or take {6/8/10} explosive damage and become Slowed until the end of their next turn, taking half damage on a save. Flying characters who fail the save are also immediately forced to the ground.",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 2
+      },
+      {
+        "id": "tg_grenade"
+      },
+      {
+        "id": "tg_mine"
+      },
+      {
+        "id": "tg_free_action"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_heavy_flight_suite_blockbuster",
+    "name": "HEAVY FLIGHT SUITE",
+    "origin": {
+      "type": "Class",
+      "name": "BLOCKBUSTER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Blockbuster can hover whenever they move or Boost. It gains 1 Accuracy on Hull checks and saves when flying.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_afterburners_blockbuster",
+    "name": "AFTERBURNERS",
+    "origin": {
+      "type": "Class",
+      "name": "BLOCKBUSTER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When the Blockbuster boosts after making an attack with the Skyhammer Rotary Cannons in the same turn, it can activate this system to count as being in soft cover until the start of its next turn, and to increase its speed by 3 for the distance the boost can travel.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_bomb_printer_blockbuster",
+    "name": "BOMB PRINTER",
+    "origin": {
+      "type": "Class",
+      "name": "BLOCKBUSTER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Blockbuster’s Heavy Bombing Bay loses the Limited (2) trait and gains the Recharge (5+) trait instead. Its Liberator Cannon gains the Reliable 1 trait.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_defensive_machine_gun_blockbuster",
+    "name": "DEFENSIVE MACHINE GUN",
+    "origin": {
+      "type": "Class",
+      "name": "BLOCKBUSTER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "When fired at a flying target while the Blockbuster is also flying, this weapon gains 1 Accuracy. While the Blockbuster is flying, this weapon gains Threat 3.",
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": 1
+      }
+    ],
+    "weapon_type": "Auxiliary Rifle",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [3,4,5]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_devastation_warheads_blockbuster",
+    "name": "DEVASTATION WARHEADS",
+    "origin": {
+      "type": "Class",
+      "name": "BLOCKBUSTER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Blockbuster’s High Capacity Bombs also destroy three spaces of ground beneath any spaces not taken by obstacles, structures, or terrain after dealing its damage. Characters caught in the area may take falling damage as a result, and this could have further drastic effects on the terrain under certain circumstances (such as impacted rivers now pouring into the freshly-created crater lake and the like).",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_greywash_bomb_blockbuster",
+    "name": "GREYWASH BOMB",
+    "origin": {
+      "type": "Class",
+      "name": "BLOCKBUSTER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Blockbuster gains the following option for its heavy bombing bay.<li>Swarm Warhead: The bomb creates a Blast 2 area which remains until the end of the scene or until the Blockbuster is destroyed. All characters who start their turn in the area or who move into it for the first time during their turn takes {2/4/6} Burn. As a Quick Action, the Blockbuster can move one swarm warhead area within its Sensors up to 2 spaces in any direction.",
+    "tags": []
+  },
+
+  {
+    "id": "ubrg_npcf_bridgelayer_bridgelayer",
+    "name": "Bridgelayer",
+    "origin": {
+      "type": "Class",
+      "name": "BRIDGELAYER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "As a Full Action, the Bridgelayer can deploy a piece of unfolding bridge terrain from itself. The bridge is 3 squares wide by 6 squares long, and is laid down on top of existing terrain. One of the narrow ends must be placed adjacent to the Bridgelayer. Units on the bridge ignore any difficult or dangerous terrain and any altered elevation in the spaces it now covers, granting safe passage over broken ground, rivers and chasms, and so forth. It can be tilted up or down, reaching a height or depth of up to 6 squares from the starting elevation of the Bridgelayer, so it might grant access for ground units to the top of a large building or bottom of a ravine. The Bridgelayer can retrieve the bridge as a Full Action. Each space of the bridge has 20 HP and armour 3.",
+    "tags": 
+    [
+      {
+        "id": "tg_full_action"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_excavator_bridgelayer",
+    "name": "EXCAVATOR",
+    "origin": {
+      "type": "Class",
+      "name": "BRIDGELAYER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Bridgelayer may create a contiguous area of up to 3 spaces of difficult terrain, at least one of which must be adjacent to the Bridgelayer. It may also either excavate up to 3 spaces of trench adjacent to itself, which offer soft cover to units entirely within them, or create 3 squares of size 1 10 HP cover adjacent to itself. The squares chosen do not need to be free; the Bridgelayer deals 10 AP kinetic damage to any objects or terrain in those spaces, while units must pass an Agility save or be knocked prone into an adjacent space, and take {4/5/6} AP kinetic damage.",
+    "tags":
+    [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_guardian_bridgelayer",
+    "name": "GUARDIAN",
+    "origin": {
+      "type": "Class",
+      "name": "BRIDGELAYER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Adjacent allies can use the Bridgelayer for hard cover.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_heavy_frame_bridgelayer",
+    "name": "HEAVY FRAME",
+    "origin": {
+      "type": "Class",
+      "name": "BRIDGELAYER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Bridgelayer cannot be knocked back, prone, pushed, or pulled by any actor smaller than itself.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_implacable_bridgelayer",
+    "name": "IMPLACABLE",
+    "origin": {
+      "type": "Class",
+      "name": "BRIDGELAYER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Bridgelayer ignores difficult terrain.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_bulldozer_bridgelayer",
+    "name": "BULLDOZER",
+    "origin": {
+      "type": "Class",
+      "name": "BRIDGELAYER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Bridgelayer finishes its movement or a boost, it may deal 30 AP kinetic damage to any number of adjacent objects or pieces of terrain. Any adjacent enemies must also succeed at an Agility save or be knocked back 3 spaces and knocked prone.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_crane_claw_bridgelayer",
+    "name": "CRANE CLAW",
+    "origin": {
+      "type": "Class",
+      "name": "BRIDGELAYER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Heavy Melee",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [3,4,5]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": "The target becomes either grappled or suffers Knockback 5."
+  },
+  {
+    "id": "ubrg_npcf_environmental_shielding_generator_bridgelayer",
+    "name": "ENVIRONMENTAL SHIELDING GENERATOR",
+    "origin": {
+      "type": "Class",
+      "name": "BRIDGELAYER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Allies within range 10 of the Bridgelayer gain 2 Accuracy on checks and saves to prevent damage from dangerous terrain or hostile environmental effects.",
+    "tags": [
+      {
+        "id": "tg_shield"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_extended_carriage_racks_bridgelayer",
+    "name": "EXTENDED CARRIAGE RACKS",
+    "origin": {
+      "type": "Class",
+      "name": "BRIDGELAYER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Bridgelayer’s Bridgelayer system becomes Limited (3).",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_refinery_bridgelayer",
+    "name": "REFINERY",
+    "origin": {
+      "type": "Class",
+      "name": "BRIDGELAYER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Allies who begin their turn adjacent to the Bridgelayer gain a +2 bonus on all Recharge rolls they make that turn.",
+    "tags": []
+  },
+
+  {
+    "id": "ubrg_npcf_invasion_harpoon_chorus",
+    "name": "INVASION HARPOON",
+    "origin": {
+      "type": "Class",
+      "name": "CHORUS",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Main Cannon",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [5,6,7]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "on_hit": "All tech attacks made against the target gain 1 Accuracy and, at the beginning of the target’s turn, it must pass an Engineering save or suffer {1/2/3} heat. It can remove the harpoon by taking a Quick Action and passing a Hull check."
+  },
+  {
+    "id": "ubrg_npcf_banshee_transmissions_chorus",
+    "name": "BANSHEE TRANSMISSIONS",
+    "origin": {
+      "type": "Class",
+      "name": "CHORUS",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Chorus can force the character who made the tech attack to pass a Systems save or immediately shut down. The Chorus does not need to be within Sensors or line of sight to the attacker. A character can only be the target of Banshee Transmissions once per scene.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "An ally within range 5 of the Chorus is hit by a tech attack."
+  },
+  {
+    "id": "ubrg_npcf_infoscream_chorus",
+    "name": "INFOSCREAM",
+    "origin": {
+      "type": "Class",
+      "name": "CHORUS",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Chorus makes a tech attack against a character within Sensors. The target takes {2/3/4} heat and is Jammed; however, it can still make attacks using its weapons as long as they include the Chorus as a target. The Jammed condition ends at the end of the target’s next turn, or when they successfully hit the Chorus.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [1,2,3]
+  },
+  {
+    "id": "ubrg_npcf_wailing_chorus_chorus",
+    "name": "WAILING CHORUS",
+    "origin": {
+      "type": "Class",
+      "name": "CHORUS",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Chorus has the AI tag. When a unit that has the AI tag begins its turn within range 3 of the Chorus, it must choose to either gain 1 heat or have any AI or NHP-derived benefits disabled until the beginning of its next turn. A unit controlled by an unshackled NHP that begins its turn within range 3 of the Chorus must pass a Systems save or be Jammed until the end of its next turn. If the Chorus becomes unshackled, it remains still and takes no other actions apart from targeting the nearest character with Infoscream each turn.",
+    "tags": [
+      {
+        "id": "tg_ai"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_direct_neurofeedback_shriek_chorus",
+    "name": "DIRECT NEUROFEEDBACK SHRIEK",
+    "origin": {
+      "type": "Class",
+      "name": "CHORUS",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The pilot of a target mech must pass a Grit save as they are assailed by a direct assault on their personality and psyche via the medium of their mech’s input/output systems, a rapid jarring cascade of identity-crushing scenes and accusations tailored to the victim on the fly by a particularly sadistic NHP fragment. If they pass the save, the mech is Impaired until the end of its next turn. If they fail the save, the pilot can no longer add their Grit to any dice rolls for the remainder of the scene, and will likely need treatment and counselling during narrative play.",
+    "tags": [
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "tech_type": "Full"
+  },
+  {
+    "id": "ubrg_npcf_hobble_prey_chorus",
+    "name": "HOBBLE PREY",
+    "origin": {
+      "type": "Class",
+      "name": "CHORUS",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Invasion Harpoon also inflicts the Slowed condition on targets until they remove the harpoon.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_nightmare_static_chorus",
+    "name": "NIGHTMARE STATIC",
+    "origin": {
+      "type": "Class",
+      "name": "CHORUS",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Chorus teleports 5 squares. There must be a viable route it could have taken between its current location and its destination via normal movement modes available to it.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_prison_of_screams_chorus",
+    "name": "PRISON OF SCREAMS",
+    "origin": {
+      "type": "Class",
+      "name": "CHORUS",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "As a free action at the beginning of its turn, the Chorus chooses a single adjacent character with an NHP AI, friend or foe, and forces them to pass a Systems check or have the NHP immediately unshackle.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_technobile_chorus",
+    "name": "TECHNOBILE",
+    "origin": {
+      "type": "Class",
+      "name": "CHORUS",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever a character hits the Chorus with a tech attack, they must pass a Systems check or suffer 2 heat.",
+    "tags": []
+  },
+
+  {
+    "id": "ubrg_npcf_repeater_response_autocannon_counterbattery",
+    "name": "HEAVY CANNON MASS BATTERY",
+    "origin": {
+      "type": "Class",
+      "name": "COUNTERBATTERY",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon fires with 1 Difficulty unless fired as part of a reaction. When fired as part of a reaction, it instead has 2 Accuracy and its range increases to 30.",
+    "tags": [
+      {
+        "id": "tg_ap"
+      },
+      {
+        "id": "tg_arcing"
+      }
+    ],
+    "weapon_type": "Heavy Cannon",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [6,8,10]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 20
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_counterfire_counterbattery",
+    "name": "COUNTERFIRE",
+    "origin": {
+      "type": "Class",
+      "name": "COUNTERBATTERY",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: If the Counterbattery did not boost on its turn, it may make an overwatch attack with the Repeater Response Autocannon.",
+    "tags": [],
+    "trigger": "An enemy attacks the Counterbattery or an ally within range 5 of it and the enemy is at range 10 or more from the target of is attack."
+  },
+  {
+    "id": "ubrg_npcf_fire_signature_calculations_counterbattery",
+    "name": "FIRE SIGNATURE CALCULATIONS",
+    "origin": {
+      "type": "Class",
+      "name": "COUNTERBATTERY",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Counterbattery can make {2/3/4} overwatch attacks each round, rather than just 1.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_detonate_ammo_reserves_counterbattery",
+    "name": "DETONATE AMMO RESERVES",
+    "origin": {
+      "type": "Class",
+      "name": "COUNTERBATTERY",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When making an overwatch attack, the Counterbattery can load a special HEAP shell that will touch off secondary detonations within a mech’s ammunition supplies. If the attack hits the target and deals damage, the Counterbattery chooses two enemies within range 3 of the target. Chosen enemies must pass an Agility save or be damaged as if they had been hit with the weapon used in the attack that provoked the Counterbattery’s overwatch fire.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5 
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_interception_trajectories_counterbattery",
+    "name": "INTERCEPTION TRAJECTORIES",
+    "origin": {
+      "type": "Class",
+      "name": "COUNTERBATTERY",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Counterbattery may expend an overwatch reaction to give itself and allies within range 5 resistance against the damage of a single attack.",
+    "tags": [],
+    "trigger": "An enemy attacks the Counterbattery or an ally within range 5 of it and the enemy is at range 10 or more from the target of is attack."
+  },
+  {
+    "id": "ubrg_npcf_light_them_up_counterbattery",
+    "name": "LIGHT THEM UP",
+    "origin": {
+      "type": "Class",
+      "name": "COUNTERBATTERY",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The first time a Counterbattery uses its overwatch reaction in a round to attack, it places the Lock On condition on the target after attacking them.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_proximity_alert_counterbattery",
+    "name": "PROXIMITY ALERT",
+    "origin": {
+      "type": "Class",
+      "name": "COUNTERBATTERY",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: Any characters caught in the area of effect may move 2 squares before the enemy makes its attack rolls or forces saves on units remaining in the attack area.",
+    "tags": [],
+    "trigger": "An enemy attacks the Counterbattery or any allies within range 5 with a blast, burst, line, or cone."
+  },
+  {
+    "id": "ubrg_npcf_squelch_target_lock_counterbattery",
+    "name": "SQUELCH TARGET LOCK",
+    "origin": {
+      "type": "Class",
+      "name": "COUNTERBATTERY",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Counterbattery removes the Lock On condition from a single ally within Sensors, and also grant them 1 Accuracy on all saves until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+
+  {
+    "id": "ubrg_npcf_magnetocaloric_cryorail_cyro",
+    "name": "MAGNETOCALORIC CRYORAIL",
+    "origin": {
+      "type": "Class",
+      "name": "CRYO",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon can fire twice at tier II, and three times at tier III.",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ],
+    "weapon_type": "Main Cannon",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [3,3,3]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "on_hit": "The target is also Immobilized until the end of its next turn, or only Slowed until the end of its next turn if it is in the danger zone. After inflicting damage and applying the relevant condition, the target then cools for {2/3/4} heat."
+  },
+  {
+    "id": "ubrg_npcf_endothermic_field_cryo",
+    "name": "ENDOTHERMIC FIELD",
+    "origin": {
+      "type": "Class",
+      "name": "CRYO",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Cryo emits a freezing aura over a burst 3 area. Any mech within this area that does not move or boost on its turn becomes Immobilized, and any mech within the area who is not in the danger zone becomes Impaired until the end of its next turn.",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      },
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_insulated_cryo",
+    "name": "INSULATED",
+    "origin": {
+      "type": "Class",
+      "name": "CRYO",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Cryo is immune to burn",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_shatterbolt_rifle_cryo",
+    "name": "SHATTERBOLT RIFLE",
+    "origin": {
+      "type": "Class",
+      "name": "CRYO",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Main Rifle",
+    "attack_bonus": [2,4,6],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [4,5,6]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 12
+      }
+    ],
+    "on_hit": "If the target is Immobilized or Exposed, it becomes Stunned until the end of its next turn. A target can only be Stunned by this weapon once per scene."
+  },
+  {
+    "id": "ubrg_npcf_cryo_mine_cryo",
+    "name": "CRYO MINE",
+    "origin": {
+      "type": "Class",
+      "name": "CRYO",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Cryo deploys a mine in a free space within range 3. The mine is invisible and untargetable but can be revealed or disarmed via the usual rules for mines. The mine triggers when any hostile character passes over its space, forcing an Engineering save for any character in a burst 1 area around it. Failure causes a character to become Immobilized and Impaired until the end of its next turn, and causes it to cool for {2/3/4} heat.",
+    "tags": [
+      {
+        "id": "tg_mine"
+      },
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_heat_pump_cryo",
+    "name": "HEAT PUMP",
+    "origin": {
+      "type": "Class",
+      "name": "CRYO",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Cryo makes a tech attack against a character within Sensors. On a success, the target loses {2/3/4} heat. If this drops it out of the danger zone, it is also Impaired until the end of its next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [2,4,6]
+  },
+  {
+    "id": "ubrg_npcf_ice_nine_cryo",
+    "name": "ICE NINE",
+    "origin": {
+      "type": "Class",
+      "name": "CRYO",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever the Cryo causes a target to be Slowed or Immobilized, one other target adjacent to the first must pass an Engineering save or suffer the same condition.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_ice_wall_cryo",
+    "name": "ICE WALL",
+    "origin": {
+      "type": "Class",
+      "name": "CRYO",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Cryo fills a line 5 area within its Sensors with ice, each square of which is 2 squares high, has evasion 5, and 10 HP. The wall remains until the beginning of the Cryo’s next turn. Any character in one of the squares when the wall forms is pushed aside into an adjacent space and must pass an Engineering save or be Slowed until the end of its next round.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ]
+  },
+
+  {
+    "id": "ubrg_npcf_desolation_rad_beamer_despoiler",
+    "name": "'DESOLATION' RAD-BEAMER",
+    "origin": {
+      "type": "Class",
+      "name": "DESPOILER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Main Cannon",
+    "attack_bonus": [2,4,6],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [2,3,4]
+      },
+      {
+        "type": "Heat",
+        "damage": [2,3,4]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "on_hit": "All spaces the target currently occupies become dangerous terrain for the remainder of the scene, dealing energy damage."
+  },
+  {
+    "id": "ubrg_npcf_defile_despoiler",
+    "name": "DEFILE",
+    "origin": {
+      "type": "Class",
+      "name": "DESPOILER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "All spaces in either burst 3 of the Despoiler or in a line 5 area extending from the Despoiler’s position become dangerous terrain for the remainder of the scene, dealing Energy damage.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_radiological_shielding_despoiler",
+    "name": "RADIOLOGICAL SHIELDING",
+    "origin": {
+      "type": "Class",
+      "name": "DESPOILER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Despoiler has resistance to energy and Burn damage, and is immune to energy and Burn damage inflicted by dangerous terrain.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_extreme_energy_signature_despoiler",
+    "name": "EXTREME ENERGY SIGNATURE",
+    "origin": {
+      "type": "Class",
+      "name": "DESPOILER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Despoiler cannot hide under any circumstances, although it benefits from the protective advantages of cover and invisibility as normal.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_blanket_emissions_despoiler",
+    "name": "BLANKET EMISSIONS",
+    "origin": {
+      "type": "Class",
+      "name": "DESPOILER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When a character attempts an Engineering check to avoid taking energy or Burn damage from dangerous terrain while within 10 of the Despoiler, they suffer 1 Difficulty on the roll.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_du_pyrophoric_high_velocity_cannon_despoiler",
+    "name": "DU/PYROPHORIC HIGH-VELOCITY CANNON",
+    "origin": {
+      "type": "Class",
+      "name": "DESPOILER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_loading"
+      },
+      {
+        "id": "tg_ordnance"
+      },
+      {
+        "id": "tg_ap"
+      }
+    ],
+    "weapon_type": "Heavy Cannon",
+    "attack_bonus": [1,2,3],
+    "accuracy": [1,1,1],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [4,5,6]
+      },
+      {
+        "type": "Burn",
+        "damage": [1,2,3]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 15
+      }
+    ],
+    "on_hit": "All spaces the target currently occupies become dangerous terrain for the remainder of the scene, dealing Burn damage."
+  },
+  {
+    "id": "ubrg_npcf_micro_nuke_despoiler",
+    "name": "MICRO-NUKE",
+    "origin": {
+      "type": "Class",
+      "name": "DESPOILER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Choose a space within range 10 and line of sight. The Despoiler fires a micro-nuke at the target, creating a burst 3 area centred on that space. All characters caught within take {16/20/24} explosive damage, or half on a successful Agility save. All spaces within the area then become dangerous terrain for the remainder of the scene, dealing energy damage. A Despoiler with this system triggers the radiological or anomalous energy alarms for all characters in the scene as soon as it arrives; they immediately become aware of its presence and that it possesses this system.",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      },
+      {
+        "id": "tg_ordnance"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_salt_the_earth_despoiler",
+    "name": "SALT THE EARTH",
+    "origin": {
+      "type": "Class",
+      "name": "DESPOILER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "All dangerous terrain that the Despoiler creates lasts indefinitely, rather than until the end of the scene.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_trail_of_destruction_despoiler",
+    "name": "TRAIL OF DESTRUCTION",
+    "origin": {
+      "type": "Class",
+      "name": "DESPOILER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever the Despoiler moves or boosts, every space it leaves during its movement becomes dangerous terrain until the beginning of the Despoiler’s next turn, dealing Burn damage.",
+    "tags": []
+  },
+
+  {
+    "id": "ubrg_npcf_paradox_entangled_beamer_deviant",
+    "name": "PARADOX-ENTANGLED BEAMER",
+    "origin": {
+      "type": "Class",
+      "name": "DEVIANT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Main Rifle",
+    "attack_bonus": [2,4,6],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [3,4,5]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "on_hit": "This weapon also does {3/4/5} energy damage to the mech controlled by the player seated one space to the left of the target’s player at the table. If the players are not seated next to one another (due to playing a game online, for example), it instead deals the damage to the mech controlled by the player next along the increasing scale of time zones from the target’s player, with further fine distinction sorted via alphabetical name ascending from the target’s player’s name."
+  },
+  {
+    "id": "ubrg_npcf_name_eating_blade_deviant",
+    "name": "NAME-EATING BLADE",
+    "origin": {
+      "type": "Class",
+      "name": "DEVIANT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [2,4,6],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [4,6,8]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": "If a mech is damaged by this weapon, its pilot must roll a <i>Grit</i> save or have one of their Triggers reduced by 2 to a minimum of 0 until they are able to take a rest and repair. If a player character has all their Triggers reduced to 0, a non-player character of importance to them loses all memory or knowledge of who they are and, indeed, never actually met them at all, even though the PC retains memory of the prior series of events."
+  },
+  {
+    "id": "ubrg_npcf_folding_battlespace_deviant",
+    "name": "FOLDING BATTLESPACE",
+    "origin": {
+      "type": "Class",
+      "name": "DEVIANT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The <span class=\"horus--subtle\">Deviant</span> can move off the edge of the battle map. When it does so, it appears at the corresponding point on the opposite edge of the battle map. It can freely move in this way, but cannot attack, use tech actions, deploy objects, or have any other effect over the battle map’s edge to the far side apart from moving itself.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_quantum_fluctuation_larceny_deviant",
+    "name": "QUANTUM FLUCTUATION LARCENY",
+    "origin": {
+      "type": "Class",
+      "name": "DEVIANT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: One <span class=\"horus--subtle\">Deviant</span> within Sensors can immediately steal the value rolled. The player of the character in question counts any roll of that value on any dice, d20 or d6, as a 0, until the <span class=\"horus--subtle\">Deviant</span> is destroyed or the scene ends.",
+    "tags": [],
+    "trigger": "A PC rolls two Accuracy of Difficulty dice at the same time as part of any dice roll, and both those dice come up with the same result."
+  },
+  {
+    "id": "ubrg_npcf_fragile_outcome_thread_realignment_deviant",
+    "name": "FRAGILE OUTCOME-THREAD REALIGNMENT",
+    "origin": {
+      "type": "Class",
+      "name": "DEVIANT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "This optional system can only be selected if the GM has one or more four-sided (d4) or eight-sided (d8) dice available. While the <span class=\"horus--subtle\">Deviant’s</span> HP are at its maximum, all of its allies within range 5 use d8s instead of d6s for Accuracy dice, while all of its enemies within range 5 use d4s instead of d6s for any damage dice they roll.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_hostile_probability_slice_deviant",
+    "name": "HOSTILE PROBABILITY SLICE",
+    "origin": {
+      "type": "Class",
+      "name": "DEVIANT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "This optional system can only be selected if the GM has a deck of cards available. One target player character’s mech within range must pass an Engineering save or the player no longer rolls d20s for any roll, instead drawing cards from a standard deck of 52 cards plus 2 Jokers. Whenever a roll is called for, the player draws a card, using its face value as the result of the dice roll; Jacks count as 11, Queens 12, and Kings 13. An Ace is a natural 20. A Joker is also a natural 20, but the mech must immediately make an Overheating roll, rolling 1 die if it has not lost taken any Reactor Stress thus far. This ability does not actually inflict Reactor Stress and does not change the target’s current heat gauge. As soon as the player draws either an Ace or a Joker, the deck is reshuffled and the player returns to using a d20 as normal. If multiple players are affected by Hostile Probability Slice at the same time, they all draw from the same deck.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_ontological_knife_deviant",
+    "name": "ONTOLOGICAL KNIFE",
+    "origin": {
+      "type": "Class",
+      "name": "DEVIANT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Auxiliary Melee",
+    "attack_bonus": [2,4,6],
+    "accuracy": [1,1,1],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [3,4,5]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": "The damage from this weapon cannot be resisted or reduced in any way. A player character struck by this weapon must pass a <i>Grit</i> save or suffer 1 Difficulty on the next <i>Downtime</i> action roll they take. Should that Downtime action’s roll result in a 9 or less, as well as the usual consequences, the character also has a surprising encounter with an old acquaintance, rival, or lover, who now means them harm or to do them wrong; if a character has no such relationships, an entirely new one is spontaneously born from an unlikely series of events."
+  },
+  {
+    "id": "ubrg_npcf_past_echo_resonance_amplifier_deviant",
+    "name": "PAST-ECHO RESONANCE AMPLIFIER",
+    "origin": {
+      "type": "Class",
+      "name": "DEVIANT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon deals an additional 3 energy damage to characters with no living relatives, characters who are loners, and characters engaged in a quest for vengeance or retribution. It gains 1 Accuracy on attacks against characters who do not know their origins, who suffer amnesia to any significant extent, or who have never known affection of any kind.",
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "weapon_type": "Main Cannon",
+    "attack_bonus": [2,4,6],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [5,7,9]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_predatory_lexicon_deviant",
+    "name": "PREDATORY LEXICON",
+    "origin": {
+      "type": "Class",
+      "name": "DEVIANT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "At the beginning of the scene, the GM secretly writes down a word on a piece of paper and places it face-down, revealing it when a player first says (or types, or writes) that word whether as an in-character comment or an out-of-character comment. Once per round as a reaction when a player says the word in question, any <span class=\"horus--subtle\">Deviants</span> with Predatory Lexicon may immediately teleport up to 5 spaces, as long as their final destination is closer to the character of the player in question than where they started. If they are adjacent to the target at the end of this move, the <span class=\"horus--subtle\">Deviant</span> can immediately attack the target with either a Name-Eating Blade or Ontological Knife.",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      }
+    ]
+  },
+
+  {
+    "id": "ubrg_npcf_heavens_judgement_fists_disciple",
+    "name": "HEAVEN'S JUDGEMENT FISTS",
+    "origin": {
+      "type": "Class",
+      "name": "DISCIPLINE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [2,4,6],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [5,6,7]
+      },
+      {
+        "type": "Heat",
+        "damage": [1,2,3]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": "The target gains the Lock On condition."
+  },
+  {
+    "id": "ubrg_npcf_thought_purging_strike_disciple",
+    "name": "THOUGHT PURGING STRIKE",
+    "origin": {
+      "type": "Class",
+      "name": "DISCIPLE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Disciple makes a tech attack against an adjacent character. On a success, the target takes {1/2/3} heat. Until the end of its next turn, it's e-defence drops to 5 and it gains 2 Difficulty on all tech attacks.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [2,4,6]
+  },
+  {
+    "id": "ubrg_npcf_agile_disciple",
+    "name": "AGILE",
+    "origin": {
+      "type": "Class",
+      "name": "DISCIPLE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Disciple ignores engagement, difficult terrain, and can climb without penalty.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_counterattack_disciple",
+    "name": "COUNTERATTACK",
+    "origin": {
+      "type": "Class",
+      "name": "DISCIPLE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Disciple can immediately make an attack with its Heaven's Judgement Fists in retaliation if the enemy is within threat range, then may move {1/2/3} spaces without triggering overwatch attacks.",
+    "tags": [],
+    "trigger": "An enemy strikes the Disciple with an attack."
+  },
+  {
+    "id": "ubrg_npcf_conflagration_stoking_prana_disciple",
+    "name": "CONFLAGRATION-STOKING PRANA",
+    "origin": {
+      "type": "Class",
+      "name": "DISCIPLE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Disciple makes a tech attack against an adjacent character. On a success, the target takes {3/4/5} heat and 1 Burn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [2,4,6],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_core_shattering_palm_disciple",
+    "name": "CORE-SHATTERING PALM",
+    "origin": {
+      "type": "Class",
+      "name": "DISCIPLE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "One target adjacent to the Disciple must pass an Engineering save or immediately roll an Overheating check, rolling 1 die if it has not yet suffered any Reactor Stress. This ability does not actually inflict Reactor Stress and does not change the target’s current heat gauge.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_cascade_of_light_disciple",
+    "name": "CASCADE OF LIGHT",
+    "origin": {
+      "type": "Class",
+      "name": "DISCIPLE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever the Disciple moves for any reason, it becomes Invisible until completing its movement and any reactions that trigger from it.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_flurry_of_calculations_disciple",
+    "name": "FLURRY OF CALCULATIONS",
+    "origin": {
+      "type": "Class",
+      "name": "DISCIPLE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The first time in a turn the Disciple hits with its Heaven’s Judgement Fists, it may make one additional attack with the weapon against a different target within reach.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_purify_code_and_form_disciple",
+    "name": "PURIFY CODE-AND-FORM",
+    "origin": {
+      "type": "Class",
+      "name": "DISCIPLE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Disciple may remove a single condition from itself",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_protocol"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ]
+  },
+
+  {
+    "id": "ubrg_npcf_arc_projector_electro",
+    "name": "ARC PROJECTOR",
+    "origin": {
+      "type": "Class",
+      "name": "ELECTRO",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Heavy CQB",
+    "attack_bonus": [2,4,6],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [4,5,6]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": "The Electro can make a new, secondary attack against another character within range 3 of the first. This effect can chain up to three times, but the weapon can only hit a particular character once with each firing."
+  },
+  {
+    "id": "ubrg_npcf_directed_overload_amplifiers_electro",
+    "name": "DIRECTED OVERLOAD AMPLIFIERS",
+    "origin": {
+      "type": "Class",
+      "name": "ELECTRO",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Electro places an overload amplifier in a free space within Range 5. The generator is a size ½ object with evasion 5 and {8/12/16} HP, and has immunity to energy damage. An enemy who starts their turn adjacent to the Electro or to an amplifier, or who moves adjacent to either, suffers energy damage equal to the number of amplifiers within range 5 of their location. The Electro’s attacks also deal an additional amount of energy damage equal to the number of amplifiers within range 5 of its location. The Electro can place up to five amplifiers at a time; once five are present in the scene, an existing one is destroyed whenever the Electro places a new one.",
+    "tags": [
+      {
+        "id": "tg_deployable"
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_earthed_electro",
+    "name": "EARTHED",
+    "origin": {
+      "type": "Class",
+      "name": "ELECTRO",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Electro has resistance to energy damage and external sources of heat.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_overload_discharge_electro",
+    "name": "OVERLOAD DISCHARGE",
+    "origin": {
+      "type": "Class",
+      "name": "ELECTRO",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Electro unleashes a disruptive discharge of electricity into an adjacent target. The target must pass a Systems save, with additional Difficulty equal to the number of overload amplifiers within range 5 of the Electro, or have a single system of the Electro’s choice disabled until the end of the scene.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_burnout_electro",
+    "name": "BURNOUT",
+    "origin": {
+      "type": "Class",
+      "name": "ELECTRO",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Overload amplifiers also deal damage to enemies who make tech attacks within range 5 of one or more of them.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_lightning_scourge_electro",
+    "name": "LIGHTNING SCOURGE",
+    "origin": {
+      "type": "Class",
+      "name": "ELECTRO",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "An enemy struck with this weapon counts as {1/2/3} overload amplifiers for the purpose of calculating other overload amplifiers’ effects when within range 5 of them. This effect lasts until the end of the Electro’s next turn.",
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [3,4,5]
+      },
+      {
+        "type": "Heat",
+        "damage": [1,2,3]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_scramblepulse_protocols_electro",
+    "name": "SCRAMBLEPULSE PROTOCOLS",
+    "origin": {
+      "type": "Class",
+      "name": "ELECTRO",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Overload amplifiers can engage enemies.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_static_bridge_electro",
+    "name": "STATIC BRIDGE",
+    "origin": {
+      "type": "Class",
+      "name": "ELECTRO",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Instead of jumping to another character within range 3 of the first, the arc projector’s secondary attacks can jump to any character who is within range 5 of one or more overload amplifiers.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_stormpod_launcher_electro",
+    "name": "STORMPOD LAUNCHER",
+    "origin": {
+      "type": "Class",
+      "name": "ELECTRO",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Targets damaged by this weapon must pass a Systems save or become Impaired until the end of their next turn. After resolving the stormpod launcher’s attack, place an overload amplifier in the nearest free space to the center of the blast. This allows the Electro to field a total of 6 amplifiers.",
+    "tags": [
+      {
+        "id": "tg_loading"
+      },
+      {
+        "id": "tg_arcing"
+      }
+    ],
+    "weapon_type": "Main Launcher",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [2,3,4]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      },
+      {
+        "type": "Blast",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
+  },
+
+  {
+    "id": "ubrg_npcf_devourer_nexus_ghul",
+    "name": "DEVOURER NEXUS",
+    "origin": {
+      "type": "Class",
+      "name": "GHUL",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_smart"
+      },
+      {
+        "id": "tg_seeking"
+      }
+    ],
+    "weapon_type": "Main Nexus",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Burn",
+        "damage": [2,3,4]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 6
+      }
+    ],
+    "on_hit": "Targets damaged by this weapon cannot repair damage to their HP with the Stabilize action until the end of their next turn."
+  },
+  {
+    "id": "ubrg_npcf_vivisection_close_combat_suite_ghul",
+    "name": "VIVISECTION CLOSE COMBAT SUITE",
+    "origin": {
+      "type": "Class",
+      "name": "GHUL",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Targets damaged by this weapon must pass an Engineering save or lose 1 Repair; if they fail, the Ghul can immediately heal itself for {3/4/5} HP. A target cannot lose more than 2 Repairs to Vivisection Close Combat Suites per scene.",
+    "tags": [
+      {
+        "id": "tg_ap"
+      }
+    ],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [2,4,6],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [2,3,4]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_cannibalize_ghul",
+    "name": "CANNIBALIZE",
+    "origin": {
+      "type": "Class",
+      "name": "GHUL",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Ghul inflicts Structure damage on an enemy with a melee weapon, or when it ends its turn adjacent to a destroyed mech, it gains +2 armour until the beginning of its next turn.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_chassis_recovery_systems_ghul",
+    "name": "CHASSIS RECOVERY SYSTEMS",
+    "origin": {
+      "type": "Class",
+      "name": "GHUL",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ghul does not treat destroyed mechs as difficult terrain. At the beginning of its turn, it can choose an adjacent destroyed mech of up to Size 2 and drag the object with it during its move, depositing it into a free space at the end of its movement.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_climber_ghul",
+    "name": "CLIMBER",
+    "origin": {
+      "type": "Class",
+      "name": "GHUL",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ghul can climb any surface with no penalty and walk or stand on such surfaces as if they were flat ground, even overhanging or vertical surfaces.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_engine_evisceration_ghul",
+    "name": "ENGINE EVISCERATION",
+    "origin": {
+      "type": "Class",
+      "name": "GHUL",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ghul forces an adjacent target to pass a Hull save or become Stunned until the end of its next turn. A character can only be Stunned by an Engine Evisceration once per scene.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_scavenger_mine_ghul",
+    "name": "SCAVENGER MINE",
+    "origin": {
+      "type": "Class",
+      "name": "GHUL",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ghul may deploy a mine into an adjacent space. The mine is invisible and untargetable but can be revealed by a character looking for it with a successful Systems check if within Sensors. When a character moves over the mine and triggers it, they must pass an Engineering save or lose 1 Repair.",
+    "tags": [
+      {
+        "id": "tg_mine"
+      },
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_sever_cooling_systems_ghul",
+    "name": "SEVER COOLING SYSTEMS",
+    "origin": {
+      "type": "Class",
+      "name": "GHUL",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ghul can inflict critical hits with melee attacks. When it does so, it deals an additional {2/3/4} heat damage.",
+    "tags": []
+  },
+
+  {
+    "id": "ubrg_npcf_mass_impact_doru_hoplite",
+    "name": "MASS IMPACT DORU",
+    "origin": {
+      "type": "Class",
+      "name": "HOPLITE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [0,0,0],
+    "accuracy": [1,2,3],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [5,6,7]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": "Target becomes Immobilized until the end of the current turn."
+  },
+  {
+    "id": "ubrg_npcf_energyweave_aspis_hoplite",
+    "name": "ENERGYWEAVE ASPIS",
+    "origin": {
+      "type": "Class",
+      "name": "HOPLITE",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Allies adjacent to the Hoplite gain 1 armour, to a maximum of 4. This benefit ends immediately if they are no longer adjacent to the Hoplite for any reason. A character can only benefit from one Hoplite’s energyweave aspis as a time.",
+    "tags": [
+      {
+        "id": "tg_shield"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_hoplite_vanguard_hoplite",
+    "name": "HOPLITE VANGUARD",
+    "origin": {
+      "type": "Class",
+      "name": "HOPLITE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Hoplite’s overwatch attacks with melee weapons are triggered by enemies leaving its Threat, regardless of whether they started their turn there.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_melee_domination_hoplite",
+    "name": "MELEE DOMINATION",
+    "origin": {
+      "type": "Class",
+      "name": "HOPLITE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Enemies engaged by the Hoplite suffer 2 Difficulty from engagement when firing ranged weapons, rather than the usual 1 Difficulty. Once per round as a reaction, when an engaged enemy makes a ranged attack that does not include the Hoplite as a target, the Hoplite may make an attack against that enemy with a melee weapon.",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_achilles_reactive_plating_hoplite",
+    "name": "ACHILLES REACTIVE PLATING",
+    "origin": {
+      "type": "Class",
+      "name": "HOPLITE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "After the Hoplite takes damage from an attack, it gains resistance to that damage type. This lasts until the next time it takes damage from an attack, whereupon the system now gives it resistance to the latest damage type.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_akontia_light_rocket_pod_hoplite",
+    "name": "AKONTIA LIGHT ROCKET POD",
+    "origin": {
+      "type": "Class",
+      "name": "HOPLITE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Once per round, the Hoplite may fire this weapon at a target within range as a reaction to that enemy making a ranged attack that does not include the Hoplite as a target. This weapon can also be fired normally as part of a Skirmish or Barrage action by the Hoplite.",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "weapon_type": "Auxiliary Launcher",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [3,4,5]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      },
+      {
+        "type": "Blast",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_hades_class_nhp_hoplite",
+    "name": "HADES-CLASS NHP",
+    "origin": {
+      "type": "Class",
+      "name": "HOPLITE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Hoplite gains the AI tag. Once per round when it deals Structure damage to an enemy with a melee weapon, it may immediately make an attack against that enemy with a melee weapon as a reaction. If HADES unshackles, on its turn the Hoplite will move towards and attack the most damaged enemy it can see until the NHP is reshackled.",
+    "tags": [
+      {
+        "id": "tg_ai"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_kinetic_driver_xiphos_hoplite",
+    "name": "KINETIC DRIVER XIPHOS",
+    "origin": {
+      "type": "Class",
+      "name": "HOPLITE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "When the Hoplite inflicts Knockback with this weapon, it may immediately move up to two spaces ignoring engagement, as long as the movement ends with it adjacent to the target of this attack.",
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": 2
+      }
+    ],
+    "weapon_type": "Auxiliary Melee",
+    "attack_bonus": [2,4,6],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [2,3,4]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_rank_discipline_hoplite",
+    "name": "RANK DISCIPLINE",
+    "origin": {
+      "type": "Class",
+      "name": "HOPLITE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Hoplite gains 1 Accuracy on all its attacks, checks, and saves as long as it is adjacent to at least one friendly mech.",
+    "tags": []
+  },
+  
+  {
+    "id": "ubrg_npcf_shock_longarm_hunter",
+    "name": "SHOCK LONGARM",
+    "origin": {
+      "type": "Class",
+      "name": "HUNTER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "weapon_type": "Main Rifle",
+    "attack_bonus": [2,4,6],
+    "accuracy": [1,1,1],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [3,4,5]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 15
+      }
+    ],
+    "on_hit": "Target becomes Impaired until the end of their next turn."
+  },
+  {
+    "id": "ubrg_npcf_chameleon_hive_node_hunter",
+    "name": "CHAMELEON HIVE-NODE",
+    "origin": {
+      "type": "Class",
+      "name": "HUNTER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Hunter and allies within range 5 gain 2 Accuracy on Agility checks to avoid being discovered by the Search action. When the Hunter ends its turn hidden, as a reaction it may immediately make a Quick Tech action to apply the Lock On condition to a valid target.",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_predator_prey_guidance_systems_hunter",
+    "name": "PREDATOR-PREY GUIDANCE SYSTEMS",
+    "origin": {
+      "type": "Class",
+      "name": "HUNTER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Hunter or an ally within range 5 makes an attack against an enemy when hidden, they gain +1 Accuracy on the attack roll.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_wayfinder_analysis_protocols_hunter",
+    "name": "WAYFINDER ANALYSIS PROTOCOLS",
+    "origin": {
+      "type": "Class",
+      "name": "HUNTER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Hunter and {1/2/3} allies within Sensors ignore difficult terrain, take no damage from dangerous terrain, can climb at their normal movement rate without penalty, and when benefiting from soft cover impose an additional +1 Difficulty on ranged attacks against them. These effects last until the end of the hunter’s next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_ambush_tactics_hunter",
+    "name": "AMBUSH TACTICS",
+    "origin": {
+      "type": "Class",
+      "name": "HUNTER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Hunter or an ally with range 5 can make an overwatch attack against the searching enemy who discovered them, subject to the usual line of sight and range limitations on their weaponry.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "The Hunter or an ally with range 5 are discovered while being hidden."
+  },
+  {
+    "id": "ubrg_npcf_fractal_camo_cloak_hunter",
+    "name": "FRACTAL CAMO CLOAK",
+    "origin": {
+      "type": "Class",
+      "name": "HUNTER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Hunter is Invisible.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_mechbreaker_trap_hunter",
+    "name": "MECHBREAKER TRAP",
+    "origin": {
+      "type": "Class",
+      "name": "HUNTER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Hunter may deploy a mine into an adjacent space. The mine is invisible and untargetable but can be revealed by a character looking for it with a successful Systems check if within Sensors. When a character moves over the trap, they are Shredded until the end of their next turn, and must pass a Hull save or become Stunned until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_mine"
+      },
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_nightfall_hunter",
+    "name": "NIGHTFALL",
+    "origin": {
+      "type": "Class",
+      "name": "HUNTER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "A target within Sensors immediately becomes hidden, even if they are not currently in cover. If they aren’t in cover, they can remain hidden as long as they do not move at all for any reason, or take any action.",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      },
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "tech_type": "Full"
+  },
+  {
+    "id": "ubrg_npcf_only_where_i_tread_hunter",
+    "name": "ONLY WHERE I TREAD",
+    "origin": {
+      "type": "Class",
+      "name": "HUNTER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Hunter becomes Slowed until the beginning of its next turn. Its movement this turn will not trigger any mines or other proximity devices that it moves adjacent to or over. Until the beginning of the Hunter’s next turn, allies who move through the exact spaces the Hunter has moved through will also not trigger any mines or proximity devices from that movement.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+
+  {
+    "id": "ubrg_npcf_cut_the_threads_masquer",
+    "name": "CUT THE THREADS",
+    "origin": {
+      "type": "Class",
+      "name": "MASQUER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Masquer makes a tech attack against a character within Sensors. On a success, the target takes {1/2/3} heat and is knocked prone. If the target is already prone, they become Jammed until the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [1,2,3]
+  },
+  {
+    "id": "ubrg_npcf_pull_the_strings_masquer",
+    "name": "PULL THE STRINGS",
+    "origin": {
+      "type": "Class",
+      "name": "MASQUER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "{1/2/3} allies within range immediately rise from prone or end the Slowed or Immobilized conditions as a Free Action. They may then immediately move 2 spaces, obeying engagement and triggering reactions as normal.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_bolstering_masques_masquer",
+    "name": "BOLSTERING MASQUES",
+    "origin": {
+      "type": "Class",
+      "name": "MASQUER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "{1/2/3} allies within Sensors gain +2 Accuracy on their next skill check or save of any kind before the end of their next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_shifting_masks_masquer",
+    "name": "SHIFTING MASKS",
+    "origin": {
+      "type": "Class",
+      "name": "MASQUER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Masquer may let that ally act on its turn as if it were not Stunned; however, instead of its own actions, it instead chooses from the systems and actions that the Masquer has available, and does not have access to its own weapon systems. It also uses the Masquer’s evasion until the Stunned condition ends, rather than having an evasion of 5.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "A Stunned ally within range 10 begins its turn."
+  },
+  {
+    "id": "ubrg_npcf_cloak_of_masques_masquer",
+    "name": "CLOAK OF MASQUES",
+    "origin": {
+      "type": "Class",
+      "name": "MASQUER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Masquer swaps its evasion or e-defence values with a target ally within Sensors until the end of the Masquer’s next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_dance_of_the_masques_masquer",
+    "name": "DANCE OF THE MASQUES",
+    "origin": {
+      "type": "Class",
+      "name": "MASQUER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Allies targeted with Bolstering Masques also cannot be knocked back, pushed, or pulled by other actors until the end of their next turn.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_faceless_illogic_package_masquer",
+    "name": "FACELESS ILLOGIC PACKAGE",
+    "origin": {
+      "type": "Class",
+      "name": "MASQUER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Masquer deploys a mine in a free space within range 3. The mine is invisible and untargetable but can be revealed or disarmed via the usual rules for mines. The mine triggers when any hostile character passes over or adjacent to its space, forcing a Systems save for any character in a burst 1 area around it. Failure causes the enemy’s target recognition systems to be overwritten, exchanging enemies and allies for the effects of their systems and abilities. Whenever they attack a target, that target’s evasion and e-defence are raised to 16 unless they are already higher. These effects last until the end of the scene, or until the target takes a Full Action and passes a Systems check to purge the Masquer’s code.",
+    "tags": [
+      {
+        "id": "tg_mine"
+      },
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_mirror_match_masquer",
+    "name": "MIRROR MATCH",
+    "origin": {
+      "type": "Class",
+      "name": "MASQUER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Masquer makes a tech attack against a character within Sensors. On a success, the targeted enemy takes {1/2/3} heat and treats the evasion and e-defence of any character it attacks as being the same as its own, if its own defensive value is higher than the victim’s normal value. Every time the target makes an attack against another character, the Masquer may also immediately move 1 square, ignoring engagement and reactions. This effect lasts until the end of the Masquer’s next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [1,2,3]
+  },
+  {
+    "id": "ubrg_npcf_total_override_masque_engram_masquer",
+    "name": "TOTAL OVERRIDE MASQUE ENGRAM",
+    "origin": {
+      "type": "Class",
+      "name": "MASQUER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Masquer overrides the ally's collapsing systems with an invasive flash-copy of its own. The ally’s HPs refresh and it remains active until the end of its next turn, whereupon it is destroyed for good; it also is destroyed if its HP total is reduced to 0. An ally cannot be the target of Total Override Masque Engram more than once.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ],
+    "trigger": "An ally within Sensors is destroyed."
+  },
+
+  {
+    "id": "ubrg_npcf_electric_ghosts_medium",
+    "name": "ELECTRIC GHOSTS",
+    "origin": {
+      "type": "Class",
+      "name": "MEDIUM",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Medium makes a tech attack against a character within Sensors. On a success, the target takes {2/3/4} heat and moves {1/2/3} spaces under the Medium’s control, obeying engagement as normal but not provoking overwatch or other reactions. If the target ends this movement adjacent to another character, the Medium can force that character to pass a Systems save or suffer {1/2/3} energy damage and move {1/2/3} spaces as with the original target, and can continue to chain this effect to newly adjacent characters onto a total of three additional victims. A character cannot be targeted by Electric Ghosts in this way more than once in a turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [2,4,6]
+  },
+  {
+    "id": "ubrg_npcf_infomuzzle_medium",
+    "name": "INFOMUZZLE",
+    "origin": {
+      "type": "Class",
+      "name": "MEDIUM",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Medium makes a tech attack against a character within Sensors. On a success, the target takes {2/3/4} heat and, until the end of its next turn, cannot benefit from the Shredded or Lock On conditions on targets it attacks, although it still consumes the Lock On condition as normal with such an attack. Additionally, if the target has any NHP AIs, they become Infomuzzled; they cannot unshackle, but they also cannot activate or offer the target any benefits. The Infomuzzle on NHPs remains permanently until removed by the pilot via a full action and succeeding at a systems check to clear its code. If the pilot has not cleared the Infomuzzle by the end of the scene, it settles in more deeply; a specialist or technician who can work on a mech during a rest can attempt a Systems check to remove it at the end of the rest period.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [2,4,6]
+  },
+  {
+    "id": "ubrg_npcf_revival_nanites_medium",
+    "name": "REVIVAL NANITES",
+    "origin": {
+      "type": "Class",
+      "name": "MEDIUM",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Medium discharges a swarm of nanites into a burst 2 area around itself. Any destroyed mechs that are at least partly within this area are infested and reactivated as automata with the Grunt template and the AI tag. Automata retain their original form’s Size, have evasion/e-defence of {6/7/8}, {-1/+0/+1} modifiers to every HASE skill, a Speed of {3/4/4}, and Sensors of 5. They must remain within the Medium’s Sensors; if forced to leave it for any reason, they are immediately destroyed. Destroyed automata do not leave wrecks that the Medium can revive again. Pilots still inside a wreck that is revived as an automaton can still dismount as normal but have no control over the automaton. NHPs remain conscious within their chassis but are equally unable to take action. Automata are unable to use their former weapon systems but can still ram, grapple, make improvised attacks, or use the following weapon profile for the nanite hives now growing through them like artificial tumors.",
+    "tags": [
+      {
+          "id": "tg_recharge",
+          "val": 4
+      },
+      {
+          "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_medium_nexus_medium",
+    "name": "MEDIUM NEXUS",
+    "origin": {
+      "type": "Class",
+      "name": "MEDIUM",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_smart"
+      },
+      {
+        "id": "tg_seeking"
+      },
+      {
+        "id": "tg_inaccurate"
+      }
+    ],
+    "weapon_type": "Main Nexus",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [2,3,4]
+      },
+      {
+        "type": "Burn",
+        "damage": [2,2,2]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_ai_sepulchre_medium",
+    "name": "AI SEPULCHRE",
+    "origin": {
+      "type": "Class",
+      "name": "MEDIUM",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Medium has the AI tag and gains 1 Accuracy on tech attacks against targets that have the AI tag. If the Medium’s AI becomes unshackled, it attempts to close as quickly as possible with the nearest mech with the AI tag, grapple it and attack it with improvised attacks. If no such targets exist in the scene, it will instead attempt to flee.",
+    "tags": [
+      {
+        "id": "tg_ai"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_advanced_automata_medium",
+    "name": "ADVANCED AUTOMATA",
+    "origin": {
+      "type": "Class",
+      "name": "MEDIUM",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Medium’s automata have Speed {4/5/5} and are no longer leashed to its Sensors.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_automatic_cycling_muzzle_medium",
+    "name": "AUTOMATIC CYCLING MUZZLE",
+    "origin": {
+      "type": "Class",
+      "name": "MEDIUM",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Medium hits a target with NHP AIs with Infomuzzle, it muzzles the NHPs and also immediately cycles them. This is usually narrative in effect, but in some cases may radically change the behaviour of cascading NHPs.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_ghost_rider_medium",
+    "name": "GHOST RIDER",
+    "origin": {
+      "type": "Class",
+      "name": "MEDIUM",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Medium successfully hits a target with Electric Ghosts, it may tunnel a GHOST-class AI into the target’s systems. This AI remains hidden on the target once the current scene ends, and once per scene can make a tech attack of +2 vs e-defence/tier against the target without breaking its concealment; doing so immediately gives the Medium’s pilot information as to where the target is, their immediate surroundings, and the target’s current state. The GHOST can be discovered by a systems inspection, taking one hour and succeeding at a systems check. Some particularly advanced GHOSTs can jump off their host and burrow into other nearby systems subsequently during the narrative.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_infestation_hive_medium",
+    "name": "INFESTATION HIVE",
+    "origin": {
+      "type": "Class",
+      "name": "MEDIUM",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Medium places an infestation hive in an adjacent space. The hive is a deployable with 10 HP, evasion/e-defence 5, and Sensors 10. At the beginning of the Medium’s turn, the hive emits a blast 2 pulse that functions as per the Medium’s Revival Nanites. Automata treat the hive’s Sensors as if it were the Medium’s for the purposes of where they can move without being destroyed.",
+    "tags": [
+      {
+        "id": "tg_deployable"
+      },
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_reactor_knell_medium",
+    "name": "REACTOR KNELL",
+    "origin": {
+      "type": "Class",
+      "name": "MEDIUM",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Medium makes a tech attack against a character within Sensors. On a success, the target takes {2/3/4} heat, and the next time before the end of the Medium’s next turn the target takes an Overheating check, it rolls an extra d6.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [2,4,6]
+  },
+
+  {
+    "id": "ubrg_npcf_rock_grinder_miner",
+    "name": "ROCK GRINDER",
+    "origin": {
+      "type": "Class",
+      "name": "MINER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon deals 10 AP kinetic damage to objects and terrain.",
+    "tags": [
+      {
+        "id": "tg_ap"
+      }
+    ],
+    "weapon_type": "Heavy Melee",
+    "attack_bonus": [1, 2, 3],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [5, 7, 9]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": "Prone or Stunned targets also become Shredded until the end of their next turn."
+  },
+  {
+    "id": "ubrg_npcf_mining_laser_miner",
+    "name": "MINING LASER",
+    "origin": {
+      "type": "Class",
+      "name": "MINER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {}
+    ],
+    "weapon_type": "Main Cannon",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [3,4,5]
+      },
+      {
+        "type": "Burn",
+        "damage": [1,1,1]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 12
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_tunneller_miner",
+    "name": "TUNNELLER",
+    "origin": {
+      "type": "Class",
+      "name": "MINER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Miner can tunnel into the ground. While tunnelling, it counts as Invisible, ignores all obstructions and can freely pass through all characters above ground. It can take no other actions than to move, boost, or emerge as a Quick Action. When it emerges, it must have a free space to emerge into, ceasing to tunnel and forcing all characters adjacent to that space to pass a Hull save or be knocked prone.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_bulldozer_miner",
+    "name": "BULLDOZER",
+    "origin": {
+      "type": "Class",
+      "name": "MINER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Miner finishes a boost, it may deal 10 AP kinetic damage to a single adjacent object or piece of terrain. One adjacent enemy must also succeed at a Hull save or be knocked back 1 space and knocked prone.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_collapse_plating_miner",
+    "name": "COLLAPSE PLATING",
+    "origin": {
+      "type": "Class",
+      "name": "MINER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Miner has resistance to kinetic damage.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_foundry_blaster_miner",
+    "name": "FOUNDRY BLASTER",
+    "origin": {
+      "type": "Class",
+      "name": "MINER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ],
+    "weapon_type": "Main CQB",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Burn",
+        "damage": [2,2,2]
+      },
+      {
+        "type": "Heat",
+        "damage": [1,2,3]
+      }
+    ],
+    "range": [
+      {
+        "type": "Burst",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_knocker_code_invasion_miner",
+    "name": "KNOCKER CODE INVASION",
+    "origin": {
+      "type": "Class",
+      "name": "MINER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Medium makes a tech attack against a character within Sensors. On a success, the target gains Lock On. At the beginning of their next turn, they gain Lock On again if they no longer have it, and must pass a Systems save or continue to gain Lock On at the beginning of each turn until they successfully pass this save.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [1,2,3]
+  },
+  {
+    "id": "ubrg_npcf_pulverizer_charge_miner",
+    "name": "PULVERIZER CHARGE",
+    "origin": {
+      "type": "Class",
+      "name": "MINER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Miner deploys a mine in a free space within range 3. The mine is invisible and untargetable but can be revealed or disarmed via the usual rules for mines. The mine does not detonate by proximity; instead, the Miner activates it with a Quick Action, dealing 10 AP explosive damage to any objects or terrain adjacent to it and turning its space and any clear adjacent spaces into difficult terrain. Characters on or adjacent to the mine must pass a Hull save or be knocked prone. Burrowing or tunnelling targets in the area are forced to the surface automatically and take {5/7/9} explosive damage.",
+    "tags": [
+      {
+        "id": "tg_mine"
+      },
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ]
+  },
+
+  {
+    "id": "ubrg_npcf_rival_grand_blade_paragon",
+    "name": "‘RIVAL’ GRAND BLADE",
+    "origin": {
+      "type": "Class",
+      "name": "PARAGON",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_ap"
+      }
+    ],
+    "weapon_type": "Heavy Melee",
+    "attack_bonus": [1, 2, 3],
+    "accuracy": [1,1,1],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [6, 8, 10]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_light_machine_gun_paragon",
+    "name": "LIGHT MACHINE GUN MOUNTS",
+    "origin": {
+      "type": "Class",
+      "name": "PARAGON",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon can attack 1-2 characters at a time",
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": 1
+      }
+    ],
+    "weapon_type": "Auxiliary Rifle",
+    "attack_bonus": [2,4,6],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [2,3,4]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_seek_challenger_paragon",
+    "name": "SEEK CHALLENGER",
+    "origin": {
+      "type": "Class",
+      "name": "PARAGON",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Paragon makes a tech attack against a character within Sensors. On a success, the target must pass a Systems save or become marked by the Paragon. While marked, it suffers 1 Difficulty on attacks that do not include the Paragon as a target, and the Paragon gains 1 Accuracy on all overwatch attacks against the target. Additionally, the Paragon can ignore all engagement from characters other than the marked target. This effect lasts until the end of the scene, until the Paragon uses this Quick Tech successfully and acquires a new target, or until the target takes a Quick Action and passes a Systems save to purge the code from its mech.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [2,4,6],
+    "accuracy": [1,1,1]
+  },
+  {
+    "id": "ubrg_npcf_lunge_paragon",
+    "name": "LUNGE",
+    "origin": {
+      "type": "Class",
+      "name": "PARAGON",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Paragon may move up to its Speed after the target, ignoring engagement and reactions. It must end this movement as close as possible to the final position of the marked target’s own movement.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "A target marked by Seek Challenger moves out of the threat range of the Paragon."
+  },
+  {
+    "id": "ubrg_npcf_challenge_all_comers_paragon",
+    "name": "CHALLENGE ALL-COMERS",
+    "origin": {
+      "type": "Class",
+      "name": "PARAGON",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Paragon uses its Seek Challenger Quick Tech, it can instead target all enemies within range 5. Marks placed on enemies in this way last until the beginning of the Paragon’s next turn.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_combat_master_paragon",
+    "name": "COMBAT MASTER",
+    "origin": {
+      "type": "Class",
+      "name": "PARAGON",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Paragon may immediately inflict Knockback 3 on the target, force them to pass a Hull save or be knocked prone, or make a grapple attack against them.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "The Paragon hits with a melee attack."
+  },
+  {
+    "id": "ubrg_npcf_en_garde_paragon",
+    "name": "EN GARDE",
+    "origin": {
+      "type": "Class",
+      "name": "PARAGON",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Paragon can activate Seek Challenger as a Full Tech instead of a Quick Tech. If it does so, it inflicts 2 Difficulty on the target’s attacks that don’t include it as a target instead of 1, inflicts 2 Difficulty on the Paragon’s own attacks that don’t include the target, and gains 1 Accuracy on all the Paragon’s attacks against the target rather than just overwatch attacks.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_interceptor_shield_paragon",
+    "name": "INTERCEPTOR SHIELD",
+    "origin": {
+      "type": "Class",
+      "name": "PARAGON",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Paragon gains +1 Armour, to a maximum of 4. As a Quick Action, it can assign the shield to another character within 5 instead, giving them the armour bonus until the beginning of the Paragon’s next turn.",
+    "tags": [
+      {
+        "id": "tg_shield"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_one_against_thousands_paragon",
+    "name": "ONE AGAINST THOUSANDS",
+    "origin": {
+      "type": "Class",
+      "name": "PARAGON",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "If the Paragon has two or more enemies within range 2, and no allies, all attacks against it suffer 1 additional Difficulty.",
+    "tags": []
+  },
+
+  {
+    "id": "ubrg_npcf_mortar_battery_pounder",
+    "name": "MORTAR BATTERY",
+    "origin": {
+      "type": "Class",
+      "name": "POUNDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon may attack one or two blast 1 areas. The blast areas cannot overlap. If the Pounder does not move after firing, the weapon’s blast areas linger as zones until the end of its next turn, dealing {4/5/6} explosive damage to any characters who enter or move through them, but not to characters who start their turn within them and move out. If the Pounder is moved for any reason, including Knockback, the zones immediately end.",
+    "tags": [
+      {
+        "id": "tg_inaccurate"
+      },
+      {
+        "id": "tg_arcing"
+      },
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "weapon_type": "Main Cannon",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [6,7,8]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 15
+      },
+      {
+        "type": "Blast",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_adjusted_trajectories_pounder",
+    "name": "ADJUSTED TRAJECTORIES",
+    "origin": {
+      "type": "Class",
+      "name": "POUNDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "If the Pounder’s mortar battery blasts are placed overlapping or adjacent with their blast zones from the preceding turn, the weapon loses its Inaccuracy and gains 1 Accuracy for the attack.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_blast_plating_pounder",
+    "name": "BLAST PLATING",
+    "origin": {
+      "type": "Class",
+      "name": "POUNDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Pounder has resistance to explosive damage.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_emp_shells_pounder",
+    "name": "EMP SHELLS",
+    "origin": {
+      "type": "Class",
+      "name": "POUNDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Pounder’s mortar battery can fire special EMP shells when it attacks, gaining the Ordnance and Smart traits and only able to create one blast rather than two, but the weapon’s damage type becomes energy and all targets hit by the weapon must pass a Systems save or become Stunned until the end of their next turn. When fired in this way, the mortar battery does not leave a lingering damage zone.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 5
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_hand_of_thunder_pounder",
+    "name": "HAND OF THUNDER",
+    "origin": {
+      "type": "Class",
+      "name": "POUNDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Enemies hit by the Pounder’s mortar battery suffer 1 additional Difficulty on all Hull and Agility checks and saves until the end of their next turn.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_incendiary_shells_pounder",
+    "name": "INCENDIARY SHELLS",
+    "origin": {
+      "type": "Class",
+      "name": "POUNDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Pounder’s mortar battery also deals 2 Burn; it does not get this bonus damage with the blast zones that linger after firing.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_light_laser_battery_pounder",
+    "name": "LIGHT LASER BATTERY",
+    "origin": {
+      "type": "Class",
+      "name": "POUNDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Auxiliary Rifle",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [3,4,5]
+      },
+      {
+        "type": "Burn",
+        "damage": [1,1,1]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_shockwave_spectrum_mapping_pounder",
+    "name": "SHOCKWAVE SPECTRUM MAPPING",
+    "origin": {
+      "type": "Class",
+      "name": "POUNDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Enemies within the mortar battery’s zones do not benefit from soft cover or Invisibility until they leave the affected area.",
+    "tags": []
+  },
+
+  {
+    "id": "ubrg_npcf_predator_heavy_drone_system_predator",
+    "name": "PREDATOR HEAVY DRONE SYSTEM",
+    "origin": {
+      "type": "Class",
+      "name": "PREDATOR",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "After firing this weapon, the Predator cannot move for the remainder of the turn. When this weapon is fired, it also places a Raptor hunter-killer UAV in a free space at height 5 above the blast area. The Predator can have a maximum of 3 Raptors deployed. Once 3 are in play, it cannot use this weapon again until a Raptor is destroyed or it uses a Quick Action to recall one of the deployed Raptors to rearm.",
+    "tags": [
+      {
+        "id": "tg_smart"
+      },
+      {
+        "id": "tg_seeking"
+      },
+      {
+        "id": "tg_ordnance"
+      }
+    ],
+    "weapon_type": "Superheavy Nexus",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [5,7,9]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 20
+      },
+      {
+        "type": "Blast",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_raptor_hunter_killer_predator",
+    "name": "RAPTOR HUNTER-KILLER UAV",
+    "origin": {
+      "type": "Class",
+      "name": "PREDATOR",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Raptor Hunter-Killer UAV (Size 1/2, HP {10/14/18}, Evasion 14, E-Defense 10, Tags: Drone)<br>The Raptor drove hovers. At the beginning of the Predator’s turn, all Raptors may immediately fly up to 5 squares. Each Raptor can, as a reaction once per round, attack an enemy within range 10 who starts movement; the Raptor’s weapon has the same profile as the Predator Heavy Drone system, but does not deploy a new Raptor over the blast. The Raptor does not need to remain within the Predator’s Sensors; however, if the Predator is Jammed, no Raptors will move at the beginning of the Predator’s turn and they cannot take reactions.",
+    "tags": [
+      {
+        "id": "tg_drone"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_defence_swarms_predator",
+    "name": "DEFENCE SWARMS",
+    "origin": {
+      "type": "Class",
+      "name": "PREDATOR",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "After firing this weapon, the Predator is treated as being in soft cover until the end of its next turn.",
+    "tags": [
+      {
+        "id": "tg_smart"
+      },
+      {
+        "id": "tg_seeking"
+      }
+    ],
+    "weapon_type": "Main Nexus",
+    "attack_bonus": [1,2,3],
+    "accuracy": [1,1,1],
+    "damage": [
+      {
+        "type": "Burn",
+        "damage": [1,2,3]
+      }
+    ],
+    "range": [
+      {
+        "type": "Burst",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_target_priority_predator",
+    "name": "TARGET PRIORITY",
+    "origin": {
+      "type": "Class",
+      "name": "PREDATOR",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Predator chooses a target within Sensors and chooses one of its deployed Raptor drones; the chosen drone does not need to be within Sensors. The Raptor drone immediately flies up to 5 squares and can then attack the target if the drone is within range 10 of it.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_close_co_ordination_barrage_predator",
+    "name": "CLOSE CO-ORDINATION BARRAGE",
+    "origin": {
+      "type": "Class",
+      "name": "PREDATOR",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Predator’s Raptors can also use their once-per-round reaction when an ally within range 10 begins movement rather than an enemy, giving the ally soft cover until the end of its next turn. When the ally finishes moving, all characters adjacent to it must pass an Agility save or take {4/5/6} explosive damage.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_explosive_decommission_predator",
+    "name": "EXPLOSIVE DECOMMISSION",
+    "origin": {
+      "type": "Class",
+      "name": "PREDATOR",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Predator chooses a single Raptor within Sensors. That Raptor can immediately fly up to 5 spaces, then is destroyed. One target adjacent to it takes {8/10/12} AP explosive damage, or half if they pass an Agility save. A targeted object or piece of terrain instead takes {10/15/20} AP explosive damage.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_eye_in_the_sky_predator",
+    "name": "EYE IN THE SKY",
+    "origin": {
+      "type": "Class",
+      "name": "PREDATOR",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "At the beginning of the Predator’s turn, choose a target within range 10 of a Raptor drone and give it the Lock On condition. The Raptor drone in question loses its reaction for the turn.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_kinetic_kill_flock_predator",
+    "name": "KINETIC KILL FLOCK",
+    "origin": {
+      "type": "Class",
+      "name": "PREDATOR",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_smart"
+      },
+      {
+        "id": "tg_seeking"
+      },
+      {
+        "id": "tg_ap"
+      },
+      {
+        "id": "tg_ordnance"
+      }
+    ],
+    "weapon_type": "Main Nexus",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [5,6,7]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 20
+      }
+    ],
+    "on_hit": "The target must pass a Hull save or be Shredded until the end of its next turn. This weapon’s damage is halved against targets within range 10, and they gain 2 Accuracy on the Hull save."
+  },
+  {
+    "id": "ubrg_npcf_loiter_mode_predator",
+    "name": "LOITER MODE",
+    "origin": {
+      "type": "Class",
+      "name": "PREDATOR",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Predator appears in the scene, it starts with one Raptor drone already deployed in a space within range 10 of it, at height 5.",
+    "tags": []
+  },
+
+  {
+    "id": "ubrg_npcf_overcharged_flame_projector_raider",
+    "name": "OVERCHARGED FLAME PROJECTOR",
+    "origin": {
+      "type": "Class",
+      "name": "RAIDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Soft cover provides no Difficulty to attacks made with this weapon.",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ],
+    "weapon_type": "Main CQB",
+    "attack_bonus": [2,4,6],
+    "damage": [
+      {
+        "type": "Burn",
+        "damage": [3,4,5]
+      }
+    ],
+    "range": [
+      {
+        "type": "Line",
+        "val": 7
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_flanker_raider",
+    "name": "FLANKER",
+    "origin": {
+      "type": "Class",
+      "name": "RAIDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "During its turn, the Raider gains 1 Accuracy on attacks and tech attacks made against enemies who it was not in line of sight of at the beginning of its turn.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_initiative_raider",
+    "name": "INITIATIVE",
+    "origin": {
+      "type": "Class",
+      "name": "RAIDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Raider gains an additional Quick Action as a Free Action in its first turn during a scene.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_wolfpack_raider",
+    "name": "WOLFPACK",
+    "origin": {
+      "type": "Class",
+      "name": "RAIDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Raider’s attacks against enemies who are engaged by any of the Raider’s allies deal an additional {1/2/3} damage or heat of the appropriate type.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_energy_net_raider",
+    "name": "ENERGY NET",
+    "origin": {
+      "type": "Class",
+      "name": "RAIDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Raider launches a net at a target within range 5, forcing it to pass a Hull save or become entangled, suffering 3 energy damage for each square it voluntarily moves until the end of its next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_fan_the_flames_raider",
+    "name": "FAN THE FLAMES",
+    "origin": {
+      "type": "Class",
+      "name": "RAIDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Raider makes a tech attack vs Evasion against a character who is suffering from Burn damage within Sensors. On a success, the target and all characters in a burst 2 area around them must pass an Engineering save or suffer {2/3/4} Burn damage.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [1,2,3]
+  },
+  {
+    "id": "ubrg_npcf_raider_skirmisher_raider",
+    "name": "RAIDER SKIRMISHER",
+    "origin": {
+      "type": "Class",
+      "name": "RAIDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Before or after making any Skirmish action, the Raider can move 2 spaces that don’t provoke reactions and ignore engagement.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_reactor_bleed_supercharger",
+    "name": "REACTOR BLEED SUPERCHARGER",
+    "origin": {
+      "type": "Class",
+      "name": "RAIDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "While the Raider is Exposed, its attacks deal an additional {2/3/4} Burn damage and it gains +1 Accuracy on all checks and saves. It can become Exposed as a free action at the beginning of its turn.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_seether_rotary_shotgun_raider",
+    "name": "SEETHER ROTARY SHOTGUN",
+    "origin": {
+      "type": "Class",
+      "name": "RAIDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Heat inflicted by this weapon can be reduced by the target’s armor, as if it were damage. The Reliable trait on this weapon inflicts 2 heat rather than 2 damage.",
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": 2
+      }
+    ],
+    "weapon_type": "Main CQB",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Heat",
+        "damage": [4,5,6]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 3
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": ""
+  },
+
+  {
+    "id": "ubrg_npcf_dmr_rifle_ranger",
+    "name": "DMR Rifle",
+    "origin": {
+      "type": "Class",
+      "name": "Ranger",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_ordnance"
+      },
+      {
+        "id": "tg_ap"
+      }
+    ],
+    "weapon_type": "Heavy Rifle",
+    "attack_bonus": [1,2,3],
+    "accuracy": [1,1,1],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [7,9,11]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 12
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_chameleonic_cloaking_ranger",
+    "name": "CHAMELEONIC CLOAKING",
+    "origin": {
+      "type": "Class",
+      "name": "RANGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ranger treats difficult terrain as a source of soft cover. If the Ranger is in cover at the end of its turn, it takes the Hide action as a Free Action.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_pathfinder_ranger",
+    "name": "PATHFINDER",
+    "origin": {
+      "type": "Class",
+      "name": "RANGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ranger ignores the movement penalty from difficult terrain.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_trapper_raider",
+    "name": "TRAPPER",
+    "origin": {
+      "type": "Class",
+      "name": "RAIDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Ranger may force the target to pass an Agility save or suffer {5/6/7} explosive damage.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "An enemy enters an area of difficult terrain or soft cover within range 5 of the Ranger’s position."
+  },
+  {
+    "id": "ubrg_npcf_assault_cables_raider",
+    "name": "ASSAULT CABLES",
+    "origin": {
+      "type": "Class",
+      "name": "RAIDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ranger can climb any surface without penalty and walk or stand on such surfaces as if they were flat ground, even if vertical or overhanging. It also gains 1 Accuracy when attempting to make a grapple, and on the contested Hull checks to maintain or break a grapple.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_autotargeting_ranger",
+    "name": "AUTOTARGETING",
+    "origin": {
+      "type": "Class",
+      "name": "RANGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Ranger’s attacks ignore cover penalties, although it must still have line of sight as normal.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_charged_machete_ranger",
+    "name": "CHARGED MACHETE",
+    "origin": {
+      "type": "Class",
+      "name": "RANGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon deals 10 AP energy damage to obstacles and terrain.",
+    "tags": [],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [6,7,8]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_napalm_mine_ranger",
+    "name": "NAPALM MINE",
+    "origin": {
+      "type": "Class",
+      "name": "RANGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Ranger deploys a mine in a free space within range 3. The mine is invisible and untargetable but can be revealed or disarmed via the usual rules for mines. The mine triggers when any hostile character passes over its space, forcing an Agility save for any character in a burst 1 area around it. Failure inflicts Burn {5/6/7} on the target, and at the end of the current character’s turn, the burst becomes dangerous terrain inflicting Burn damage. This dangerous terrain remains until the end of the Ranger’s next turn.",
+    "tags": [
+      {
+        "id": "tg_mine"
+      },
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_adw_shotgun_ranger",
+    "name": "ADW SHOTGUN",
+    "origin": {
+      "type": "Class",
+      "name": "RANGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": 1
+      },
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "weapon_type": "Main CQB",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [4,5,6]
+      }
+    ],
+    "range": [
+      {
+        "type": "Cone",
+        "val": 5
+      }
+    ],
+    "on_hit": ""
+  },
+
+  {
+    "id": "ubrg_npcf_kinetic_glaive_reaver",
+    "name": "KINETIC GLAIVE",
+    "origin": {
+      "type": "Class",
+      "name": "REAVER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_knockback",
+            "val": 3
+      }
+    ],
+    "weapon_type": "Heavy Melee",
+    "attack_bonus": [1, 2, 3],
+    "accuracy": [1,1,1],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [5, 7, 9]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_hyperkinetic_boosters_reaver",
+    "name": "HYPERKINETIC BOOSTERS",
+    "origin": {
+      "type": "Class",
+      "name": "REAVER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When the Reaver boosts, it ignores engagement. Up to three hostile characters it moves adjacent to during its boost must pass a Hull save or be knocked back 2 spaces.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_hook_sweep_reaver",
+    "name": "HOOK AND SWEEP",
+    "origin": {
+      "type": "Class",
+      "name": "REAVER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Reaver inflicts Knockback with its attacks, it does not need to move the target in a straight line directly away from it. Instead, it can move the targets in any direction, and can change direction from square to square, so it can slide enemies round corners, pull them to the other side of its position, etc.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_kinetic_pendulum_reaver",
+    "name": "KINETIC PENDULUM SYSTEMS",
+    "origin": {
+      "type": "Class",
+      "name": "REAVER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When the Reaver suffers kinetic or explosive damage, it adds an amount to the Knockback of all its attacks equal to the number of rounds in the scene thus far, to a maximum of +5. This effect does not stack if the Reaver is hit multiple times, and lasts until the end of the Reaver’s next turn.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_aftershocks_reaver",
+    "name": "AFTERSHOCKS",
+    "origin": {
+      "type": "Class",
+      "name": "REAVER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When a hostile character is knocked back any distance by the Reaver, they also suffer 1 Difficulty on all Hull and Agility saves until the end of their next turn.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_kinetic_buckler_reaver",
+    "name": "KINETIC BUCKLER",
+    "origin": {
+      "type": "Class",
+      "name": "REAVER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Reaver gains 2 armour against explosive and kinetic attacks only.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_polearm_interdiction_reaver",
+    "name": "POLEARM INTERDICTION",
+    "origin": {
+      "type": "Class",
+      "name": "REAVER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Reaver’s Overwatch attacks with its kinetic glaive are triggered by anyone entering or leaving its threat regardless of whether they started their turn there.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_projected_pulse_missile_reaver",
+    "name": "PROJECTED PULSE MISSILE",
+    "origin": {
+      "type": "Class",
+      "name": "REAVER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+          "id": "tg_knockback",
+          "val": 2
+      }
+    ],
+    "weapon_type": "Main Launcher",
+    "attack_bonus": [1, 2, 3],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [2, 3, 4]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      },
+      {
+          "type": "Blast",
+          "val": 2
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_razorchain_concertina_reaver",
+    "name": "RAZORCHAIN CONCERTINA",
+    "origin": {
+      "type": "Class",
+      "name": "REAVER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Reaver places a line 3 area of terrain down, with at least one space adjacent to the Reaver itself. This is both difficult and dangerous terrain, inflicting kinetic damage. It lasts until the end of the scene unless destroyed; each space of the razorchain has 10 evasion and 10 HP.",
+    "tags": [
+      {
+          "id": "tg_recharge",
+          "val": 6
+      },
+      {
+          "id": "tg_quick_action"
+      }
+    ]
+  },
+
+  {
+    "id": "ubrg_npcf_smart_rifle_relay",
+    "name": "SMART RIFLE",
+    "origin": {
+      "type": "Class",
+      "name": "RELAY",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "At tier III, this weapon fires twice.",
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "weapon_type": "Main Rifle",
+    "attack_bonus": [1,2,3],
+    "accuracy": [1,1,1],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [4,4,4]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_lightning_rod_relay",
+    "name": "LIGHTNING ROD",
+    "origin": {
+      "type": "Class",
+      "name": "RELAY",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Relay becomes the target instead. The Relay cannot use this system if it is Jammed.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "trigger": "An enemy targets an ally’s e-defense within the Relay’s Sensors with a Quick Tech or Full Tech action."
+  },
+  {
+    "id": "ubrg_npcf_tech_node_relay",
+    "name": "TECH NODE",
+    "origin": {
+      "type": "Class",
+      "name": "RELAY",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "As long as the Relay is not engaged or Jammed, any ally within their Sensors of the Relay may choose targets for their Quick Tech and Full Tech actions using the area of the Relay’s Sensors instead of their own.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_chainbreaker_relay",
+    "name": "CHAINBREAKER",
+    "origin": {
+      "type": "Class",
+      "name": "RELAY",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Relay may force the target to pass a Systems save or immediately unshackle any systems with the AI tag the target may possess.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ],
+    "trigger": "An ally uses the Relay’s Tech Node trait to launch a Quick Tech or Full Tech action against a target."
+  },
+  {
+    "id": "ubrg_npcf_parallel_os_relay",
+    "name": "PARALLEL OS",
+    "origin": {
+      "type": "Class",
+      "name": "RELAY",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "At the beginning of its turn, the Relay may choose a single Quick Tech action that an ally within its Sensors possesses. Until the end of its turn, the Relay can use this Quick Tech action as if it possessed the system itself.",
+    "tags": [
+      {
+        "id": "tg_protocol"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_logic_trap_relay",
+    "name": "LOGIC TRAP",
+    "origin": {
+      "type": "Class",
+      "name": "RELAY",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever an enemy successfully hits the Relay with a Quick Tech or Full Tech attack that targets its e-defense, the enemy suffers {2/3/4} heat.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_signal_boost_relay",
+    "name": "SIGNAL BOOST",
+    "origin": {
+      "type": "Class",
+      "name": "RELAY",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "As long as the Relay is not Jammed, allies within range 5 of the Relay are immune to the Jammed Condition and enemy Quick Tech and Full Tech actions targeting their e-defence suffer 1 Difficulty.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_exploit_weak_network_link",
+    "name": "EXPLOIT WEAK NETWORK LINK",
+    "origin": {
+      "type": "Class",
+      "name": "RELAY",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Whenever an ally uses the Relay’s Tech Node trait to launch a Quick Tech or Full Tech action against a target’s e-defense, they may roll against the e-defense of another enemy within range 3 of the target if it is a lower value.",
+    "tags": []
+  },
+
+  {
+    "id": "ubrg_npcf_missile_battery_rocketeer",
+    "name": "MISSILE BATTERY",
+    "origin": {
+      "type": "Class",
+      "name": "ROCKETEER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon may attack one or two blast 1 areas. The blast areas cannot overlap",
+    "tags": [
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "weapon_type": "Heavy Launcher",
+    "attack_bonus": [2,4,6],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [5,7,9]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 15
+      },
+      {
+        "type": "Blast",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ubrg_npcf_jumpjets_rocketeer",
+    "name": "JUMPJETS",
+    "origin": {
+      "type": "Class",
+      "name": "ROCKETEER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Rocketeer can fly with its move and boost, and can hover. However, if it ends its turn hovering, rather than landing on a flat surface, it gains 2 heat.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_emergency_redeploy_rocketeer",
+    "name": "EMERGENCY REDEPLOY",
+    "origin": {
+      "type": "Class",
+      "name": "ROCKETEER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Rocketeer can immediately fly up to its speed in spaces. This movement ignores engagement and overwatch, but must end on a surface it can stand on or the unit will fall.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ],
+    "trigger": "An enemy moves adjacent to the Rocketeer or it suffers damage from an attack."
+  },
+  {
+    "id": "ubrg_npcf_corebuster_launcher_rocketeer",
+    "name": "‘COREBUSTER’ LAUNCHER",
+    "origin": {
+      "type": "Class",
+      "name": "ROCKETEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_smart"
+      },
+      {
+        "id": "tg_ap"
+      },
+      {
+        "id": "tg_loading"
+      }
+    ],
+    "weapon_type": "Heavy Launcher",
+    "attack_bonus": [2,4,6],
+    "accuracy": [1,1,1],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [4,6,8]
+      },
+      {
+        "type": "Heat",
+        "damage": [2,3,4]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 15
+      }
+    ],
+    "on_hit": "If the target suffers a point of Structure or Reactor Stress due to a hit from this weapon, the target also becomes Impaired and Slowed."
+  },
+  {
+    "id": "ubrg_npcf_vulture_opportunity_analysis_protocols_rocketeer",
+    "name": "‘VULTURE’ OPPORTUNITY ANALYSIS PROTOCOLS",
+    "origin": {
+      "type": "Class",
+      "name": "ROCKETEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Rocketeer moves its full movement or boosts, a single target within Sensors that has suffered at least one point of Structure damage or Reactor Stress already gains the Shredded Condition until the start of the Rocketeer’s next turn.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_fractal_lightwarp_camo_rocketeer",
+    "name": "FRACTAL LIGHTWARP CAMO",
+    "origin": {
+      "type": "Class",
+      "name": "ROCKETEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When the Rocketeer boosts, it counts as having soft cover until the beginning of its next turn.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_tsunami_concussion_dispersal_system_rocketeer",
+    "name": "‘TSUNAMI’ CONCUSSION DISPERSAL SYSTEM",
+    "origin": {
+      "type": "Class",
+      "name": "ROCKETEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When the Rocketeer uses its Emergency Redeploy reaction, all enemies within burst 1 at either the start of its move or the end are knocked back 1 space and must pass a Hull save or be knocked prone.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_tactical_oversight_rocketeer",
+    "name": "TACTICAL OVERSIGHT",
+    "origin": {
+      "type": "Class",
+      "name": "ROCKETEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Rocketeer gains 1 Accuracy when it is at a higher elevation than its target.",
+    "tags": []
+  },
+
+  {
+    "id": "ubrg_npcf_flame_projector_salamander",
+    "name": "FLAME PROJECTOR",
+    "origin": {
+      "type": "Class",
+      "name": "SALAMANDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Soft cover provides no Difficulty to attacks made with this weapon.",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ],
+    "weapon_type": "Main CQB",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Burn",
+        "damage": [2,3,4]
+      }
+    ],
+    "range": [
+      {
+        "type": "Line",
+        "val": 5
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_plasma_field_salamander",
+    "name": "PLASMA FIELD",
+    "origin": {
+      "type": "Class",
+      "name": "SALAMANDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Salamander creates an area of blazing terrain within range, consisting of 5 spaces. Each space after the first must be adjacent to at least one other, and they must be free of objects or characters, but they can otherwise be arranged in any pattern the Salamander wishes. Characters who start their turn in any of the spaces suffer {1/2/3} energy damage and 1 heat; characters who enter or move through the field suffer {1/2/3} energy damage and 1 heat for every space of it they enter. The Salamander can maintain an existing plasma field as a Protocol at the beginning of its turn, costing another 2 heat; if it does not do so, the plasma field extinguishes. It also extinguishes if the Salamander makes a new plasma field.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_volatile_cloud_salamander",
+    "name": "VOLATILE CLOUD",
+    "origin": {
+      "type": "Class",
+      "name": "SALAMANDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Salamander generates a cloud of volatile aerosols in a blast 1 area within sensor range. When a character within the area suffers energy or Burn damage, they also suffer an additional 2 heat. The cloud dissipates at the beginning of the Salamander’s next turn, dealing 1 Burn damage to every character still within it at this point.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "ubrg_npcf_insulated_salamander",
+    "name": "INSULATED",
+    "origin": {
+      "type": "Class",
+      "name": "SALAMANDER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Salamander has Immunity to Burn.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_ash_vents_salamander",
+    "name": "ASH VENTS",
+    "origin": {
+      "type": "Class",
+      "name": "SALAMANDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Salamander always has soft cover, but cannot take the Hide action.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_fan_flames_salamander",
+    "name": "FAN THE FLAMES",
+    "origin": {
+      "type": "Class",
+      "name": "SALAMANDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Salamander targets a single character who is suffering from Burn damage within range. The target and all characters in a burst 2 area around them must pass an Engineering save or suffer {2/3/4} Burn damage.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [1,2,3]
+  },
+  {
+    "id": "ubrg_npcf_pyrophore_salamander",
+    "name": "PYROPHORIC FREQUENCIES",
+    "origin": {
+      "type": "Class",
+      "name": "SALAMANDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Characters within range 5 of the Salamander suffer 1 Difficulty on Engineering checks to end Burn damage.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_reactor_override_salamander",
+    "name": "REACTOR OVERRIDE",
+    "origin": {
+      "type": "Class",
+      "name": "SALAMANDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The target takes {2/3/4} heat and, if the target is in the danger zone after taking this heat, the target must pass an Engineering check or immediately take a point of Reactor Stress and cool to 0.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "attack_bonus": [1,2,3]
+  },
+  {
+    "id": "ubrg_npcf_thermal_javelin_salamander",
+    "name": "THERMAL JAVELIN LAUNCHER",
+    "origin": {
+      "type": "Class",
+      "name": "SALAMANDER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "The Salamander cools 2 heat when it fires this weapon.",
+    "on_hit": "A character struck by this weapon suffers 2 heat at the beginning of each of its turns. It can end this condition by passing an Engineering check as a Quick Action.",
+    "tags": [
+      {
+        "id": "tg_loading"
+      },
+      {
+        "id": "tg_ordnance"
+      }
+    ],
+    "weapon_type": "Main Cannon",
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [4,5,6]
+      },
+      {
+        "type": "Heat",
+        "damage": [2,2,2]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ]
+  },
+
+  {
+    "id": "ubrg_npcf_deadeye_pistol_showdown",
+    "name": "DEADEYE HEAVY PISTOL",
+    "origin": {
+      "type": "Class",
+      "name": "SHOWDOWN",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect":"",
+    "tags": [
+      {
+        "id": "tg_ap"
+      }
+    ],
+    "weapon_type": "Auxiliary CQB",
+    "attack_bonus": [2,4,6],
+    "accuracy": [2,2,2],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [4,5,6]
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_disarm_showdown",
+    "name": "DISARM",
+    "type": "Trait",
+    "origin": {
+      "type": "Class",
+      "name": "SHOWDOWN",
+      "base": true
+    },
+    "locked": false,
+    "effect": "The Showdown may fire its ‘Deadeye’ Heavy Pistol at a target within range. This attack may be made in addition to any normal Skirmish action the Showdown takes this turn to fire its weapon, but loses the bonus Accuracy on its attack roll for the shot. If the weapon hits, in addition to dealing damage, the Showdown may also choose a single system or weapon on the target and renders it useless until the end of the target’s next turn.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_quickdraw_showdown",
+    "name": "QUICKDRAW",
+    "type": "Reaction",
+    "origin": {
+      "type": "Class",
+      "name": "SHOWDOWN",
+      "base": true
+    },
+    "locked": false,
+    "effect": "This mech may immediately fire at the enemy with its ‘Deadeye’ Heavy Pistol before they make their attack roll. If the Showdown hits, the enemy takes an additional 2 Difficulty on their subsequent attack roll.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "An enemy within range 5 of the Showdown would make a ranged attack against the Showdown or one of its allies"
+  },
+  {
+    "id": "ubrg_npcf_brawler_showdown",
+    "name": "BRAWLER",
+    "type": "Trait",
+    "origin": {
+      "type": "Class",
+      "name": "SHOWDOWN",
+      "base": false
+    },
+    "locked": false,
+    "effect": "The Showdown may make improvised attacks as a Quick Action rather than a Full Action, and its improvised attacks gain Knockback 2.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_deadmans_trigger_showdown",
+    "name": "DEAD MAN'S TRIGGER",
+    "type": "Reaction",
+    "origin": {
+      "type": "Class",
+      "name": "SHOWDOWN",
+      "base": false
+    },
+    "locked": false,
+    "trigger": "The Showdown is destroyed.",
+    "effect": "The Showdown may immediately make an attack with its ‘Deadeye’ Heavy Pistol against {1/2/3} enemies within range. It is then destroyed as normal.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_hyperfibre_poncho_showdown",
+    "name": "HYPERFIBRE PONCHO",
+    "type": "Trait",
+    "origin": {
+      "type": "Class",
+      "name": "SHOWDOWN",
+      "base": false
+    },
+    "locked": false,
+    "effect": "If the Showdown moves during its turn, its armour increases to 2 until the beginning of its next turn.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_staredown_showdown",
+    "name": "STAREDOWN",
+    "type": "Tech",
+    "tech_type": "Quick",
+    "origin": {
+      "type": "Class",
+      "name": "SHOWDOWN",
+      "base": false
+    },
+    "locked": false,
+    "attack_bonus": [2,4,6],
+    "effect": "On hit, the Showdown’s target takes {2/3/4} heat and their next turn will occur after all other characters’ turns in a round, from either side, regardless of the normal sequence of alternating activations. If they have already acted this round, these effects apply to their turn in the following round.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_trickshot_showdown",
+    "name": "TRICK SHOT",
+    "type": "Trait",
+    "origin": {
+      "type": "Class",
+      "name": "SHOWDOWN",
+      "base": false
+    },
+    "locked": false,
+    "effect": "The Showdown’s ranged attacks gain the Seeking tag.",
+    "tags": []
+  },
+
+
+  {
+    "id": "ubrg_npcf_interdictor_skybreaker",
+    "name": "INTERDICTOR AUTOCANNON BATTERY",
+    "type": "Weapon",
+    "weapon_type": "Heavy Cannon",
+    "origin": {
+      "type": "Class",
+      "name": "SKYBREAKER",
+      "base": true
+    },
+    "locked": false,
+    "tags": [
+      {
+        "id": "tg_ap"
+      },
+      {
+        "id": "tg_reliable",
+        "val": "{3/4/5}"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 15
+      },
+      {
+        "type": "Threat",
+        "val": 10
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "accuracy": [1,1,1],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [7,9,11]
+      }
+    ],
+    "effect": "This weapon uses the above characteristics if fired at flying targets and drones. Against other targets it loses its Accuracy and its Reliable trait and instead gains 2 Difficulty, and its Threat range is treated as 0."
+  },
+  {
+    "id": "ubrg_npcf_interceptor_skybreaker",
+    "name": "Interceptor",
+    "type": "Trait",
+    "effect": "The Skybreaker’s overwatch attacks with its interdictor autocannon battery are triggered by any flying movement or drone entering, leaving, or exiting its Threat regardless of whether the targets started their turn there.",
+    "origin": {
+      "type": "Class",
+      "name": "SKYBREAKER",
+      "base": true
+    },
+    "locked": false,
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_entrenchment_stabilisers_skybreaker",
+    "name": "Entrenchment Stabilisers",
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The Skybreaker extends stabilisers and digs in. While in this state, the Threat range on its interdictor autocannon battery is increased by 5, it can make one additional overwatch reaction each round, it cannot be knocked back or prone, and it gains resistance to damage from blast, line, and cone attacks. However, the Skybreaker becomes Immobilized until the state ends, which it can do as a Free Action at the beginning of its turn.",
+    "origin": {
+      "type": "Class",
+      "name": "SKYBREAKER",
+      "base": true
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_aerial_alarm_network_skybreaker",
+    "name": "AERIAL ALARM NETWORK",
+    "type": "Trait",
+    "origin": {
+      "type": "Class",
+      "name": "SKYBREAKER",
+      "base": false
+    },
+    "locked": false,
+    "effect": "Whenever the Skybreaker fires its interdictor autocannon battery at a flying target, the target gains the Lock On condition.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_close_air_support_systems_skybreaker",
+    "name": "CLOSE AIR SUPPORT SYSTEMS",
+    "type": "System",
+    "origin": {
+      "type": "Class",
+      "name": "SKYBREAKER",
+      "base": false
+    },
+    "locked": false,
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The Skybreaker targets a single ally within range 15. As long as that ally is flying and remains within range 15 of the Skybreaker, it counts as having soft cover."
+  },
+  {
+    "id": "ubrg_npcf_microtarget_skybreaker",
+    "name": "MICROTARGET SUPPRESSIVE BARRAGE",
+    "type": "System",
+    "origin": {
+      "type": "Class",
+      "name": "SKYBREAKER",
+      "base": false
+    },
+    "locked": false,
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The Skybreaker provides protection from Nexus weapons and weapons with the Seeking trait made against allies within range 10 of its position, increased to range 15 if entrenched. Enemy attack rolls with these weapons against such targets suffer 2 Difficulty and lose the Reliable trait if the weapon possesses it."
+  },
+  {
+    "id": "ubrg_npcf_trench_talons_skybreaker",
+    "name": "TRENCH DEFENCE TALONS",
+    "type": "Weapon",
+    "origin": {
+      "type": "Class",
+      "name": "SKYBREAKER",
+      "base": false
+    },
+    "locked": false,
+    "weapon_type": "Heavy Melee",
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": 2
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "accuracy": [-1,-1,-1],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [5,7,9]
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_vigilance_skybreaker",
+    "name": "VIGILANCE",
+    "type": "Trait",
+    "origin": {
+      "type": "Class",
+      "name": "SKYBREAKER",
+      "base": false
+    },
+    "locked": false,
+    "tags": [],
+    "effect": "The Skybreaker can take {2/3/4} overwatch reactions each round."
+  },
+
+  {
+    "id": "ubrg_npcf_nanowire_spider",
+    "name": "NANOWIRE INJECTOR DARTS",
+    "type": "Weapon",
+    "origin": {
+      "type": "Class",
+      "name": "SPIDER",
+      "base": true
+    },
+    "locked": false,
+    "weapon_type": "Main Nexus",
+    "tags": [
+      {
+        "id": "tg_seeking"
+      },
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [2,3,4]
+      }
+    ],
+    "on_hit": "Target becomes Slowed until the end of its next turn, when it must pass an Engineering save with 1 Difficulty or become Immobilized until the end of its following turn."
+  },
+  {
+    "id": "ubrg_npcf_leeching_spider",
+    "name": "LEECHING THREADS",
+    "type": "Tech",
+    "tech_type": "Full",
+    "tags": [
+      {
+        "id": "tg_full_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "effect": "On hit, the target takes {2/3/4} heat, becomes Immobilized and deals half damage with its attacks, to a minimum of 1 damage. The target remains Immobilized and its damage reduced until the scene ends, the character takes a Full Action and passes a Hull check, or until a character uses a weapon that deals Burn damage on the target, whereupon the effect immediately ends but they also take 1 additional Burn and 2 heat.",
+    "origin": {
+      "type": "Class",
+      "name": "SPIDER",
+      "base": true
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_tangleweb_spider",
+    "name": "TANGLEWEB DEPLOYMENT HIVE",
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "effect": "The Spider creates a blast 2 zone within sensor range and line of sight. Any character who begins their turn within this area or who enters it becomes Slowed until the end of their turn. Characters who end their turn within it must pass a hull check or become Immobilized until the end of their next turn. Enemies who enter the zone while boosting must take this Hull check immediately rather than at the end of the turn. The zone remains until the scene ends, a character inside or adjacent to it takes a Full Action and passes a Hull save to destroy it, or a character uses a weapon that deals Burn damage on a target or space within the zone, which causes the zone to immediately end but all characters within it suffer 1 Burn and 2 heat.",
+    "origin": {
+      "type": "Class",
+      "name": "SPIDER",
+      "base": true
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_predator_spider",
+    "name": "PREDATOR",
+    "type": "Trait",
+    "effect": "The Spider gains 2 Accuracy on attacks and tech attacks against enemies who are Slowed or Immobilized.",
+    "tags": [],
+    "origin": {
+      "type": "Class",
+      "name": "SPIDER",
+      "base": true
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_climber_spider",
+    "name": "CLIMBER",
+    "type": "Trait",
+    "effect": "The Spider can climb any surface with no penalty and walk or stand on such surfaces as if they were flat ground, even overhanging or vertical surfaces.",
+    "tags": [],
+    "origin": {
+      "type": "Class",
+      "name": "SPIDER",
+      "base": false
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_disassembler_spider",
+    "name": "DISASSEMBLER INJECTION BLADES",
+    "type": "Weapon",
+    "weapon_type": "Main Melee",
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [3,4,5]
+      }
+    ],
+    "on_hit": "The target must pass an Engineering save or become Shredded until the end of its next turn.",
+    "origin": {
+      "type": "Class",
+      "name": "SPIDER",
+      "base": false
+    },
+    "locked": false,
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_monowire_spider",
+    "name": "MONOWIRE SPINNERS",
+    "type": "Trait",
+    "effect": "The blast area of the Spider’s tangleweb deployment hive also deals {2/3/4} kinetic damage to characters who start their turn in it or who enter it for the first time on their turn. This damage is doubled against targets with the Biological tag.",
+    "tags": [],
+    "origin": {
+      "type": "Class",
+      "name": "SPIDER",
+      "base": false
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_hyperwire_spider",
+    "name": "NEURAL HYPERWIRE",
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags":[
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "effect": "On hit, the target takes {2/3/4} heat and becomes linked to another target within range 5 of its position. If either of these targets ends their turn farther than range 3 from each other, they both take 2 heat and become Slowed until the end of their next turn.",
+    "origin": {
+      "type": "Class",
+      "name": "SPIDER",
+      "base": false
+    },
+    "locked": false
+  },
+  {
+    "id": "ubrg_npcf_mine_spider",
+    "name": "WEB MINE",
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_deployable"
+      },
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "effect": "The Spider may deploy a mine into an adjacent space. The mine is invisible and untargetable but can be revealed by a character looking for it with a successful Systems check if within sensor range. When a character moves over the trap, they become Slowed until the end of their next turn, and must pass a Hull save or become Immobilized until the end of their next turn.",
+    "origin": {
+      "type": "Class",
+      "name": "SPIDER",
+      "base": false
+    },
+    "locked": false
+  }
+
+]
