@@ -6131,7 +6131,8 @@
         "val": 5
       },
       {
-        "id": "tg_round"
+        "id": "tg_round",
+        "val": 1
       }
     ],
     "trigger": "The STORMWING ends a BOOST action in which it flew.",
