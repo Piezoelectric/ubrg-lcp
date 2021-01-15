@@ -5961,6 +5961,25 @@
     "locked": false
   },
   {
+    "id": "ubrg_npcf_lightning_strike_stormcaller",
+    "name": "LIGHTNING STRIKE",
+    "type": "Tech",
+    "tech_type": "Full",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ],
+    "effect": "The Stormcaller initiates an electrical cascade within its electromagnetic storm, as long as at least one square of the storm’s effects is within its sensor range; it does not require line of sight to do this. The Stormcaller picks a target present in the storm’s area, who must make an engineering save or suffer 7 AP energy damage and be Impaired until the beginning of their next turn; if an object or piece of terrain is chosen, it automatically fails and takes 10 AP energy damage. If a target saves, it suffers no damage, and the Stormcaller may then pick another target in the area, repeating the process with new targets until one fails. At tier II, after hitting a target the Stormcaller can then choose a new target for a second lightning strike, and at tier III it can repeat with a third lightning bolt. A character can never be targeted twice by Lightning Strike in the same turn, whether from a strike they have already saved against or subsequent strikes at higher tiers.",
+    "origin": {
+      "type": "Class",
+      "name": "STORMCALLER",
+      "base": true
+    },
+    "locked": false
+  },
+  {
     "id": "ubrg_npcf_ball_lightning_stormcaller",
     "name": "BALL LIGHTNING",
     "type": "Trait",
@@ -6116,7 +6135,13 @@
       }
     ],
     "trigger": "The STORMWING ends a BOOST action in which it flew.",
-    "effect": "The Stormwing may emanate a burst 2 pulse of disrupting electricity around itself. All enemies within the area must pass a Systems check or suffer {1/2/3} energy damage and become Impaired until the end of their next turn."
+    "effect": "The Stormwing may emanate a burst 2 pulse of disrupting electricity around itself. All enemies within the area must pass a Systems check or suffer {1/2/3} energy damage and become Impaired until the end of their next turn.",
+    "origin": {
+      "type": "Class",
+      "name": "STORMWING",
+      "base": true
+    },
+    "locked": false
   },
   {
     "id": "ubrg_npcf_breaching_impact_stormwing",
