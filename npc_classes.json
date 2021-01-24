@@ -1374,5 +1374,81 @@
       "ubrg_npcf_smoke_charges_stormwing"
     ],
     "power": 100
+  },
+  {
+    "id": "ubrg_npcc_streetsweeper",
+    "name": "STREETSWEEPER",
+    "role": "support",
+    "info": {
+      "flavor": "Streetsweeper urban assault mechs like the Singh Innovations Rhino pack advanced sensor suites and tactical COMCON networks into a heavily armoured chassis designed to take the worst that close quarters battle in built-up environments can throw at them. A typical Streetsweeper serves as the lynchpin during a block-to-block clearance operation, linking combat units together into a whole that can react faster than any of its individual parts, while also contributing a higher level of direct firefight engagement than traditional command and support frames. To a certain extent, the advanced tac-nets used by Streetsweepers can make up for the shortcomings of otherwise mediocre or poorly trained troops, raising their capability floor up to render even militia and rank-and-file auxiliaries into a dangerous force to engage in urban environments.",
+      "tactics": "The Streetsweeper is no slouch in close range combat, but is strongest at the heart of a squad of allies — especially in areas with lots of terrain and cover. While potent when prying enemies out of defensive positions and structures, it lacks any long-range combat capability and its heavy armour hides a weak structure, so AP weapons are very effective against it. The Threat Response Enhancement Suite deserves special mention as an optional system that can greatly increase the resilience of allied Grunts nearby, making a Streetsweeper a dangerous leader for such formations."
+    },
+    "stats": {
+      "armor": [3,3,3],
+      "hp": [8,8,10],
+      "evade": [8,10,12],
+      "edef": [8,10,12],
+      "heatcap": [6,6,6],
+      "speed": [4,4,4],
+      "sensor": [10,10,10],
+      "save": [10,11,12],
+      "hull": [1,2,3],
+      "agility": [-1,-1,-1],
+      "systems": [1,2,3],
+      "engineering": [1,2,3],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "base_features": [
+      "ubrg_npcf_hailstorm_assault_shotgun_streetsweeper",
+      "ubrg_npcf_assault_network_streetsweeper",
+      "ubrg_npcf_crossfire_coordinates_streetsweeper",
+      "ubrg_npcf_snapshot_command_streetsweeper"
+    ],
+    "optional_features": [
+      "ubrg_npcf_advancing_fire_streetsweeper",
+      "ubrg_npcf_heavy_maul_streetsweeper",
+      "ubrg_npcf_microgrenade_saturation_pod_streetsweeper",
+      "ubrg_npcf_search_and_destroy_streetsweeper",
+      "ubrg_npcf_threat_response_enhancement_suite_streetsweeper"
+    ],
+    "power": 100
+  },
+  {
+    "id": "ubrg_npcc_terraformer",
+    "name": "TERRAFORMER",
+    "role": "artillery",
+    "info": {
+      "flavor": "Turned to war out of desperation, military requisitioning, or the clever use of subversive liturgicode, the huge Terraformer frames are a common sight on early-stage colony worlds. Slow and methodical, these civilian engines help turn potential into reality, carving out hospitable swathes from alien ecosystems or lifeless landscapes. A Terraformer used in battle is a work of art warped from its original purpose; the onboard biological creches now gurgle and ooze with toxic predators, fine-tuned electromagnetic resonators are crudely cranked up to destructive harmonies, and tools that could carve an Eden from hell itself are instead set to bring ruin and destruction.",
+      "tactics": "A hybrid of artillery and controller, the Terraformer can launch pods with area effects that aid its allies, hinder its foes, or reshape the overall flow of the battlespace. Actually hitting anything with the pod launcher itself is essentially a bonus and the Terraformer should not be expected to consistently deal direct damage with its weapon."
+    },
+    "stats": {
+      "hp": [18,22,26],
+      "evade": [6,6,6],
+      "edef": [6,6,6],
+      "heatcap": [10,12,14],
+      "hull": [3,5,6],
+      "agility": [-3,-3,-3],
+      "systems": [1,2,3],
+      "engineering": [1,2,3],
+      "armor": [1,1,1],
+      "speed": [3,3,3],
+      "sensor": [10,10,10],
+      "save": [11,13,16],
+      "size": [[3],[3],[3]],
+      "activations": [1,1,1]
+    },
+    "power": 100,
+    "base_features": [
+      "ubrg_npcf_terraforming_pod_launcher_terraformer",
+      "ubrg_npcf_heavy_frame_terraformer"
+    ],
+    "optional_features": [
+      "ubrg_npcf_area_purge_retrojets_terraformer",
+      "ubrg_npcf_atmospheric_heating_pod_terraformer",
+      "ubrg_npcf_ecosystem_reset_pod_terraformer",
+      "ubrg_npcf_hillbreaker_terraformer",
+      "ubrg_npcf_military_grade_fabrication_protocols_terraformer"
+    ]
   }
 ]
