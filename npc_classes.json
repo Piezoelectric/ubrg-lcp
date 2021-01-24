@@ -1489,6 +1489,34 @@
       "ubrg_npcf_molecular_castigation_theurge",
       "ubrg_npcf_temple_theurge"
     ]
+  },
+  {
+    "id": "ubrg_npcc_tyrant",
+    "name": "TYRANT",
+    "role": "controller",
+    "info": {
+      "flavor": "The Tyrant doctrine of electronic warfare is one of brute technological force. Mechs featuring Tyrant-class processors and viral breeder-drives eschew subtle, clever means of overcoming the foe in favour of the data equivalent of a battering ram. When the Tyrant’s assault breaches a victim’s system, it forces brutal cascades of overheating and energy surges, takes the quickest route to disarming active weapons it can finds, or simply seizes control over portions of the victim. Military mechs of this design reflect the blunt nature of their purpose, being heavily-built compared to many other invasion platforms. Much beloved among front-line e-warfare troops, Tyrants are also favoured by techno-zealots and ontological cults who demand subservience to their creed, however they can get it.",
+      "tactics": "The Tyrant is a front-line hacker, capable of taking part in a firefight and dishing out damage as well as heat. SUBMIT can help defang dangerous attackers with complex weaponry, and OBEY lets the Tyrant drag victims into killzones or send problematic mechs running from the battle. However, the NPC is not particularly swift, and its low evasion leaves it vulnerable to weapons that can tag it with deleterious conditions as well as raw damage."
+    },
+    "stats": {
+      "hp": [16,19,22],
+      "evade": [6,7,8],
+      "edef": [12,14,16],
+      "heatcap": [6,6,6],
+      "hull": [0,1,1],
+      "agility": [-1,-1,-1],
+      "systems": [3,5,6],
+      "engineering": [0,0,1],
+      "armor": [1,1,1],
+      "speed": [3,3,4],
+      "sensor": [15,15,15],
+      "save": [12,15,17],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "power": 100,
+    "base_features": [],
+    "optional_features": []
   }
 ]
 
