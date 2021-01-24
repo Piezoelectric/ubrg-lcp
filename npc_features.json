@@ -6774,6 +6774,7 @@
     },
     "locked": false,
     "type": "Tech",
+    "tech_type": "Quick",
     "tags": [
       {
         "id": "tg_quick_tech"
@@ -6792,13 +6793,14 @@
     },
     "locked": false,
     "type": "Tech",
+    "tech_type": "Quick",
     "tags": [
       {
         "id": "tg_quick_tech"
       }
     ],
     "attack_bonus": [2,4,6],
-    "effect": "On hit, the target takes {2/3/4} heat, and the Tyrant chooses one of the following effects:<li>all the target’s weapons with the Loading tag immediately become unloaded;<li>all the target’s weapons with the [Overkill] tag immediately deal the target 1 heat;<li>one of the target’s systems with the Grenade tag immediately detonates one charge centred on the target’s space;<li>one AI the target has immediately unshackles.",
+    "effect": "On hit, the target takes {2/3/4} heat, and the Tyrant chooses one of the following effects:<li>all the target’s weapons with the Loading tag immediately become unloaded;<li>all the target’s weapons with the [Overkill] tag immediately deal the target 1 heat;<li>one of the target’s systems with the Grenade tag immediately detonates one charge centred on the target’s space;<li>one AI the target has immediately unshackles."
   },
   {
     "id": "ubrg_npcf_obey_tyrant",
@@ -6810,6 +6812,7 @@
     },
     "locked": false,
     "type": "Tech",
+    "tech_type": "Full",
     "tags": [
       {
         "id": "tg_full_tech"
@@ -6837,6 +6840,108 @@
     "locked": false,
     "type": "Trait",
     "effect": "When the Tyrant deals Reactor Stress to an enemy, they suffer 2 Difficulty to all Systems checks and saves until they are able to take a full repair."
+  },
+  {
+    "id": "ubrg_npcf_betray_tyrant",
+    "name": "BETRAY",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "accuracy": [1,1,1],
+    "effect": "On hit, the target takes {2/3/4} heat and copies its e-defence value onto any of its own allies within burst 4 of its location who have a higher e-defence value than the target. This lasts until the end of the next turn."
+  },
+  {
+    "id": "ubrg_npcf_crown_of_ice_tyrant",
+    "name": "CROWN OF ICE",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Tyrant is the target of a tech attack, it gains 2 Accuracy on its next tech attack against the attacker before the end of the Tyrant’s next turn.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_kneel_tyrant",
+    "name": "KNEEL",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "range": [
+      {
+        "type": "Cone",
+        "val": 5
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "effect": "On hit, targets takes {1/2/3} heat and are knocked prone. Any Protocols they are running immediately deactivate."
+  },
+  {
+    "id": "ubrg_npcf_turn_tyrant",
+    "name": "TURN",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": false
+    },
+    "locked": false,
+    "attack_bonus": [2,4,6],
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "An enemy within sensor range targets the TYRANT with an attack.",
+    "effect": "Make a Tech Attack against that enemy. If the attack hits, the Tyrant can retarget the incoming attack onto another valid target, friend or foe, within range 3 of its position."
+  },
+  {
+    "id": "ubrg_npcf_wall_of_fire_tyrant",
+    "name": "WALL OF FIRE",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "effect": "The Tyrant creates a burst 2 zone within sensor range. Until the end of the next turn, anyone targeting a character within the Wall of FIRE zone with a tech attack suffers {2/3/4} heat.",
   }
 ]
 

@@ -1521,7 +1521,13 @@
       "ubrg_npcf_obey_tyrant",
       "ubrg_npcf_dominated_systems_tyrant"
     ],
-    "optional_features": []
+    "optional_features": [
+      "ubrg_npcf_betray_tyrant",
+      "ubrg_npcf_crown_of_ice_tyrant",
+      "ubrg_npcf_kneel_tyrant",
+      "ubrg_npcf_turn_tyrant",
+      "ubrg_npcf_wall_of_fire_tyrant"
+    ]
   }
 ]
 
