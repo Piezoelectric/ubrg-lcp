@@ -6627,7 +6627,7 @@
   },
   {
     "id": "ubrg_npcf_molecular_integration_halo_theurge",
-    "name": "MOLECULAR INTERGRATION HALO",
+    "name": "MOLECULAR INTEGRATION HALO",
     "origin": {
       "type": "Class",
       "name": "THEURGE",
@@ -6818,7 +6818,7 @@
         "id": "tg_full_tech"
       },
       {
-        "id": "heat_self",
+        "id": "tg_heat_self",
         "val": 3
       },
       {
@@ -6839,7 +6839,8 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Tyrant deals Reactor Stress to an enemy, they suffer 2 Difficulty to all Systems checks and saves until they are able to take a full repair."
+    "effect": "When the Tyrant deals Reactor Stress to an enemy, they suffer 2 Difficulty to all Systems checks and saves until they are able to take a full repair.",
+    "tags": []
   },
   {
     "id": "ubrg_npcf_betray_tyrant",
