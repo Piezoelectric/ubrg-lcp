@@ -6763,6 +6763,80 @@
     "type": "Trait",
     "effect": "Tech attacks are made against the Theurge and any allies adjacent to it with 1 Difficulty, and the Theurge and any allies adjacent to it make all Systems saves with 1 Accuracy.",
     "tags": []
+  },
+  {
+    "id": "ubrg_npcf_perish_tyrant",
+    "name": "PERISH",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "effect": "On hit, the target takes {2/3/4} heat and {2/3/4} AP energy damage."
+  },
+  {
+    "id": "ubrg_npcf_submit_tyrant",
+    "name": "SUBMIT",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "effect": "On hit, the target takes {2/3/4} heat, and the Tyrant chooses one of the following effects:<li>all the target’s weapons with the Loading tag immediately become unloaded;<li>all the target’s weapons with the [Overkill] tag immediately deal the target 1 heat;<li>one of the target’s systems with the Grenade tag immediately detonates one charge centred on the target’s space;<li>one AI the target has immediately unshackles.",
+  },
+  {
+    "id": "ubrg_npcf_obey_tyrant",
+    "name": "OBEY",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tags": [
+      {
+        "id": "tg_full_tech"
+      },
+      {
+        "id": "heat_self",
+        "val": 3
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "effect": "On hit, the target takes {2/3/4} heat and at the beginning of the target’s next turn, the Tyrant can move it up to its Speed in a direction of the Tyrant’s choice, obeying engagement and triggering reactions as normal. It must then make a Systems save; if it fails, then this movement effect occurs again at the beginning of its following turn along with another Systems save, and so on until it passes or the scene ends."
+  },
+  {
+    "id": "ubrg_npcf_dominated_systems_tyrant",
+    "name": "DOMINATED SYSTEMS",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Tyrant deals Reactor Stress to an enemy, they suffer 2 Difficulty to all Systems checks and saves until they are able to take a full repair."
   }
 ]
 

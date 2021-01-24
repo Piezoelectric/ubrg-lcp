@@ -1515,7 +1515,12 @@
       "activations": [1,1,1]
     },
     "power": 100,
-    "base_features": [],
+    "base_features": [
+      "ubrg_npcf_perish_tyrant",
+      "ubrg_npcf_submit_tyrant",
+      "ubrg_npcf_obey_tyrant",
+      "ubrg_npcf_dominated_systems_tyrant"
+    ],
     "optional_features": []
   }
 ]
