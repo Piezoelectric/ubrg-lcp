@@ -1,9 +1,9 @@
 {
     "name": "Union_Battlefield_Recognition_Guide",
     "author": "Acrozatarim",
-    "description": "A huge manual of 60 new NPC classes. Currently includes the APC, up to the TERRAFORMER. Alpha version but all included NPCs are fully statted out and detailed. Original design by Acrozatarim, LCP coded by Sparks Murphey, Perijove, and FlagellatingFungus. Last updated 2021-01-23",
+    "description": "A collection of 43 new NPC classes. Currently includes the APC, up to the TYRANT. Alpha version but all included NPCs are fully statted out and detailed. Original design by Acrozatarim, LCP coded by Sparks Murphey, Perijove, and FlagellatingFungus. Last updated 2021-01-23",
     "item_prefix": "ubrg",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "image_url": "https://drive.google.com/uc?id=1-VExd1ToJ56UFZgvRxguWxdzSFEk0aQO",
     "website": "https://drive.google.com/file/d/1NXD3iFknaONO9EZwRNv7IGmPAifsHlr6/view"
 }

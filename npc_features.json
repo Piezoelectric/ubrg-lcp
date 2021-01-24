@@ -6588,5 +6588,360 @@
       }
     ],
     "effect": "Instead of firing one of its normal Terraforming Pods, the Terraformer may instead cause a pod that has just landed to immediately unfold into a bunker, creating a 3x3 zone that provides hard cover to anyone within the area against attacks from all directions. The bunker counts as a size 3 piece of terrain that has evasion 5 and 30 HP."
+  },
+  {
+    "id": "ubrg_npcf_molecular_disintegration_orb_lace_theurge",
+    "name": "MOLECULAR DISINTEGRATION ORB-LACE",
+    "origin": {
+      "type": "Class",
+      "name": "THEURGE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Auxiliary Melee",
+    "tags": [
+      {
+        "id": "tg_smart"
+      },
+      {
+        "id": "tg_thrown",
+        "val": 10
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [2,3,4]
+      }
+    ],
+    "effect": "Throwing the Molecular Disintegration Orb-Lace does not disarm the Theurge of this weapon.",
+    "on_hit": "Targets struck by this weapon are Shredded until the Theurge hits another target with the Orb-Lace or the scene ends; they cannot remove this instance of the Shredded condition via Stabilize."
+  },
+  {
+    "id": "ubrg_npcf_molecular_integration_halo_theurge",
+    "name": "MOLECULAR INTEGRATION HALO",
+    "origin": {
+      "type": "Class",
+      "name": "THEURGE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "effect": "One ally within range becomes resistant to explosive damage and immune to knockback, being knocked prone, and the Shredded and Slowed Conditions until the beginning of the Theurge’s next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_fundamental_invulnerability_mandala_theurge",
+    "name": "FUNDAMENTAL INVULNERABILITY MANDALA",
+    "origin": {
+      "type": "Class",
+      "name": "THEURGE",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_deployable"
+      },
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ],
+    "effect": "Mandala (Deployable, {10/12/15} HP, 2 armor, 10 evasion, 10 e-defence, immune to explosive damage)<br>The Theurge places the Mandala in an adjacent free space.Allies within range 5 of the Mandala cannot be reduced to 0 HP by an attack unless they were already at 1 HP; attacks that would otherwise reduce them to 0 HP instead reduce them to 1 HP. The Mandala lasts until the end of the Theurge’s next turn."
+  },
+  {
+    "id": "ubrg_npcf_molecular_enlightenment_integration_circuits_theurge",
+    "name": "MOLECULAR ENLIGHTENMENT INTEGRATION CIRCUITS",
+    "origin": {
+      "type": "Class",
+      "name": "THEURGE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Theurge is immune to explosive damage, knockback, being knocked prone, and the Shredded and Slowed Conditions.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_atomic_alignment_shroud_theurge",
+    "name": "ATOMIC ALIGNMENT SHROUD",
+    "origin": {
+      "type": "Class",
+      "name": "THEURGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_shield"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "effect": "The Theurge targets a single ally within sensor range and gives it a shroud that has {5/10/15} HP and no armour. Any attacks that deal damage to the ally instead hit the shroud, dealing damage to it as normal; once the shroud has run out of HP it is destroyed, and any damage that remains rolls over onto the original target. The shroud lasts until the beginning of the Theurge’s next turn."
+  },
+  {
+    "id": "ubrg_npcf_emergency_reintegration_mantra_theurge",
+    "name": "EMERGENCY REINTEGRATION MANTRA",
+    "origin": {
+      "type": "Class",
+      "name": "THEURGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      }
+    ],
+    "effect": "The Theurge cannot take any other actions during the turn it uses Emergency Reintegration Mantra, not even movement, and it cannot use this system before round 3 of a combat. The Theurge and all allies within a burst 4 area around it regain {5/10/15} HP."
+  },
+  {
+    "id": "ubrg_npcf_harmonious_resonance_anchor_theurge",
+    "name": "HARMONIOUS RESONANCE ANCHOR",
+    "origin": {
+      "type": "Class",
+      "name": "THEURGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "No character can teleport in or out of spaces within an area of burst 5 around the Theurge. Additionally, although primarily relevant on narrative terms, MONIST-class attempts to control reality or spacetime have no effect within the area.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_molecular_castigation_theurge",
+    "name": "MOLECULAR CASTIGATION",
+    "origin": {
+      "type": "Class",
+      "name": "THEURGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Shredded condition caused by the Molecular Disintegration Orb-Lace ends on a target, anyone adjacent to the target takes {2/3/4} explosive damage.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_temple_theurge",
+    "name": "TEMPLE",
+    "origin": {
+      "type": "Class",
+      "name": "THEURGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Tech attacks are made against the Theurge and any allies adjacent to it with 1 Difficulty, and the Theurge and any allies adjacent to it make all Systems saves with 1 Accuracy.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_perish_tyrant",
+    "name": "PERISH",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "effect": "On hit, the target takes {2/3/4} heat and {2/3/4} AP energy damage."
+  },
+  {
+    "id": "ubrg_npcf_submit_tyrant",
+    "name": "SUBMIT",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "effect": "On hit, the target takes {2/3/4} heat, and the Tyrant chooses one of the following effects:<li>all the target’s weapons with the Loading tag immediately become unloaded;<li>all the target’s weapons with the [Overkill] tag immediately deal the target 1 heat;<li>one of the target’s systems with the Grenade tag immediately detonates one charge centred on the target’s space;<li>one AI the target has immediately unshackles."
+  },
+  {
+    "id": "ubrg_npcf_obey_tyrant",
+    "name": "OBEY",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Full",
+    "tags": [
+      {
+        "id": "tg_full_tech"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 3
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "effect": "On hit, the target takes {2/3/4} heat and at the beginning of the target’s next turn, the Tyrant can move it up to its Speed in a direction of the Tyrant’s choice, obeying engagement and triggering reactions as normal. It must then make a Systems save; if it fails, then this movement effect occurs again at the beginning of its following turn along with another Systems save, and so on until it passes or the scene ends."
+  },
+  {
+    "id": "ubrg_npcf_dominated_systems_tyrant",
+    "name": "DOMINATED SYSTEMS",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Tyrant deals Reactor Stress to an enemy, they suffer 2 Difficulty to all Systems checks and saves until they are able to take a full repair.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_betray_tyrant",
+    "name": "BETRAY",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "accuracy": [1,1,1],
+    "effect": "On hit, the target takes {2/3/4} heat and copies its e-defence value onto any of its own allies within burst 4 of its location who have a higher e-defence value than the target. This lasts until the end of the next turn."
+  },
+  {
+    "id": "ubrg_npcf_crown_of_ice_tyrant",
+    "name": "CROWN OF ICE",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Tyrant is the target of a tech attack, it gains 2 Accuracy on its next tech attack against the attacker before the end of the Tyrant’s next turn.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_kneel_tyrant",
+    "name": "KNEEL",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "range": [
+      {
+        "type": "Cone",
+        "val": 5
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "effect": "On hit, targets takes {1/2/3} heat and are knocked prone. Any Protocols they are running immediately deactivate."
+  },
+  {
+    "id": "ubrg_npcf_turn_tyrant",
+    "name": "TURN",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": false
+    },
+    "locked": false,
+    "attack_bonus": [2,4,6],
+    "type": "Reaction",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "An enemy within sensor range targets the TYRANT with an attack.",
+    "effect": "Make a Tech Attack against that enemy. If the attack hits, the Tyrant can retarget the incoming attack onto another valid target, friend or foe, within range 3 of its position."
+  },
+  {
+    "id": "ubrg_npcf_wall_of_fire_tyrant",
+    "name": "WALL OF FIRE",
+    "origin": {
+      "type": "Class",
+      "name": "TYRANT",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "effect": "The Tyrant creates a burst 2 zone within sensor range. Until the end of the next turn, anyone targeting a character within the Wall of FIRE zone with a tech attack suffers {2/3/4} heat."
   }
 ]

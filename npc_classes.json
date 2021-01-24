@@ -1450,5 +1450,83 @@
       "ubrg_npcf_hillbreaker_terraformer",
       "ubrg_npcf_military_grade_fabrication_protocols_terraformer"
     ]
+  },
+  {
+    "id": "ubrg_npcc_theurge",
+    "name": "THEURGE",
+    "role": "support",
+    "info": {
+      "flavor": "Frames under the esoteric THEURGE classification use molecular-level influence-engines to strengthen or disrupt matter, rendering foes easy to tear apart or allies buttressed by such infinitesimal-scale forces. The technology involved is extremely advanced, the harvested fruits of research into the localized phenomena inflicted on the fabric of reality by MONIST-class and near-MONIST-class entities. Several THEURGE designs are the work of corporation-faiths who see harmonious alignment with the fundamental forces of the quantum world as an aspirational level of enlightenment, but major military manufacturers are also looking at development of this classification for the localized neutralization of MONIST influence.",
+      "tactics": "The Theurge is tough but short-ranged, and needs to get into the mix of combat to effectively support its allies. It combines well against hard targets who it can apply the Shredded condition to for great effect, while its ability to toughen up allies and the potentially combat-swinging impact of using the Fundamental Invulnerability Matrix at a key moment in a firefight allow it to serve as the backbone of a close assault team of NPCs."
+    },
+    "stats": {
+      "hp": [14,17,20],
+      "evade": [6,6,6],
+      "edef": [10,11,12],
+      "heatcap": [8,8,10],
+      "hull": [3,4,5],
+      "agility": [-1,-1,-1],
+      "systems": [1,1,2],
+      "engineering": [1,2,3],
+      "armor": [2,3,3],
+      "speed": [3,3,3],
+      "sensor": [10,10,10],
+      "save": [11,13,15],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "power": 100,
+    "base_features": [
+      "ubrg_npcf_molecular_disintegration_orb_lace_theurge",
+      "ubrg_npcf_molecular_integration_halo_theurge",
+      "ubrg_npcf_fundamental_invulnerability_mandala_theurge",
+      "ubrg_npcf_molecular_enlightenment_integration_circuits_theurge"
+    ],
+    "optional_features": [
+      "ubrg_npcf_atomic_alignment_shroud_theurge",
+      "ubrg_npcf_emergency_reintegration_mantra_theurge",
+      "ubrg_npcf_harmonious_resonance_anchor_theurge",
+      "ubrg_npcf_molecular_castigation_theurge",
+      "ubrg_npcf_temple_theurge"
+    ]
+  },
+  {
+    "id": "ubrg_npcc_tyrant",
+    "name": "TYRANT",
+    "role": "controller",
+    "info": {
+      "flavor": "The Tyrant doctrine of electronic warfare is one of brute technological force. Mechs featuring Tyrant-class processors and viral breeder-drives eschew subtle, clever means of overcoming the foe in favour of the data equivalent of a battering ram. When the Tyrant’s assault breaches a victim’s system, it forces brutal cascades of overheating and energy surges, takes the quickest route to disarming active weapons it can finds, or simply seizes control over portions of the victim. Military mechs of this design reflect the blunt nature of their purpose, being heavily-built compared to many other invasion platforms. Much beloved among front-line e-warfare troops, Tyrants are also favoured by techno-zealots and ontological cults who demand subservience to their creed, however they can get it.",
+      "tactics": "The Tyrant is a front-line hacker, capable of taking part in a firefight and dishing out damage as well as heat. SUBMIT can help defang dangerous attackers with complex weaponry, and OBEY lets the Tyrant drag victims into killzones or send problematic mechs running from the battle. However, the NPC is not particularly swift, and its low evasion leaves it vulnerable to weapons that can tag it with deleterious conditions as well as raw damage."
+    },
+    "stats": {
+      "hp": [16,19,22],
+      "evade": [6,7,8],
+      "edef": [12,14,16],
+      "heatcap": [6,6,6],
+      "hull": [0,1,1],
+      "agility": [-1,-1,-1],
+      "systems": [3,5,6],
+      "engineering": [0,0,1],
+      "armor": [1,1,1],
+      "speed": [3,3,4],
+      "sensor": [15,15,15],
+      "save": [12,15,17],
+      "size": [[1],[1],[1]],
+      "activations": [1,1,1]
+    },
+    "power": 100,
+    "base_features": [
+      "ubrg_npcf_perish_tyrant",
+      "ubrg_npcf_submit_tyrant",
+      "ubrg_npcf_obey_tyrant",
+      "ubrg_npcf_dominated_systems_tyrant"
+    ],
+    "optional_features": [
+      "ubrg_npcf_betray_tyrant",
+      "ubrg_npcf_crown_of_ice_tyrant",
+      "ubrg_npcf_kneel_tyrant",
+      "ubrg_npcf_turn_tyrant",
+      "ubrg_npcf_wall_of_fire_tyrant"
+    ]
   }
 ]
