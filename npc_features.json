@@ -6679,6 +6679,90 @@
     "type": "Trait",
     "effect": "The Theurge is immune to explosive damage, knockback, being knocked prone, and the Shredded and Slowed Conditions.",
     "tags": []
+  },
+  {
+    "id": "ubrg_npcf_atomic_alignment_shroud_theurge",
+    "name": "ATOMIC ALIGNMENT SHROUD",
+    "origin": {
+      "type": "Class",
+      "name": "THEURGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_shield"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "effect": "The Theurge targets a single ally within sensor range and gives it a shroud that has {5/10/15} HP and no armour. Any attacks that deal damage to the ally instead hit the shroud, dealing damage to it as normal; once the shroud has run out of HP it is destroyed, and any damage that remains rolls over onto the original target. The shroud lasts until the beginning of the Theurge’s next turn."
+  },
+  {
+    "id": "ubrg_npcf_emergency_reintegration_mantra_theurge",
+    "name": "EMERGENCY REINTEGRATION MANTRA",
+    "origin": {
+      "type": "Class",
+      "name": "THEURGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      },
+      {
+        "id": "tg_limited",
+        "val": 1
+      }
+    ],
+    "effect": "The Theurge cannot take any other actions during the turn it uses Emergency Reintegration Mantra, not even movement, and it cannot use this system before round 3 of a combat. The Theurge and all allies within a burst 4 area around it regain {5/10/15} HP."
+  },
+  {
+    "id": "ubrg_npcf_harmonious_resonance_anchor_theurge",
+    "name": "HARMONIOUS RESONANCE ANCHOR",
+    "origin": {
+      "type": "Class",
+      "name": "THEURGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "No character can teleport in or out of spaces within an area of burst 5 around the Theurge. Additionally, although primarily relevant on narrative terms, MONIST-class attempts to control reality or spacetime have no effect within the area.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_molecular_castigation_theurge",
+    "name": "MOLECULAR CASTIGATION",
+    "origin": {
+      "type": "Class",
+      "name": "THEURGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Shredded condition caused by the Molecular Disintegration Orb-Lace ends on a target, anyone adjacent to the target takes {2/3/4} explosive damage.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_temple_theurge",
+    "name": "TEMPLE",
+    "origin": {
+      "type": "Class",
+      "name": "THEURGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Tech attacks are made against the Theurge and any allies adjacent to it with 1 Difficulty, and the Theurge and any allies adjacent to it make all Systems saves with 1 Accuracy.",
+    "tags": []
   }
 ]
 

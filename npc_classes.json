@@ -1482,7 +1482,13 @@
       "ubrg_npcf_fundamental_invulnerability_mandala_theurge",
       "ubrg_npcf_molecular_enlightenment_integration_circuits_theurge"
     ],
-    "optional_features": []
+    "optional_features": [
+      "ubrg_npcf_atomic_alignment_shroud_theurge",
+      "ubrg_npcf_emergency_reintegration_mantra_theurge",
+      "ubrg_npcf_harmonious_resonance_anchor_theurge",
+      "ubrg_npcf_molecular_castigation_theurge",
+      "ubrg_npcf_temple_theurge"
+    ]
   }
 ]
 
