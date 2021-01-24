@@ -6325,13 +6325,14 @@
       "base": true
     },
     "locked": false,
+    "name": "SNAPSHOT COMMAND",
     "type": "Trait",
     "tags": [
       {
         "id": "tg_quick_action"
       }
     ],
-    "effect": "With an order, the Streetsweeper gives an ally within range 5 an additional overwatch reaction. The ally also gains the ability to make overwatch attacks as a reaction to an enemy within range 10 moving from cover to a space without it. The Streetsweeper loses its own overwatch reaction when using this ability, and the target loses the additional overwatch reaction and the ability to react to enemies leaving cover at the end of their next turn.",
+    "effect": "With an order, the Streetsweeper gives an ally within range 5 an additional overwatch reaction. The ally also gains the ability to make overwatch attacks as a reaction to an enemy within range 10 moving from cover to a space without it. The Streetsweeper loses its own overwatch reaction when using this ability, and the target loses the additional overwatch reaction and the ability to react to enemies leaving cover at the end of their next turn."
   },
   {
     "id": "ubrg_npcf_advancing_fire_streetsweeper",
@@ -6340,6 +6341,7 @@
       "name": "STREETSWEEPER",
       "base": false
     },
+    "name": "ADVANCING FIRE",
     "locked": false,
     "type": "Trait",
     "effect": "Whenever an ally within range 5 of the Streetsweeper makes a ranged attack, they can also move one square. If this provokes an overwatch reaction, the ally gains soft cover against the overwatch attack.",
@@ -6353,6 +6355,7 @@
       "base": false
     },
     "locked": false,
+    "name": "HEAVY MAUL",
     "type": "Weapon",
     "weapon_type": "Heavy Melee",
     "tags": [
@@ -6384,6 +6387,7 @@
       "base": false
     },
     "locked": false,
+    "name": "MICROGRENADE SATURATION POD",
     "type": "Weapon",
     "weapon_type": "Main Nexus",
     "tags": [
@@ -6421,6 +6425,7 @@
       "base": false
     },
     "locked": false,
+    "name": "SEARCH AND DESTROY",
     "type": "Trait",
     "effect": "The Streetsweeper and all allies within range 5 of its position gain 2 Accuracy on Systems checks to search for hidden enemies.",
     "tags": []
@@ -6433,9 +6438,155 @@
       "base": false
     },
     "locked": false,
+    "name": "THREAT RESPONSE ENHANCEMENT SUITE",
     "type": "System",
     "effect": "Whenever an ally with the Grunt template within range 5 of the Streetsweeper would be destroyed by taking energy, explosive, or kinetic damage, it instead remains at 1 HP if it passes a hull save.",
     "tags": []
+  },
+  {
+    "id": "ubrg_npcf_terraforming_pod_launcher_terraformer",
+    "origin": {
+      "type": "Class",
+      "name": "TERRAFORMER",
+      "base": true
+    },
+    "locked": false,
+    "name": "TERRAFORMING POD LAUNCHER",
+    "type": "Weapon",
+    "weapon_type": "Superheavy Launcher",
+    "tags": [
+      {
+        "id": "tg_arcing"
+      },
+      {
+        "id": "tg_ordnance"
+      },
+      {
+        "id": "tg_loading"
+      },
+      {
+        "id": "tg_deployable"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 30
+      }
+    ],
+    "attack_bonus": [0,0,0],
+    "accuracy": [-3,-3,-3],
+    "damage": [],
+    "on_hit": "Targets hit by this weapon suffer Knockback 2 and must pass an Agility check or suffer {9/11/13} kinetic damage and be knocked prone.",
+    "effect": "After firing this weapon, place a Terraforming Pod in the target's original space, or as close as possible. The pod deals 50 AP kinetic damage to any terrain or objects in the spot it lands; if this is not enough to destroy an obstruction, the pod is destroyed.<br>Terraforming Pod (Size 1, HP {15/20/25}, Evasion 5, E-Defence 5, Tags: Deployable)<br>The Terraforming Pod cannot move under any circumstances, nor be knocked prone. The Terraformer chooses the type of pod it launches each time it fires. The effects remain or repeat as long as the pod remains. The Terraformer can have up to four pods in play at once, deactivating an old one automatically when it would go over that limit. Deactivated pods remain as objects in the scene but cease to emit any effects.<li>Atmospheric Cage: All characters in a burst 5 zone around the pod gain resistance to explosive damage, and any character who flies in the zone becomes Slowed until the end of their next turn.<li>Electromagnetic Anchor: At the beginning of the Terraformer’s turn, choose one target within range 5 of the pod and inflict {3/4/5} energy damage and the Jammed condition on it until the end of its next turn.<li>Fauna Delivery Container: The pod disgorges two Monstrosities with the Acid Spittle optional system and the Grunt template. These Monstrosities cannot willingly move beyond range 5 of the Pod, and immediately die if they are forced to do so. At the beginning of the Terraformer’s turn, if there are less than two Monstrosities remaining, the pod disgorges a new one.<li>Quake Leveller Drill: At the beginning of the Terraformer’s turn, all objects and pieces of terrain within a burst 5 area of the pod lose 1 Size; if this reduces them to 0 Size, it destroys them. All characters within the area must pass a Hull save or be Slowed until the end of their next turn.<li>Nanoassembly Hive: A burst 5 zone around the pod is difficult terrain and soft cover."
+  },
+  {
+    "id": "ubrg_npcf_heavy_frame_terraformer",
+    "origin": {
+      "type": "Class",
+      "name": "TERRAFORMER",
+      "base": true
+    },
+    "locked": false,
+    "name": "HEAVY FRAME",
+    "type": "Trait",
+    "effect": "The Terraformer cannot be knocked back or prone by actors smaller than itself.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_area_purge_retrojets_terraformer",
+    "origin": {
+      "type": "Class",
+      "name": "TERRAFORMER",
+      "base": false
+    },
+    "locked": false,
+    "name": "AREA PURGE RETROJETS",
+    "type": "Trait",
+    "effect": "The Terraforming Pod Launcher’s attack roll changes to +1 vs evasion/tier plus 3 Difficulty. Anyone adjacent to a terraforming pod when it is placed on the battlefield takes 1 Burn damage.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_atmospheric_heating_pod_terraformer",
+    "origin": {
+      "type": "Class",
+      "name": "TERRAFORMER",
+      "base": false
+    },
+    "locked": false,
+    "name": "ATMOSPHERIC HEATING POD",
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_deployable"
+      }
+    ],
+    "effect": "When firing the TERRAFORMING POD LAUNCHER, the TERRAFORMER may choose to launch this pod instead of one of its other pods.<br>Atmospheric Heating Pod (Size 1, HP {15/20/25}, Evasion 5, E-Defence 5, Tags: Deployable)<br>While a character is within a burst 5 zone around the pod, all of their systems and weapons that generate heat generate 1 more heat than normal."
+  },
+  {
+    "id": "ubrg_npcf_ecosystem_reset_pod_terraformer",
+    "origin": {
+      "type": "Class",
+      "name": "TERRAFORMER",
+      "base": false
+    },
+    "locked": false,
+    "name": "ECOSYSTEM RESET POD",
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_deployable"
+      }
+    ],
+    "effect": "When firing the TERRAFORMING POD LAUNCHER, the TERRAFORMER may choose to launch this pod instead of one of its other pods.<br>Ecosystem Reset Pod (Size 1, HP {15/20/25}, Evasion 5, E-Defence 5, Tags: Deployable)<br>On impact, this pod destroys all soft and hard cover from vegetation within a Burst 5 area, and deals {3/4/5} Burn damage to characters with the Biological tag in the affected area. After this, the pod immediately deactivates."
+  },
+  {
+    "id": "ubrg_npcf_hillbreaker_terraformer",
+    "name": "HILLBREAKER",
+    "origin": {
+      "type": "Class",
+      "name": "TERRAFORMER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Heavy Melee",
+    "tags": [
+      {
+        "id": "tg_ordnance"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [6,8,10]
+      }
+    ],
+    "on_hit": "Enemies struck by this attack must pass a Hull save or be knocked prone. Objects and terrain take {10/15/20} AP damage."
+  },
+  {
+    "id": "ubrg_npcf_military_grade_fabrication_protocols_terraformer",
+    "name": "MILITARY-GRADE FABRICATION PROTOCOLS",
+    "origin": {
+      "type": "Class",
+      "name": "TERRAFORMER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ],
+    "effect": "Instead of firing one of its normal Terraforming Pods, the Terraformer may instead cause a pod that has just landed to immediately unfold into a bunker, creating a 3x3 zone that provides hard cover to anyone within the area against attacks from all directions. The bunker counts as a size 3 piece of terrain that has evasion 5 and 30 HP."
   }
-
 ]
