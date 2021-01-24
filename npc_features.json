@@ -6259,6 +6259,183 @@
       "base": false
     },
     "locked": false
+  },
+  {
+    "id": "ubrg_npcf_hailstorm_assault_shotgun_streetsweeper",
+    "origin": {
+      "type": "Class",
+      "name": "STREETSWEEPER",
+      "base": true
+    },
+    "locked": false,
+    "name": "HAILSTORM ASSAULT SHOTGUN",
+    "type": "Weapon",
+    "weapon_type": "Main CQB",
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": 2
+      }
+    ],
+    "range": [
+      {
+        "type": "Cone",
+        "val": 5
+      }
+    ],
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [4,5,6]
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_assault_network_streetsweeper",
+    "origin": {
+      "type": "Class",
+      "name": "STREETSWEEPER",
+      "base": true
+    },
+    "locked": false,
+    "name": "ASSAULT NETWORK",
+    "type": "System",
+    "effect": "At the beginning of the Streetsweeper’s turn, all allies within range 5 of its position can move up to 2 squares. This movement does not provoke reactions of any kind.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_crossfire_coordinates_streetsweeper",
+    "origin": {
+      "type": "Class",
+      "name": "STREETSWEEPER",
+      "base": true
+    },
+    "locked": false,
+    "name": "CROSSFIRE CO-ORDINATES",
+    "type": "System",
+    "effect": "If any ally within range 5 of the Streetsweeper’s location has unimpeded line of sight on an enemy in soft cover or flanking on an enemy in hard cover, that enemy does not get the benefits of cover against attacks from all allies within range 5 of the Streetsweeper’s location. This system does not provide allies with line of sight to a target; it merely denies cover benefits.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_snapshot_command_streetsweeper",
+    "origin": {
+      "type": "Class",
+      "name": "STREETSWEEPER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "With an order, the Streetsweeper gives an ally within range 5 an additional overwatch reaction. The ally also gains the ability to make overwatch attacks as a reaction to an enemy within range 10 moving from cover to a space without it. The Streetsweeper loses its own overwatch reaction when using this ability, and the target loses the additional overwatch reaction and the ability to react to enemies leaving cover at the end of their next turn.",
+  },
+  {
+    "id": "ubrg_npcf_advancing_fire_streetsweeper",
+    "origin": {
+      "type": "Class",
+      "name": "STREETSWEEPER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever an ally within range 5 of the Streetsweeper makes a ranged attack, they can also move one square. If this provokes an overwatch reaction, the ally gains soft cover against the overwatch attack.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_heavy_maul_streetsweeper",
+    "origin": {
+      "type": "Class",
+      "name": "STREETSWEEPER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Heavy Melee",
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": 2
+      }
+    ],
+    "attack_bonus": [1,2,3],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [5,7,9]
+      }
+    ],
+    "effect": "This weapon gains the AP tag against objects and terrain."
+  },
+  {
+    "id": "ubrg_npcf_microgrenade_saturation_pod",
+    "origin": {
+      "type": "Class",
+      "name": "STREETSWEEPER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Main Nexus",
+    "tags": [
+      {
+        "id": "tg_seeking"
+      },
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "range": [
+      {
+        "type": "Blast",
+        "val": 1
+      },
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Explosive",
+        "damage": [3,4,5]
+      }
+    ],
+    "effect": "If this weapon targets an enemy or space within a fortification, building, or other structure, it loses blast 1 and instead also makes an attack against every other enemy within range 3 who is also within that structure."
+  },
+  {
+    "id": "ubrg_npcf_search_and_destroy_streetsweeper",
+    "origin": {
+      "type": "Class",
+      "name": "STREETSWEEPER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Streetsweeper and all allies within range 5 of its position gain 2 Accuracy on Systems checks to search for hidden enemies.",
+    "tags": []
+  },
+  {
+    "id": "ubrg_npcf_threat_response_enhancement_suite_streetsweeper",
+    "origin": {
+      "type": "Class",
+      "name": "STREETSWEEPER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Whenever an ally with the Grunt template within range 5 of the Streetsweeper would be destroyed by taking energy, explosive, or kinetic damage, it instead remains at 1 HP if it passes a hull save.",
+    "tags": []
   }
 
 ]
