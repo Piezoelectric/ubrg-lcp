@@ -6380,7 +6380,7 @@
     "effect": "This weapon gains the AP tag against objects and terrain."
   },
   {
-    "id": "ubrg_npcf_microgrenade_saturation_pod",
+    "id": "ubrg_npcf_microgrenade_saturation_pod_streetsweeper",
     "origin": {
       "type": "Class",
       "name": "STREETSWEEPER",
