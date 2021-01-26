@@ -6980,7 +6980,7 @@
         "damage": [7,9,11]
       }
     ],
-    "effect": "When the Vulcan fires this weapon, it gains soft cover until the end of its next turn. After firing, at the start of the Vulcan’s next turn, it attacks the same Line 20 area again as a Free Action, dealing Burn 8 to any targets hit.",
+    "effect": "When the Vulcan fires this weapon, it gains soft cover until the end of its next turn. After firing, at the start of the Vulcan’s next turn, it attacks the same Line 20 area again as a Free Action, dealing Burn 8 to any targets hit."
   },
   {
     "id": "ubrg_npcf_molten_effluent_nozzle_gun_vulcan",
@@ -7117,7 +7117,7 @@
         "val": 6
       }
     ],
-    "effect": "Select a blast 5 area in Sensors (15). All enemies who are in the danger zone, are currently suffering from ongoing Burn, or who have the Exposed condition, gain the Lock On condition.<br>[Note: this system doesn't have the Drone tag.]"
+    "effect": "Select a blast 5 area in Sensors (15). All enemies in the blast area who are in the danger zone, are currently suffering from ongoing Burn, or who have the Exposed condition, gain the Lock On condition.<br>[Note: this system doesn't have the Drone tag.]"
   },
   {
     "id": "ubrg_npcf_thermobaric_shockwave_vulcan",
@@ -7130,6 +7130,6 @@
     "locked": false,
     "type": "Trait",
     "tags": [],
-    "effect": "When the Volcano Cannon is fired, characters adjacent to the Volcano Cannon’s area of effect must pass a Hull save or be knocked prone. [Note: this does not apply to the secondary free action, just the initial firing of the weapon.]"
+    "effect": "When the Volcano Cannon is fired, characters adjacent to the Volcano Cannon’s area of effect must pass a Hull save or be knocked prone.<br>[Note: this does not apply to the secondary free action, just the initial firing of the weapon.]"
   }
 ]
