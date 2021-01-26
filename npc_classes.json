@@ -1528,5 +1528,59 @@
       "ubrg_npcf_turn_tyrant",
       "ubrg_npcf_wall_of_fire_tyrant"
     ]
+  },
+  {
+    "id": "ubrg_npcc_vulcan",
+    "name": "VULCAN",
+    "role": "artillery",
+    "info": {
+      "flavor": "The success of Harrison Armory’s Sherman line has spurred the creation of any number of lesser imitations in the field of heavy laser weaponry. A rare success is the emergence of the VULCAN-class artillery frame, moving away from the main-line role of the Sherman to focus totally on unfettered firepower. Models like the Shaffhausen Charter’s Etna use enhanced reactors to power focusing-cannons capable of breaking enemy lines and punching through fortifications. However, the power draw is so intense that some Vulcans are reported to simply shut down after firing, and others need to be fully refitted after each battle as the weapons warp or melt and reactor stress grows too great. The more successful designs incorporate secondary weaponry so the mech can continue to contribute to the battlefield while waiting for its superheavy armament to recharge.",
+      "tactics": "The Vulcan is pure heavy artillery, sturdier than some of its kind as it needs to position itself well to catch multiple enemies with its Volcano Cannon. Most targets melt when faced with the Vulcan’s damage output, but the heavy and cumbersome nature of its weapon leaves it vulnerable between shots. It can fend off close assaults with its nozzle-gun to buy some breathing room, leaving would-be assailants stuck for allies to engage; however, if isolated, it will struggle to respond effectively to attack."
+    },
+    "power": 100,
+    "stats": {
+      "activations": [1,1,1],
+      "hp": [12,15,18],
+      "evade": [6,6,6],
+      "edef": [8,10,12],
+      "heatcap": [16,18,20],
+      "hull": [1,2,3],
+      "agility": [-1,-1,-1],
+      "systems": [0,0,1],
+      "engineering": [3,5,6],
+      "armor": [2,2,2],
+      "speed": [4,4,4],
+      "sensor": [15,15,15],
+      "save": [11,13,15],
+      "size": [[2],[2],[2]]
+    },
+    "base_features": [],
+    "optional_features": []
   }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
