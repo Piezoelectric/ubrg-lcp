@@ -1560,33 +1560,11 @@
       "ubrg_npcf_heavy_reactor_shielding_vulcan"
     ],
     "optional_features": [
-
+      "ubrg_npcf_reactor_primed_fusion_rockets_vulcan",
+      "ubrg_npcf_reactor_resonance_cascade_frequencies_vulcan",
+      "ubrg_npcf_scorched_earth_vulcan",
+      "ubrg_npcf_thermal_targeting_drone_vulcan",
+      "ubrg_npcf_thermobaric_shockwave_vulcan"
     ]
   }
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
