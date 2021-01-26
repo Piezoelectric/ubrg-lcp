@@ -6943,5 +6943,122 @@
       }
     ],
     "effect": "The Tyrant creates a burst 2 zone within sensor range. Until the end of the next turn, anyone targeting a character within the Wall of FIRE zone with a tech attack suffers {2/3/4} heat."
+  },
+  {
+    "id": "ubrg_npcf_volcano_cannon_vulcan",
+    "name": "VOLCANO CANNON",
+    "origin": {
+      "type": "Class",
+      "name": "VULCAN",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Superheavy Cannon",
+    "tags": [
+      {
+        "id": "tg_loading"
+      },
+      {
+        "id": "tg_ordnance"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 4
+      }
+    ],
+    "range": [
+      {
+        "type": "Line",
+        "val": 20
+      }
+    ],
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [7,9,11]
+      }
+    ],
+    "effect": "When the Vulcan fires this weapon, it gains soft cover until the end of its next turn. After firing, at the start of the Vulcan’s next turn, it attacks the same Line 20 area again as a Free Action, dealing Burn 8 to any targets hit.",
+  },
+  {
+    "id": "ubrg_npcf_molten_effluent_nozzle_gun_vulcan",
+    "name": "MOLTEN EFFLUENT NOZZLE-GUN",
+    "origin": {
+      "type": "Class",
+      "name": "VULCAN",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Main CQB",
+    "range": [
+      {
+        "type": "Line",
+        "val": 5
+      }
+    ],
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Heat",
+        "damage": [2,2,2]
+      },
+      {
+        "type": "Burn",
+        "damage": [3,4,5]
+      }
+    ],
+    "effect": "Firing this weapon cools the Vulcan for 2 heat.",
+    "on_hit": "Targets struck by this weapon must pass an Agility save or become Immobilized until the end of their next turn."
+  },
+  {
+    "id": "ubrg_npcf_heavy_reactor_shielding_vulcan",
+    "name": "HEAVY REACTOR SHIELDING",
+    "origin": {
+      "type": "Class",
+      "name": "VULCAN",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Vulcan has resistance to Energy and Burn damage."
   }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

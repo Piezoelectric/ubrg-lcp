@@ -1554,8 +1554,14 @@
       "save": [11,13,15],
       "size": [[2],[2],[2]]
     },
-    "base_features": [],
-    "optional_features": []
+    "base_features": [
+      "ubrg_npcf_volcano_cannon_vulcan",
+      "ubrg_npcf_molten_effluent_nozzle_gun_vulcan",
+      "ubrg_npcf_heavy_reactor_shielding_vulcan"
+    ],
+    "optional_features": [
+
+    ]
   }
 ]
 
