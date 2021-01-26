@@ -1,9 +1,9 @@
 {
     "name": "Union_Battlefield_Recognition_Guide",
     "author": "Acrozatarim",
-    "description": "The UBRG is a collection of 42 new NPC classes, NPC versions of player mechs, and NPC mech manufacturers. This LCP includes 39 of the NPCs (the APC, up to the TYRANT). The UBRG itself is in alpha, but all included NPCs are fully statted out and detailed. Original design by Acrozatarim. LCP coded by Sparks Murphey, Perijove, and Fungus. Last updated 2021-01-25",
+    "description": "The UBRG is a collection of 42 new NPC classes, NPC versions of player mechs, and NPC mech manufacturers. This LCP includes 40 of the NPCs (the APC, up to the VULCAN). The UBRG itself is in alpha, but all included NPCs are fully statted out and detailed. Original design by Acrozatarim. LCP coded by Sparks Murphey, Perijove, and Fungus. Last updated 2021-01-25",
     "item_prefix": "ubrg",
-    "version": "0.1.10",
+    "version": "0.1.11",
     "image_url": "https://drive.google.com/uc?id=1-VExd1ToJ56UFZgvRxguWxdzSFEk0aQO",
     "website": "https://drive.google.com/file/d/1NXD3iFknaONO9EZwRNv7IGmPAifsHlr6/view"
 }

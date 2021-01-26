@@ -6943,5 +6943,193 @@
       }
     ],
     "effect": "The Tyrant creates a burst 2 zone within sensor range. Until the end of the next turn, anyone targeting a character within the Wall of FIRE zone with a tech attack suffers {2/3/4} heat."
+  },
+  {
+    "id": "ubrg_npcf_volcano_cannon_vulcan",
+    "name": "VOLCANO CANNON",
+    "origin": {
+      "type": "Class",
+      "name": "VULCAN",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Superheavy Cannon",
+    "tags": [
+      {
+        "id": "tg_loading"
+      },
+      {
+        "id": "tg_ordnance"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 4
+      }
+    ],
+    "range": [
+      {
+        "type": "Line",
+        "val": 20
+      }
+    ],
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [7,9,11]
+      }
+    ],
+    "effect": "When the Vulcan fires this weapon, it gains soft cover until the end of its next turn. After firing, at the start of the Vulcan’s next turn, it attacks the same Line 20 area again as a Free Action, dealing Burn 8 to any targets hit."
+  },
+  {
+    "id": "ubrg_npcf_molten_effluent_nozzle_gun_vulcan",
+    "name": "MOLTEN EFFLUENT NOZZLE-GUN",
+    "origin": {
+      "type": "Class",
+      "name": "VULCAN",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Main CQB",
+    "range": [
+      {
+        "type": "Line",
+        "val": 5
+      }
+    ],
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Heat",
+        "damage": [2,2,2]
+      },
+      {
+        "type": "Burn",
+        "damage": [3,4,5]
+      }
+    ],
+    "effect": "Firing this weapon cools the Vulcan for 2 heat.",
+    "on_hit": "Targets struck by this weapon must pass an Agility save or become Immobilized until the end of their next turn."
+  },
+  {
+    "id": "ubrg_npcf_heavy_reactor_shielding_vulcan",
+    "name": "HEAVY REACTOR SHIELDING",
+    "origin": {
+      "type": "Class",
+      "name": "VULCAN",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Vulcan has resistance to Energy and Burn damage."
+  },
+  {
+    "id": "ubrg_npcf_reactor_primed_fusion_rockets_vulcan",
+    "name": "REACTOR-PRIMED FUSION ROCKETS",
+    "origin": {
+      "type": "Class",
+      "name": "VULCAN",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Main Launcher",
+    "tags": [
+      {
+        "id": "tg_ap"
+      },
+      {
+        "id": "tg_ordnance"
+      },
+      {
+        "id": "tg_seeking"
+      },
+      {
+        "id": "tg_smart"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      },
+      {
+        "type": "Blast",
+        "val": 1
+      }
+    ],
+    "attack_bonus": [1,2,3],
+    "accuracy": [1,1,1],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [4,6,8]
+      },
+      {
+        "type": "Heat",
+        "damage": [2,3,4]
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_reactor_resonance_cascade_frequencies_vulcan",
+    "name": "REACTOR RESONANCE CASCADE FREQUENCIES",
+    "origin": {
+      "type": "Class",
+      "name": "VULCAN",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Vulcan’s Volcano Cannon no longer does damage. Instead, targets hit by it must pass an Engineering save or immediately take 1 point of Reactor Stress and cool to 0 heat. Characters who pass their save immediately gain enough heat to put them 1 point off Overheating.<br>Firing the weapon causes the Vulcan to immediately Shut Down."
+  },
+  {
+    "id": "ubrg_npcf_scorched_earth_vulcan",
+    "name": "SCORCHED EARTH",
+    "origin": {
+      "type": "Class",
+      "name": "VULCAN",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When the Vulcan fires the Volcano Cannon, it may choose to take an additional 4 heat. If it does so, the area of the cannon’s effect also becomes dangerous terrain dealing Burn damage until the end of the scene."
+  },
+  {
+    "id": "ubrg_npcf_thermal_targeting_drone_vulcan",
+    "name": "THERMAL TARGETING DRONE",
+    "origin": {
+      "type": "Class",
+      "name": "VULCAN",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ],
+    "effect": "Select a blast 5 area in Sensors (15). All enemies in the blast area who are in the danger zone, are currently suffering from ongoing Burn, or who have the Exposed condition, gain the Lock On condition.<br>[Note: this system doesn't have the Drone tag.]"
+  },
+  {
+    "id": "ubrg_npcf_thermobaric_shockwave_vulcan",
+    "name": "THERMOBARIC SHOCKWAVE",
+    "origin": {
+      "type": "Class",
+      "name": "VULCAN",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When the Volcano Cannon is fired, characters adjacent to the Volcano Cannon’s area of effect must pass a Hull save or be knocked prone.<br>[Note: this does not apply to the secondary free action, just the initial firing of the weapon.]"
   }
 ]
