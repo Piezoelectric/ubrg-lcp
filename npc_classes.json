@@ -1566,5 +1566,83 @@
       "ubrg_npcf_thermal_targeting_drone_vulcan",
       "ubrg_npcf_thermobaric_shockwave_vulcan"
     ]
+  },
+  {
+    "id": "ubrg_npcc_warper",
+    "name": "WARPER",
+    "role": "defender",
+    "info": {
+      "flavor": "Collected under the WARPER category of paracausal battle engines, several companies have recently rolled out advanced Blinkspace modulator frames that use teleportation for an aggressive theater-control doctrine rather than as a source of superior mobility. Combining a package of overaggressive solipsist engrams and Blink-stutter micro-intrusions into the fabric of spacetime, these lean mechs prowl the battlefield amid a haze of distortion.",
+      "tactics": "The Warper is an agile defender who punishes enemies that go after its allies. Use the Truth of Retribution to harry mechs who would rather pursue softer prey, and the Distortion Scythe’s inherent teleportation to avoid getting bogged down. The Warper relies on its high evasion to present a difficult target, and so is somewhat vulnerable to hackers and smart weaponry."
+    },
+    "power": 100,
+    "stats": {
+      "activations": [1,1,1],
+      "hp": [16,18,20],
+      "evade": [14,16,18],
+      "edef": [8,9,10],
+      "heatcap": [6,6,6],
+      "hull": [0,1,1],
+      "agility": [0,1,2],
+      "systems": [3,4,6],
+      "engineering": [1,2,2],
+      "armor": [1,1,1],
+      "speed": [5,5,6],
+      "sensor": [10,10,10],
+      "save": [11,13,16],
+      "size": [[1],[1],[1]]
+    },
+    "base_features": [
+      "ubrg_npcf_distortion_scythe_warper",
+      "ubrg_npcf_truth_of_retribution_warper",
+      "ubrg_npcf_lie_of_distance_warper",
+      "ubrg_npcf_retribution_reaction_warper"
+    ],
+    "optional_features": [
+      "ubrg_npcf_alternate_journeys_warper",
+      "ubrg_npcf_contortion_sphere_warper",
+      "ubrg_npcf_myriad_pathways_warper",
+      "ubrg_npcf_solipsism_needler_warper",
+      "ubrg_npcf_the_torment_of_perspective_warper"
+    ]
+  },
+  {
+    "id": "ubrg_npcc_wrecker",
+    "name": "WRECKER",
+    "role": "striker",
+    "info": {
+      "flavor": "Derived from industrial labour and demolition frames, wreckers are favoured by pirates, slavers, and insurgent forces. Facing a wrecker can be a terrifying experience for even a veteran pilot as their mech is methodically torn apart piece by piece, with even survival marred by lingering damage and malfunctioning systems.",
+      "tactics": "The Wrecker is an in-your-face melee mech, capable of battering multiple foes to the ground and ripping parts off them. The Maglock Buckler allows it to incapacitate troublesome weapons up-close, and combined with Disassemble it can quickly neutralize threatening aspects of a target just by dealing damage."
+    },
+    "power": 100,
+    "stats": {
+      "activations": [1,1,1],
+      "hp": [18,22,26],
+      "evade": [6,7,8],
+      "edef": [8,9,10],
+      "heatcap": [6,6,6],
+      "hull": [2,4,6],
+      "agility": [-2,-2,-2],
+      "systems": [0,0,1],
+      "engineering": [2,4,6],
+      "armor": [0,0,0],
+      "speed": [4,5,5],
+      "sensor": [10,10,10],
+      "save": [11,13,16],
+      "size": [[2],[2],[2]]
+    },
+    "base_features": [
+      "ubrg_npcf_wrecking_ball_wrecker",
+      "ubrg_npcf_maglock_buckler_wrecker",
+      "ubrg_npcf_disassemble_wrecker",
+      "ubrg_npcf_wrecker_wrecker"
+    ],
+    "optional_features": [
+      "ubrg_npcf_power_saw_wrecker",
+      "ubrg_npcf_cannibalize_wrecker",
+      "ubrg_npcf_harpoon_wrecker",
+      "ubrg_npcf_hypergrinders_wrecker",
+      "ubrg_npcf_systems_breach_wrecker"
+    ]
   }
 ]

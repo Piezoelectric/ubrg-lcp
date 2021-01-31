@@ -7135,5 +7135,358 @@
     "type": "Trait",
     "tags": [],
     "effect": "When the Volcano Cannon is fired, characters adjacent to the Volcano Cannon’s area of effect must pass a Hull save or be knocked prone.<br>[Note: this does not apply to the secondary free action, just the initial firing of the weapon.]"
+  },
+  {
+    "id": "ubrg_npcf_distortion_scythe_warper",
+    "name": "DISTORTION SCYTHE",
+    "origin": {
+      "type": "Class",
+      "name": "WARPER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "After making an attack with this weapon, the Warper may teleport up to 2 spaces.",
+    "weapon_type": "Main Melee",
+    "tags": [
+      {
+        "id": "tg_ap"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [5,7,9]
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_truth_of_retribution_warper",
+    "name": "TRUTH OF RETRIBUTION",
+    "origin": {
+      "type": "Class",
+      "name": "WARPER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "The Warper gains the Retribution reaction, which can only be used against characters marked by this system. As a Quick Tech, the Warper chooses a single target within its sensor range and marks them. The mark remains until the end of the scene, or until the Warper uses Truth of Retribution to mark a new target, whereupon the old mark immediately fades."
+  },
+  {
+    "id": "ubrg_npcf_retribution_reaction_warper",
+    "name": "RETRIBUTION",
+    "origin": {
+      "type": "Class",
+      "name": "WARPER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "trigger": "A character marked by the Warper's Truth of Retribution begins an attack that does not include the Warper as one of its targets.",
+    "effect": "1/round as a reaction, the Warper may teleport to a free space within range 2 of them and immediately make an attack with its Distortion Scythe. The target may then continue with its attack but, if the Warper is now adjacent to it, will suffer engagement penalties to ranged attacks as normal.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_lie_of_distance_warper",
+    "name": "LIE OF DISTANCE",
+    "origin": {
+      "type": "Class",
+      "name": "WARPER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "The Warper chooses a single ally within sensor range and warps the fabric of space-time around them. Until the beginning of the Warper’s next turn, ranged attacks made against the ally treat it as being 5 squares further away from the attacker than it really is, which may leave it out of range."
+  },
+  {
+    "id": "ubrg_npcf_alternate_journeys_warper",
+    "name": "ALTERNATE JOURNEYS",
+    "origin": {
+      "type": "Class",
+      "name": "WARPER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When the effects of the Warper’s Lie of Distance end on an ally, the Warper may immediately teleport the target up to 5 squares."
+  },
+  {
+    "id": "ubrg_npcf_contortion_sphere_warper",
+    "name": "CONTORTION SPHERE",
+    "origin": {
+      "type": "Class",
+      "name": "WARPER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "If an enemy marked by the Warper’s Truth of Retribution misses with an attack that triggered Truth of Retribution's reaction, the Warper may force them to reroll the attack against a new target of the Warper’s choice, even if it is one of their allies."
+  },
+  {
+    "id": "ubrg_npcf_myriad_pathways_warper",
+    "name": "MYRIAD PATHWAYS",
+    "origin": {
+      "type": "Class",
+      "name": "WARPER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The Warper’s Truth of Retribution ability marks two targets at a time, and it can make a reaction to each target once per round."
+  },
+  {
+    "id": "ubrg_npcf_solipsism_needler_warper",
+    "name": "SOLIPSISM NEEDLER",
+    "origin": {
+      "type": "Class",
+      "name": "WARPER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Auxiliary Rifle",
+    "tags": [],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [1,2,3]
+      }
+    ],
+    "on_hit": "The target’s attacks treat every other character in the scene as having soft cover, except for the Warper."
+  },
+  {
+    "id": "ubrg_npcf_the_torment_of_perspective_warper",
+    "name": "THE TORMENT OF PERSPECTIVE",
+    "origin": {
+      "type": "Class",
+      "name": "WARPER",
+      "base": false
+    },
+    "locked": false,
+    "attack_bonus": [0,0,0],
+    "type": "Tech",
+    "tech_type": "Quick",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "effect": "The Warper chooses a single target within its sensor range and marks them. If the marked character begins an attack that does not include the Warper as one of its targets, all targets of that attack have their armour increased by 1 (to a maximum of 4). The mark remains until the end of the scene, or until the Warper uses the Torment of Perspective to mark a new target, whereupon the old one immediately fades."
+  },
+  {
+    "id": "ubrg_npcf_wrecking_ball_wrecker",
+    "name": "WRECKING BALL",
+    "origin": {
+      "type": "Class",
+      "name": "WRECKER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon may attack 1-3 targets within Threat 2. Objects and Terrain hit by this weapon take 10 AP Kinetic damage.",
+    "on_hit": "Enemies struck by this weapon must pass a Hull save or be knocked prone.",
+    "weapon_type": "Heavy Melee",
+    "tags": [],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "attack_bonus": [1,2,3],
+    "accuracy": [-1,-1,-1],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [5,7,9]
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_maglock_buckler_wrecker",
+    "name": "MAGLOCK BUCKLER",
+    "origin": {
+      "type": "Class",
+      "name": "WRECKER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "effect": "Once per round as a reaction, when an engaged enemy hits the Wrecker with an attack, the Wrecker can automatically grapple the attacker and lock the weapon used. As long as the enemy remains adjacent to the Wrecker, that weapon is effectively disabled. The Wrecker can only lock a single weapon at a time in this way; using this system again frees any previously locked weapon, although it doesn’t end any grapples."
+  },
+  {
+    "id": "ubrg_npcf_disassemble_wrecker",
+    "name": "DISASSEMBLE",
+    "origin": {
+      "type": "Class",
+      "name": "WRECKER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When the Wrecker deals Structure damage to an enemy, it treats all results of Glancing Blow on the Structure damage table as System Trauma. When the Wrecker inflicts a System Trauma result on an enemy, the Wrecker chooses a system or weapon to destroy instead of the enemy choosing."
+  },
+  {
+    "id": "ubrg_npcf_wrecker_wrecker",
+    "name": "WRECKER",
+    "origin": {
+      "type": "Class",
+      "name": "WRECKER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When the Wrecker deals Structure damage to an enemy, they suffer 2 Difficulty to all Hull checks and saves until they are able to take a full repair. When the Wrecker deals Reactor Stress to an enemy, they suffer 2 Difficulty to all Engineering checks and saves until they are able to take a full repair."
+  },
+  {
+    "id": "ubrg_npcf_power_saw_wrecker",
+    "name": "POWER SAW",
+    "origin": {
+      "type": "Class",
+      "name": "WRECKER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon gains 2 Accuracy if the target is grappled.",
+    "weapon_type": "Main Melee",
+    "tags": [
+      {
+        "id": "tg_ap"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "attack_bonus": [1,2,3],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [2,3,4]
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_cannibalize_wrecker",
+    "name": "CANNIBALIZE",
+    "origin": {
+      "type": "Class",
+      "name": "WRECKER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When the Wrecker inflicts structure damage on an enemy with a melee weapon, or when it ends its turn adjacent to a destroyed mech, it gains +2 armour until the beginning of its next turn."
+  },
+  {
+    "id": "ubrg_npcf_harpoon_wrecker",
+    "name": "HARPOON",
+    "origin": {
+      "type": "Class",
+      "name": "WRECKER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "on_hit": "If the target is the same size or smaller than the Wrecker, they are pulled in a straight line as far as possible toward the Wrecker and ending in an adjacent space. Otherwise, the Wrecker is pulled towards the target. The Wrecker then grapples the target automatically if it is adjacent.",
+    "weapon_type": "Main CQB",
+    "tags": [],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [2,4,6]
+      }
+    ]
+  },
+  {
+    "id": "ubrg_npcf_hypergrinders_wrecker",
+    "name": "HYPERGRINDERS",
+    "origin": {
+      "type": "Class",
+      "name": "WRECKER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "effect": "As a quick action, the Wrecker forces a single adjacent target to make a Hull [save]. On failure, the target suffers {3/4/5} heat and become Shredded until the end of its next turn."
+  },
+  {
+    "id": "ubrg_npcf_systems_breach_wrecker",
+    "name": "SYSTEMS BREACH",
+    "origin": {
+      "type": "Class",
+      "name": "WRECKER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When the Wrecker makes a Quick Tech action to invade an enemy adjacent to it, it uses Engineering instead of Systems to make the attack and gains 1 Accuracy on the roll."
   }
 ]
