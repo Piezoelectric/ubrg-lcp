@@ -1595,8 +1595,8 @@
     "base_features": [
       "ubrg_npcf_distortion_scythe_warper",
       "ubrg_npcf_truth_of_retribution_warper",
-      "ubrg_npcf_lie_of_distance_warper",
-      "ubrg_npcf_retribution_reaction_warper"
+      "ubrg_npcf_retribution_reaction_warper",
+      "ubrg_npcf_lie_of_distance_warper"
     ],
     "optional_features": [
       "ubrg_npcf_alternate_journeys_warper",

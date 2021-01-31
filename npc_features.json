@@ -7183,7 +7183,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "The Warper gains the Retribution reaction, which can only be used against characters marked by this system. As a Quick Tech, the Warper chooses a single target within its sensor range and marks them. The mark remains until the end of the scene, or until the Warper uses Truth of Retribution to mark a new target, whereupon the old mark immediately fades."
+    "effect": "As a Quick Tech, the Warper chooses a single target within its sensor range and marks them. The mark remains until the end of the scene, or until the Warper uses Truth of Retribution to mark a new target, whereupon the old mark immediately fades."
   },
   {
     "id": "ubrg_npcf_retribution_reaction_warper",
