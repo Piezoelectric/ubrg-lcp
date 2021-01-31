@@ -1130,6 +1130,10 @@
       },
       {
         "id": "tg_free_action"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
       }
     ]
   },
@@ -1156,7 +1160,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "When the Blockbuster boosts after making an attack with the Skyhammer Rotary Cannons in the same turn, it can activate this system to count as being in soft cover until the start of its next turn, and to increase its speed by 3 for the distance the boost can travel.",
+    "effect": "When the Blockbuster boosts after using its Heavy Bombing Bay in the same turn, it can activate this system to count as being in soft cover until the start of its next turn, and to increase its speed by 3 for the distance the boost can travel.",
     "tags": [
       {
         "id": "tg_recharge",
