@@ -7286,7 +7286,7 @@
         "damage": [1,2,3]
       }
     ],
-    "on_hit": "The target’s attacks treat every other character in the scene as having soft cover, except for the Warper."
+    "on_hit": "The target's attacks are disrupted. Against characters who aren't the Warper, the target's attacks are affected by Soft Cover. If the target attacks the Warper, or a character who already has Soft or Hard Cover, their attack resolves normally."
   },
   {
     "id": "ubrg_npcf_the_torment_of_perspective_warper",
@@ -7305,7 +7305,7 @@
         "id": "tg_quick_tech"
       }
     ],
-    "effect": "The Warper chooses a single target within its sensor range and marks them. If the marked character begins an attack that does not include the Warper as one of its targets, all targets of that attack have their armour increased by 1 (to a maximum of 4). The mark remains until the end of the scene, or until the Warper uses the Torment of Perspective to mark a new target, whereupon the old one immediately fades."
+    "effect": "The Warper chooses a single target within its sensor range and marks them. If the marked character begins an attack that does not include the Warper as one of its targets, all targets of that attack have their armour increased by 1 (to a maximum of 4). The mark remains until the end of the scene, or until the Warper uses the Torment of Perspective to mark a new target, whereupon the old one immediately fades.<br>[This is a separate mark from the Truth of Retribution mark.]"
   },
   {
     "id": "ubrg_npcf_wrecking_ball_wrecker",
