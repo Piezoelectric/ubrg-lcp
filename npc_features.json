@@ -3732,7 +3732,7 @@
     },
     "locked": false,
     "type": "Tech",
-    "effect": "The Medium makes a tech attack against a character within Sensors. On a success, the target gains Lock On. At the beginning of their next turn, they gain Lock On again if they no longer have it, and must pass a Systems save or continue to gain Lock On at the beginning of each turn until they successfully pass this save.",
+    "effect": "The Miner makes a tech attack against a character within Sensors. On a success, the target gains Lock On. At the beginning of their next turn, they gain Lock On again if they no longer have it, and must pass a Systems save or continue to gain Lock On at the beginning of each turn until they successfully pass this save.",
     "tags": [
       {
         "id": "tg_quick_tech"
