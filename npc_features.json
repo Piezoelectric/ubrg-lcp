@@ -7865,5 +7865,746 @@
     "type": "Trait",
     "tags": [],
     "effect": "If the NPC loses its last point of Structure while adjacent to at least one ally with this template, it may immediately make a Skirmish action as a reaction before being destroyed."
+  },
+  {
+    "id": "npcf_bagh_nakh_tiger",
+    "name": "BAGH NAKH",
+    "origin": {
+      "type": "Class",
+      "name": "Tiger",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "If the Tiger hits the target with its Bagh Nakh, it may immediately make a second attack with the weapon against the same target or another within range.",
+    "tags": [
+      {
+        "id": "tg_ap"
+      }
+    ],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          4,
+          6,
+          8
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+
+  },
+  {
+    "id": "npcf_feature_hacking_pin_tiger",
+    "name": "Hacking Pin",
+    "origin": {
+      "type": "Class",
+      "name": "Tiger",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Tiger hits a target with its Bagh Nakh, it may choose to also grapple that target if this is the last Bagh Nakh attack it makes during the turn.",
+    "tags": []
+  },
+  {
+    "id": "npcf_hyper_stimulants_tiger",
+    "name": "Hyper Stimulants",
+    "origin": {
+      "type": "Class",
+      "name": "Tiger",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "At the beginning of its turn, the Tiger can use the frame’s hyper-stimulants to gain an additional Full Action or pair of Quick Actions as free actions this turn. At the end of its turn, it becomes Stunned until the end of its next turn.",
+    "tags": []
+
+  },
+  {
+    "id": "npcf_safety_limitations_disabled_tiger",
+    "name": "Safety Limitations Disabled",
+    "origin": {
+      "type": "Class",
+      "name": "Tiger",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Tiger is immune to the Impaired condition.",
+    "tags": []
+  },
+  {
+    "id": "npcf_memory_metal_chain_tiger",
+    "name": "Memory-Metal Chain",
+    "origin": {
+      "type": "Class",
+      "name": "Tiger",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "On hit, the target must also pass a Hull save or be either knocked prone or suffer Knockback 2.",
+    "tags": [],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npcf_prowler_tiger",
+    "name": "Prowler",
+    "origin": {
+      "type": "Class",
+      "name": "Tiger",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Tiger is hidden and leaves cover, it doesn’t cease to be hidden until the end of its turn or until it makes an attack of any kind, whichever comes sooner.",
+    "tags": []
+  },
+  {
+    "id": "npcf_slaughterer_tiger",
+    "name": "Slaughterer",
+    "origin": {
+      "type": "Class",
+      "name": "Tiger",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Effect: The Tiger can immediately make an attack with its Bagh Nakh against the target.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "The Tiger does Structure damage to a target"
+  },
+  {
+    "id": "npcf_terror_intrustion_stream_tiger",
+    "name": "Terror Intrusion Stream",
+    "origin": {
+      "type": "Class",
+      "name": "Tiger",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "On hit, the target takes {2/3/4} heat and cannot willingly move closer to the Tiger until the end of its next turn.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick",
+    "accuracy": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "npcf_to_the_limit_tiger",
+    "name": "To The Limit",
+    "origin": {
+      "type": "Class",
+      "name": "Tiger",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "At the beginning of its turn, the Tiger may choose to push its systems to the limit, increasing its speed by 2 and adding 1 Accuracy to all its dice rolls until the end of its turn. At the end of its turn, the pilot falls unconscious for the remainder of the scene and the Tiger shuts down.",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 4
+      }
+    ]
+  },
+  {
+    "id": "npcf_metamorphic_dissector_barbs_snake",
+    "name": "Metamorphic Dissector Barbs",
+    "origin": {
+      "type": "Class",
+      "name": "Snake",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "After hitting a mech of size 1 or larger with this weapon, the Snake may choose to jockey the target, catching hold of and riding the mech. The Snake shares the mech’s space and moves when it moves. The target mech can shake the Snake off by taking a Full Action and passing a Hull save, which places the Snake into an adjacent space, and the Snake can jump off as part of its movement at any time. The Snake can only jockey one mech at a time, and cannot make any attacks of any kind while jockeying.",
+    "tags": [],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          4,
+          5,
+          6
+        ]
+      }
+
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npcf_jockey_snake",
+    "name": "Jockey",
+    "origin": {
+      "type": "Class",
+      "name": "Snake",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When jockeying a mech, the Snake may take a Full Action to either deal 3/4/5 heat to the mech, to inflict the Impaired and Slowed conditions on the mech until the end of its next turn, or deal {5/6/7} kinetic damage to the target.",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      }
+    ]
+  },
+  {
+    "id": "npcf_agile_recovery_snake",
+    "name": "Agile Recovery",
+    "origin": {
+      "type": "Class",
+      "name": "Snake",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Snake can rise from prone as a Free Action at the beginning of its turn. When knocked back, instead of being pushed back, the Snake decides which direction it moves for each square of Knockback applied; it can go in the opposite direction to normal, go round corners, or otherwise move as it desires with the Knockback movement.",
+    "tags": []
+  },
+  {
+    "id": "npcf_collateral_damage_snake",
+    "name": "Collateral Damage",
+    "origin": {
+      "type": "Class",
+      "name": "Snake",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever an attack against the Snake misses it while it is jockeying a mech, the jockeyed mech must pass an Agility save or take half damage from the attack.",
+    "tags": []
+  },
+  {
+    "id": "npcf_behemoth_takedown_electrocables_snake",
+    "name": "Behemtoh Takedown Electrocables",
+    "origin": {
+      "type": "Class",
+      "name": "Snake",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When the Snake jockeys a target, it can choose to deploy electrocables rather than apply one of the usual effects to inflict. The target becomes Immobilized until the end of its next turn, and must also pass a Hull save or become Jammed until the end of its next turn and also be knocked prone.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 3
+      }
+    ]
+  },
+  {
+    "id": "npcf_defensive_roll_snake",
+    "name": "Defensive Roll",
+    "origin": {
+      "type": "Class",
+      "name": "Snake",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever a melee attack misses the Snake, it can immediately move one square, ignoring engagements and reactions.",
+    "tags": []
+  },
+  {
+    "id": "npcf_flechette_launcer_snake",
+    "name": "Flechette Launcher",
+    "origin": {
+      "type": "Class",
+      "name": "Snake",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_loading"
+      },
+      {
+        "id": "tg_reliable",
+        "val": 2
+      }
+    ],
+    "weapon_type": "Auxiliary CQB",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Cone",
+        "val": 5
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npcf_flenser_hive_nexus_snake",
+    "name": "Flenser Hive Nexus",
+    "origin": {
+      "type": "Class",
+      "name": "Snake",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "When the Snake chooses to inflict the Impaired and Slowed conditions while jockeying, it also inflicts the Shredded condition until the end of the target mech’s next turn.",
+    "tags": []
+  },
+  {
+    "id": "npcf_sever_ammo_feeds_snake",
+    "name": "Sever Ammo Feeds",
+    "origin": {
+      "type": "Class",
+      "name": "Snake",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the snake chooses to inflict kinetic damage while jockeying, it also immediately unloads all Loading weapons on the target mech.",
+    "tags": []
+  },
+  {
+    "id": "npcf_sledgehammer_goat",
+    "name": "Sledgehammer",
+    "origin": {
+      "type": "Class",
+      "name": "Goat",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": 1
+      }
+    ],
+    "weapon_type": "Heavy Weapon",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          7,
+          9,
+          11
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npcf_gang_up_goat",
+    "name": "Gang Up",
+    "origin": {
+      "type": "Class",
+      "name": "Goat",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Goat hits an enemy with a melee attack and an ally of the Goat is also engaged with the target, the target must also pass a Hull save or be knocked prone.",
+    "tags": []
+  },
+  {
+    "id": "npcf_pan-class_nhp_goat",
+    "name": "PAN-class NHP",
+    "origin": {
+      "type": "Class",
+      "name": "Goat",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Goat has the AI tag, and gains 1 Accuracy on attacks, checks, and saves as long as it is adjacent to at least one friendly Goat. This bonus increases to 2 Accuracy when working together on physical or construction-related skill checks outside of combat. If the NHP unshackles, it will attempt to move adjacent to as many allies at a time as it can, even if that requires triggering enemy reactions to achieve, and will make no attacks. If no nearby allies remain, it will attempt to flee.",
+    "tags": []
+  },
+  {
+    "id": "npcf_endure_onslaught_goat",
+    "name": "Endure Onslaught",
+    "origin": {
+      "type": "Class",
+      "name": "Goat",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Goat is immune to Knockback and reduces all Reliable damage taken to 1.",
+    "tags": []
+  },
+  {
+    "id": "npcf_legbreaker_goat",
+    "name": "Legbreaker",
+    "origin": {
+      "type": "Class",
+      "name": "Goat",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When a Goat knocks a target prone, that target also becomes Slowed until the end of its next turn.",
+    "tags": []
+  },
+  {
+    "id": "npcf_panic_goat",
+    "name": "PAN-ic",
+    "origin": {
+      "type": "Class",
+      "name": "Goat",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Goat’s NHP immediately unshackles. An adjacent target must pass a Systems save with 2 Difficulty or also suffer as if it had a PAN-class NHP that had just unshackled, except that it treats the Goat’s allies as its own for the purposes of calculating its behaviour. The pilot can clear the Panic in the usual manner for shackling an unshackled NHP, but doing so only returns control to the target’s pilot; it does not reshackle the actual NHP on the Goat, and should the Goat reshackle its NHP, it does not clear the effect on the target.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "npcf_repair_tools_goat",
+    "name": "Repair Tools",
+    "origin": {
+      "type": "Class",
+      "name": "Goat",
+      "base": false
+    },
+    "locked": false,
+    "type": "Tech",
+    "effect": "The Goat restores {3/5/7} HP to the target piece of cover, object, or terrain.",
+    "tags": [
+      {
+        "id": "tg_quick_tech"
+      }
+    ],
+    "tech_type": "Quick"
+  },
+  {
+    "id": "npcf_unlinked_machine_gun_goat",
+    "name": "Unlinked Machine Gun",
+    "origin": {
+      "type": "Class",
+      "name": "Goat",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Main Rifle",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [
+      -1,
+      -1,
+      -1
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 8
+      }
+    ],
+    "on-hit": ""
+  },
+  {
+    "id": "npcf_high_energy_transfer_rod_dragon",
+    "name": "High Energy Transfer Rod",
+    "origin": {
+      "type": "Class",
+      "name": "Dragon",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Upon hitting a target, the Dragon may also choose one adjacent character to lose 2 heat or to immediately make an Engineering check to remove any Burn damage currently affecting them; or the Dragon may choose an adjacent space of dangerous terrain dealing energy or Burn damage and make an Engineering check to remove it.",
+    "tags": [],
+    "weapon_type": "Main Melee",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "accuracy": [],
+    "damage": [
+      {
+        "type": "heat",
+        "damage": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "type": "burn",
+        "damage": [
+          1
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npcf_heavens_rain_suppression_system_dragon",
+    "name": "Heaven's Rain Supression System",
+    "origin": {
+      "type": "Class",
+      "name": "Dragon",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Dragon emanates a burst 3 area around itself. Within this area all ongoing Burn damage affecting any characters, objects, or terrain is reduced by {3/5/7}, and all characters cool for 2 heat and gain 1 Accuracy on Engineering checks and saves until the end of their next turn. The area",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 3
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npcf_insulation_dragon",
+    "name": "Insulation",
+    "origin": {
+      "type": "Class",
+      "name": "Dragon",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Dragon is immune to Burn damage.",
+    "tags": []
+  },
+  {
+    "id": "npcf_hazard_purge_dragon",
+    "name": "Hazard Purge",
+    "origin": {
+      "type": "Class",
+      "name": "Dragon",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Dragon targets a single character within range 5, who must pass a Hull saving throw or be Immobilized until the end of their next turn. While Immobilized, any action they take also deals them 1 heat and 1 Burn, and the size of any burst effect they emit is reduced to 0.",
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 4
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npcf_energy_rerouting_override_dragon",
+    "name": "Energy Rerouting Override",
+    "origin": {
+      "type": "Class",
+      "name": "Dragon",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Characters who lose heat via the Heaven’s Rain Suppression System may choose to do an additional 2 energy damage with the first attack they make before the end of their next turn. If they do so, they immediately cool for another 2 heat.",
+    "tags": []
+  },
+  {
+    "id": "npcf_heat_containment_vent_dragon",
+    "name": "Heat Containment Vent",
+    "origin": {
+      "type": "Class",
+      "name": "Dragon",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Dragon cools for 2 heat and discharges a burst 1 area round itself, dealing 2 heat and 2 Burn to all targets within it.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ]
+  },
+  {
+    "id": "npcf_hydro_cannon_dragon",
+    "name": "Hydro Cannon",
+    "origin": {
+      "type": "Class",
+      "name": "Dragon",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "Any character hit by this weapon has any Burn damage currently affecting them cleared.",
+    "tags": [
+      {
+        "id": "tg_knockback",
+        "val": 3
+      }
+    ],
+    "weapon_type": "Main Cannon",
+    "attack_bonus": [
+      1,
+      1,
+      1
+    ],
+    "accuracy": [],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Line",
+        "val": 5
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "npcf_searing_brand_dragon",
+    "name": "Searing Brand",
+    "origin": {
+      "type": "Class",
+      "name": "Dragon",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Dragon hits a target with its High Energy Transfer Rod, the target also takes an additional 2 heat every time it suffers any amount of Burn damage. This effect remains until the target stops suffering Burn damage.",
+    "tags": []
   }
 ]

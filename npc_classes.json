@@ -1644,5 +1644,160 @@
       "ubrg_npcf_hypergrinders_wrecker",
       "ubrg_npcf_systems_breach_wrecker"
     ]
+  },
+  {
+    "id": "npcc_kz_tiger",
+    "name": "KZ TIGER",
+    "role": "striker",
+    "info": {
+      "flavor": "The Tiger is the flagship chassis of Klein Zodiac, a brutal and fast sports frame designed for noholds-barred destruction derbies and fighting pits. The Tiger brings flair to the visceral crunch of mercenary combat, with an easy—albeit heavily liability-proofed—method to disengage any safety mechanisms between pilot, frame, and surroundings. A Tiger pilot has the ability to push her mech well past the limits of safety or sanity, encouraging a daredevil and bloodthirsty attitude from a crop of fighters who know they’re dicing with death and will pull out all the stops to win. A few Tigers get bought up by militia or private concerns who want relatively cheap close-assault frames with reasonably good performance, but they’re also a favourite among enforcers and lieutenants of major crime organizations. Some even serve as terror weapons for dictators and tyrants, turned loose upon dissidents in order to make an example.",
+      "tactics": "The Tiger is a lightweight berserker, absolutely savage in close combat and capable of carving up heavily armoured opponents like a hot knife through butter. It’s a high-risk character, gambling on hitting with its first attack in order to get the remainder of its damage potential to open up, so pairs well with support that can provide Lock Ons or other forms of Accuracy. Its Hyper-Stimulants are best used in the first turn it makes contact with an enemy, accepting the vulnerability of the stun in return for one brief moment of absolute carnage; be careful of fielding too many Tigers like this, though, as a drug-fuelled mob can carve player character mechs up in short order if allowed to get close at all. The best advice for the opponents of Tigers is, of course, don’t let them get close."
+    },
+    "stats": {
+      "armor": [0, 0, 0],
+      "hp": [14, 17, 20],
+      "evade": [12, 14, 16],
+      "edef": [7, 8, 9],
+      "heatcap": [6, 6, 6],
+      "speed": [5, 6, 6],
+      "sensor": [10, 10, 10],
+      "save": [10, 11, 12],
+      "hull": [2, 3, 4],
+      "agility": [2, 3, 4],
+      "systems": [-1, -1, 0],
+      "engineering": [-1, -1, 0],
+      "size": [[0.5], [0.5], [0.5]],
+      "activations": [1, 1, 1]
+    },
+    "base_features": [
+      "npcf_bagh_nakh_tiger",
+      "npcf_feature_hacking_pin_tiger",
+      "npcf_hyper_stimulants_tiger",
+      "npcf_safety_limitations_disabled_tiger"
+    ],
+    "optional_features": [
+      "npcf_memory_metal_chain_tiger",
+      "npcf_prowler_tiger",
+      "npcf_slaughterer_tiger",
+      "npcf_terror_intrustion_stream_tiger",
+      "npcf_to_the_limit_tiger"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_kz_snake",
+    "name": "KZ SNAKE",
+    "role": "striker",
+    "info": {
+      "flavor": "A first-grade example of personnel-scale martial design, the Klein Zodiac Snake is so elegant and with such sophisticated muscle-weave engineering that it scarcely seems like a CI mech at all — and indeed, it isn’t, in a manner of speaking. The Snake was originally the Beowulf, a premium design created by the small but rising Heorot Laboratories. Eyed for acquisition by SSC, this was a rare example of a middleweight corprostate snagging a prize from under the nose of the Big 5; Klein Zodiac purchased Heorot and rebranded the Beowulf-Snake into its Zodiac personal chassis line, bringing the sheer scale of its resources to the innovative designs of HL to create an improved final design. Since then, the Snake has become a well-reviewed antimech mech, a small but potentially devastating frame that can take larger opponents apart with practised ease. As well as its popularity with special forces, corporation sweep teams and combatants engaged in asymmetrical conflicts with better-supplied enemies, the Snake has also won some accolades among the mechanized martial arts community and the significant base of enthusiastic fans and followers of the sport.",
+      "tactics": " The Snake is essentially a mech-scale pilot, capable of jockeying larger enemies and doing grievous damage over time if it can’t be removed. Mechs with poor Hull saves and low evasion scores will both struggle to deal with the Snake clambering all over them, especially with the risk of missed shots hitting the jockeyed target instead. The best solution to a Snake mech-assassin is to shoot it before it gets near, or to hack it. However, the Snake does also have another special weakness – other small mechs that it can’t jockey, against whom it can deal only meagre damage."
+    },
+    "stats": {
+      "armor": [0, 0, 0],
+      "hp": [10, 13, 16],
+      "evade": [12, 15, 18],
+      "edef": [8, 8, 10],
+      "heatcap": [5, 6, 7],
+      "speed": [5, 5, 6],
+      "sensor": [5, 5, 5],
+      "save": [12, 15, 18],
+      "hull": [1, 2, 3],
+      "agility": [2, 3, 5],
+      "systems": [-1, -1, -1],
+      "engineering": [0, 1, 1],
+      "size": [[0.5], [0.5], [0.5]],
+      "activations": [1, 1, 1]
+
+    }, "base_features": [
+    "npcf_metamorphic_dissector_barbs_snake",
+    "npcf_jockey_snake",
+    "npcf_agile_recovery_snake",
+    "npcf_collateral_damage_snake"
+  ],
+    "optional_features": [
+      "npcf_behemoth_takedown_electrocables_snake",
+      "npcf_defensive_roll_snake",
+      "npcf_flechette_launcer_snake",
+      "npcf_flenser_hive_nexus_snake",
+      "npcf_sever_ammo_feeds_snake"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_kz_goat",
+    "name": "KZ GOAT",
+    "role": "striker",
+    "info": {
+      "flavor": "The Goat is perhaps the most widespread of all Klein Zodiac frames, with an excellent reputation for durability, reliability, and easy repair. Built for co-ordinated work in heavy construction and engineering roles, the Goat features a PAN-class NHP to facilitate greater levels of synchronization between workers, and its rugged design makes it suitable for tasks in any environment from a megalopolis to an arid frontier world. The Goat has no weaponry mounts—indeed, it doesn’t even feature any onboard targeting software for long-range armaments—and this makes it an easy frame to get a license for civilian use. Of course, nothing stops it just picking up an unlinked personnel-scale gun and opening fire, and the Goat’s extremely powerful motors make any tool it cares to pick up into a potential murder weapon. As such, Goats are a common choice for would-be insurgents and for powerful gang thugs who want to pack a serious punch. A few scurrilous rumours persist that the gregarious, friendly mannerisms of the PAN NHP conceal a certain anarchic streak that encourages such lawless behaviour where it can.",
+      "tactics": "The Goat is a tough, strong brawler—it may be small, but it’s very potent in groups and with allies. A ‘herd’ of Goats can be a terrifying threat to even large, tough mechs, and they have the HP to take a beating in return. Of course, the Goat’s big weakness is a total lack of ranged capability unless using the relatively inaccurate Unlinked Machine Gun. Goats can branch out to dabble in other roles with specific pieces of optional gear, with the Repair Tools rendering them viable Support when paired with cover-creating allies, and Endure Onslaught combining with their high HP to make them passable defenders in a pinch."
+    },
+    "stats": {
+      "armor": [0, 0, 0],
+      "hp": [16, 19, 22],
+      "evade": [7, 8, 9],
+      "edef": [7, 7, 7],
+      "heatcap": [5, 6, 7],
+      "speed": [4, 4, 5],
+      "sensor": [10, 10, 10],
+      "save": [10, 12, 14],
+      "hull": [2, 3, 4],
+      "agility": [1, 2, 3],
+      "systems": [-1, -1, -1],
+      "engineering": [0, 1, 2],
+      "size": [[0.5], [0.5], [0.5]],
+      "activations": [1, 1, 1]
+    },
+    "base_features": [
+      "npcf_sledgehammer_goat",
+      "npcf_gang_up_goat",
+      "npcf_pan-class_nhp_goat"
+    ],
+    "optional_features": [
+      "npcf_endure_onslaught_goat",
+      "npcf_legbreaker_goat",
+      "npcf_panic_goat",
+      "npcf_repair_tools_goat",
+      "npcf_unlinked_machine_gun_goat"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_kz_dragon",
+    "name": "KZ DRAGON",
+    "role": "support",
+    "info": {
+      "flavor": "The Klein Zodiac Dragon is a ‘hazardous situation frame’, designed for emergency responders entering volatile situations where exotic materials or intense fires present a serious threat to unaugmented personnel. The chassis sees use in government firefighting teams, reactor engineering outfits, and high-energy material processing facilities, bringing exceptional levels of protection and advanced suppression systems. A few see military use by support specialists acting as engineers for reactor-intense combat units. Slanderous news reports also circulate of organized crime using Dragons in black market production of weapons-grade materials, and occasionally as savage enforcers using their heat-transfer systems to torture and kill victims as a shocking message to rivals.",
+      "tactics": "The Dragon makes a good support for mechs who run hot and risk overheating, as well as for countering player character frames that employ a lot of Burn like a Sherman or Genghis. The NPC’s ability to shuffle heat around and douse its allies will add up over the course of a fight, and it can even carve a safe path through areas of dangerous terrain. However, by default it has no ranged weaponry whatsoever, and even the hydro cannon has a very limited reach. If unable to close the distance, the Dragon will only make a limited contribution to a battle."
+    },
+    "stats": {
+      "armor": [0, 0, 0],
+      "hp": [10, 12, 14],
+      "evade": [7, 8, 9],
+      "edef": [9, 11, 13],
+      "heatcap": [10, 12, 14],
+      "speed": [4, 4, 4],
+      "sensor": [10, 10, 10],
+      "save": [11, 13, 16],
+      "hull": [1, 2, 3],
+      "agility": [0, 0, 1],
+      "systems": [0, 0, 1],
+      "engineering": [2, 3, 4],
+      "size": [[0.5], [0.5], [0.5]],
+      "activations": [1, 1, 1]
+
+    },
+    "base_features": [
+      "npcf_high_energy_transfer_rod_dragon",
+      "npcf_heavens_rain_suppression_system_dragon",
+      "npcf_insulation_dragon"
+    ],
+    "optional_features": [
+      "npcf_hazard_purge_dragon",
+      "npcf_energy_rerouting_override_dragon",
+      "npcf_heat_containment_vent_dragon",
+      "npcf_hydro_cannon_dragon",
+      "npcf_searing_brand_dragon"
+    ],
+    "power": 100
   }
 ]
