@@ -7490,7 +7490,7 @@
     "effect": "When the Wrecker makes a Quick Tech action to invade an enemy adjacent to it, it uses Engineering instead of Systems to make the attack and gains 1 Accuracy on the roll."
   },
   {
-    "id": "npcf_causality_leech_metafold_wraith",
+    "id": "ubrg_npcf_causality_leech_metafold_wraith",
     "name": "CAUSALITY LEECH",
     "origin": {
       "type": "Template",
@@ -7503,7 +7503,7 @@
     "tags": []
   },
   {
-    "id": "npcf_out_of_sync_metafold_wraith",
+    "id": "ubrg_npcf_out_of_sync_metafold_wraith",
     "name": "OUT OF SYNC",
     "origin": {
       "type": "Template",
@@ -7520,7 +7520,7 @@
     ]
   },
   {
-    "id": "npcf_reality_glitch_metafold_wraith",
+    "id": "ubrg_npcf_reality_glitch_metafold_wraith",
     "name": "REALITY GLITCH",
     "origin": {
       "type": "Template",
@@ -7533,7 +7533,7 @@
     "tags": []
   },
   {
-    "id": "npcf_spaces_between_the_walls_metafold_wraith",
+    "id": "ubrg_npcf_spaces_between_the_walls_metafold_wraith",
     "name": "SPACES BETWEEN THE WALLS",
     "origin": {
       "type": "Template",
@@ -7546,7 +7546,7 @@
     "tags": []
   },
   {
-    "id": "npcf_metafold_scars_metafold_wraith",
+    "id": "ubrg_npcf_metafold_scars_metafold_wraith",
     "name": "METAFOLD SCARS",
     "origin": {
       "type": "Template",
@@ -7559,7 +7559,7 @@
     "effect": "An NPC with the Metafold Wraith template can choose one of the Metafold Wraith systems or traits below."
   },
   {
-    "id": "npcf_anchor_metafold_wraith",
+    "id": "ubrg_npcf_anchor_metafold_wraith",
     "name": "ANCHOR",
     "origin": {
       "type": "Template",
@@ -7576,7 +7576,7 @@
     "effect": "As a Free Action at the end of its turn, the Metafold Wraith can teleport to a free space within range 5 of a specific object or piece of terrain that it is paracausally anchored to. It can always teleport to the anchor in this way, regardless of any separation of time or space between the two."
   },
   {
-    "id": "npcf_fractal_kill_metafold_wraith",
+    "id": "ubrg_npcf_fractal_kill_metafold_wraith",
     "name": "FRACTAL KILL",
     "origin": {
       "type": "Template",
@@ -7597,7 +7597,7 @@
     "effect": "The Metafold Wraith can create a figment copy of an enemy within range 10, spinning off a hostile part of the target’s own timeline filled with malevolent self-hatred or a yearning hunger to be the sole version of the target in existence. The copy is an NPC with the Grunt template and the characteristics of the target, although it has 0 charges in any Limited systems that the target possesses and cannot use CORE powers. At the end of the scene, if the target is dead but a Fractal Kill copy remains, the copy manifests permanently as a new version of the target in this reality, albeit with a twisted, distorted sense of their own history and a likely very different personality. Otherwise, any surviving Fractal Kill copies will attempt to track down and murder\nthe original over the course of the following mission, appearing from improbable locations via paracausality at critical moments to interfere against their originator."
   },
   {
-    "id": "npcf_i_am_you_metafold_wraith",
+    "id": "ubrg_npcf_i_am_you_metafold_wraith",
     "name": "i am you am i am you am am who am i who am i",
     "origin": {
       "type": "Template",
@@ -7614,7 +7614,7 @@
     "effect": "The Metafold Wraith forces an adjacent enemy to pass a <i>Grit</i> save or become entangled with the Wraith’s causality. Whenever the target receives healing or any sort of temporary benefit from another character, such as being targeted by the Bolster action or receiving temporary resistance to damage from an ally’s shield, the Metafold Wraith receives the same benefit. However, if the target loses a point of Structure or Reactor Stress, so does the Metafold Wraith. The effect of this trait lasts until the Wraith is destroyed, the target leaves the battlefield for any reason—even temporarily—or the scene ends. The target also suffers 1 Difficulty on any trigger for the remainder of the session where the action or the consequences involved relate to the target’s sense of self, isolation, loneliness, or connections to others."
   },
   {
-    "id": "npcf_mirror_twin_metafold_wraith",
+    "id": "ubrg_npcf_mirror_twin_metafold_wraith",
     "name": "MIRROR TWIN",
     "origin": {
       "type": "Template",
@@ -7627,7 +7627,7 @@
     "effect": "When the Metafold Wraith is deployed, it entangles itself with a single enemy mech in the scene. Once per round as a reaction to the entangled character moving, whether with regular movement, a Boost action, or other means, the Wraith may copy the movement to its full distance but in the opposite direction to that which the entangled character moves. However, the Wraith does not apply its Space Between The Walls trait to forced movement that originates from the entangled character. The target also suffers 1 Difficulty to any trigger for the remainder of the session where the action or the consequences involved relate to the target’s sense of spatial relationships between things, precise measurements, or co-ordination of actions with others."
   },
   {
-    "id": "npcf_revenant_metafold_wraith",
+    "id": "ubrg_npcf_revenant_metafold_wraith",
     "name": "REVENANT",
     "origin": {
       "type": "Template",
@@ -7639,7 +7639,7 @@
     "effect": "If the Metafold Wraith is destroyed, it will reform, repair, reassemble, have its reflection emerge from a mirror dimension, or otherwise return from death before the end of the mission, even if suffering total physical annihilation. A character can prevent this from triggering by spending a Full Action adjacent to the Wraith’s wreck and making a <i>Grit</i> check, with a success countering Revenant. Each Revenant is subject to only the first <i>Grit</i> check made against it each scene; subsequent characters attempting the same action against the wreck within a scene will have no effect."
   },
   {
-    "id": "npcf_disciplined_coordination_regiment",
+    "id": "ubrg_npcf_disciplined_coordination_regiment",
     "name": "DISCIPLINED COORDINATION",
     "origin": {
       "type": "Template",
@@ -7652,7 +7652,7 @@
     "tags": []
   },
   {
-    "id": "npcf_regiment_systems_regiment",
+    "id": "ubrg_npcf_regiment_systems_regiment",
     "name": "REGIMENT SYSTEMS",
     "origin": {
       "type": "Template",
@@ -7665,7 +7665,7 @@
     "effect": "Choose a single Regiment system or trait from the list below for the group the NPC belongs to. When choosing optional systems and modules, any NPC from the group can pick that particular option. NPCs don’t have to use their group’s Regiment system or trait, but if they do, they can <em>only</em> pick that specific one, and can’t use other Regiment systems or traits from the list."
   },
   {
-    "id": "npcf_armed_to_the_teeth_regiment",
+    "id": "ubrg_npcf_armed_to_the_teeth_regiment",
     "name": "ARMED TO THE TEETH",
     "origin": {
       "type": "Template",
@@ -7692,7 +7692,7 @@
     "effect": "When the NPC attacks with another weapon as part of a Skirmish or Barrage Action, it may also attack with Armed to the Teeth as a Free Action."
   },
   {
-    "id": "npcf_defensive_formation_regiment",
+    "id": "ubrg_npcf_defensive_formation_regiment",
     "name": "DEFENSIVE FORMATION",
     "origin": {
       "type": "Template",
@@ -7705,7 +7705,7 @@
     "effect": "As long as the NPC is adjacent to at least two allies with this template, ranged weapon attacks against it or adjacent allies suffer 1 Difficulty."
   },
   {
-    "id": "npcf_demolition_experts_regiment",
+    "id": "ubrg_npcf_demolition_experts_regiment",
     "name": "DEMOLITION EXPERTS",
     "origin": {
       "type": "Template",
@@ -7722,7 +7722,7 @@
     "effect": "The NPC deals 10 AP explosive damage to an adjacent object or piece of terrain that at least one ally with this template is also adjacent to."
   },
   {
-    "id": "npcf_digiterrorists_regiment",
+    "id": "ubrg_npcf_digiterrorists_regiment",
     "name": "DIGITERRORISTS",
     "origin": {
       "type": "Template",
@@ -7735,7 +7735,7 @@
     "effect": "The NPC can critically hit with tech attacks. When it does so, the target treats the NPC and its allies with this template as having hard cover until the end of the target’s next turn."
   },
   {
-    "id": "npcf_ecm_specialists_regiment",
+    "id": "ubrg_npcf_ecm_specialists_regiment",
     "name": "ECM SPECIALISTS",
     "origin": {
       "type": "Template",
@@ -7748,7 +7748,7 @@
     "effect": "As long as the NPC is adjacent to at least one ally with this template, tech attacks that hit it also cause the attacker to suffer 1 heat."
   },
   {
-    "id": "npcf_extermination_squads_regiment",
+    "id": "ubrg_npcf_extermination_squads_regiment",
     "name": "EXTERMINATION SQUADS",
     "origin": {
       "type": "Template",
@@ -7765,21 +7765,8 @@
     "effect": "When the NPC deals heat or Burn damage to a target, one adjacent ally with this template may take a reaction to inflict {1/2/3} Burn damage to the target as long as they are within range 5 of the ally."
   },
   {
-    "id": "npcf_grenadiers_regiment",
+    "id": "ubrg_npcf_grenadiers_regiment",
     "name": "GRENADIERS",
-    "origin": {
-      "type": "Template",
-      "name": "REGIMENT",
-      "base": false
-    },
-    "locked": false,
-    "type": "Trait",
-    "tags": [],
-    "effect": "The NPC gains the Frag Grenade system below. While adjacent to at least one ally with this template, it also gains a +1 bonus to Recharge rolls for any grenade or mine systems or any weapons with the Recharge tag it possesses."
-  },
-  {
-    "id": "npcf_frag_grenade_regiment",
-    "name": "FRAG GRENADE",
     "origin": {
       "type": "Template",
       "name": "REGIMENT",
@@ -7799,10 +7786,10 @@
         "val": 5
       }
     ],
-    "effect": "<em>This system is meant to be paired with the Grenadiers trait, and cannot be taken on its own.</em><br>Frag Grenade (Grenade, Range 5, Blast 2): The grenade deals {4/5/6} explosive damage to characters caught within, or half on a successful Agility save."
+    "effect": "The NPC gains the Frag Grenade system below. While adjacent to at least one ally with this template, it also gains a +1 bonus to Recharge rolls for any grenade or mine systems or any weapons with the Recharge tag it possesses. (This passive bonus applies even if the Frag Grenades system is destroyed.) <br>Frag Grenade (Grenade, Range 5, Blast 2): The grenade deals {4/5/6} explosive damage to characters caught within, or half on a successful Agility save."
   },
   {
-    "id": "npcf_heavy_assault_formation_regiment",
+    "id": "ubrg_npcf_heavy_assault_formation_regiment",
     "name": "HEAVY ASSAULT FORMATION",
     "origin": {
       "type": "Template",
@@ -7815,7 +7802,7 @@
     "effect": "As long as the NPC is adjacent to at least one ally with this template, it is immune to critical hits."
   },
   {
-    "id": "npcf_outrider_formation_regiment",
+    "id": "ubrg_npcf_outrider_formation_regiment",
     "name": "OUTRIDER FORMATION",
     "origin": {
       "type": "Template",
@@ -7828,7 +7815,7 @@
     "effect": "If the NPC is adjacent to the same enemy as one of its allies with this template, the NPC may ignore that enemy for the purposes of engagement and does not trigger the enemy’s Overwatch reaction via movement."
   },
   {
-    "id": "npcf_patrol_formation_regiment",
+    "id": "ubrg_npcf_patrol_formation_regiment",
     "name": "PATROL FORMATION",
     "origin": {
       "type": "Template",
@@ -7841,7 +7828,7 @@
     "effect": "As long as the NPC is adjacent to at least one ally with this template, it gains 1 Accuracy on Search rolls and on its Overwatch attack rolls."
   },
   {
-    "id": "npcf_sharpshooter_teams_regiment",
+    "id": "ubrg_npcf_sharpshooter_teams_regiment",
     "name": "SHARPSHOOTER TEAMS",
     "origin": {
       "type": "Template",
@@ -7854,7 +7841,7 @@
     "effect": "The NPC can critically hit with weapons. When it does so, one adjacent ally with this template may immediately take the Lock On action as a reaction against the target, if it is within sensor range."
   },
   {
-    "id": "npcf_tenacious_regiment",
+    "id": "ubrg_npcf_tenacious_regiment",
     "name": "TENACIOUS",
     "origin": {
       "type": "Template",
@@ -7867,7 +7854,7 @@
     "effect": "If the NPC loses its last point of Structure while adjacent to at least one ally with this template, it may immediately make a Skirmish action as a reaction before being destroyed."
   },
   {
-    "id": "npcf_bagh_nakh_tiger",
+    "id": "ubrg_npcf_bagh_nakh_tiger",
     "name": "BAGH NAKH",
     "origin": {
       "type": "Class",
@@ -7908,7 +7895,7 @@
 
   },
   {
-    "id": "npcf_feature_hacking_pin_tiger",
+    "id": "ubrg_npcf_feature_hacking_pin_tiger",
     "name": "Hacking Pin",
     "origin": {
       "type": "Class",
@@ -7921,7 +7908,7 @@
     "tags": []
   },
   {
-    "id": "npcf_hyper_stimulants_tiger",
+    "id": "ubrg_npcf_hyper_stimulants_tiger",
     "name": "Hyper Stimulants",
     "origin": {
       "type": "Class",
@@ -7935,7 +7922,7 @@
 
   },
   {
-    "id": "npcf_safety_limitations_disabled_tiger",
+    "id": "ubrg_npcf_safety_limitations_disabled_tiger",
     "name": "Safety Limitations Disabled",
     "origin": {
       "type": "Class",
@@ -7948,7 +7935,7 @@
     "tags": []
   },
   {
-    "id": "npcf_memory_metal_chain_tiger",
+    "id": "ubrg_npcf_memory_metal_chain_tiger",
     "name": "Memory-Metal Chain",
     "origin": {
       "type": "Class",
@@ -7984,7 +7971,7 @@
     "on_hit": ""
   },
   {
-    "id": "npcf_prowler_tiger",
+    "id": "ubrg_npcf_prowler_tiger",
     "name": "Prowler",
     "origin": {
       "type": "Class",
@@ -7997,7 +7984,7 @@
     "tags": []
   },
   {
-    "id": "npcf_slaughterer_tiger",
+    "id": "ubrg_npcf_slaughterer_tiger",
     "name": "Slaughterer",
     "origin": {
       "type": "Class",
@@ -8016,7 +8003,7 @@
     "trigger": "The Tiger does Structure damage to a target"
   },
   {
-    "id": "npcf_terror_intrustion_stream_tiger",
+    "id": "ubrg_npcf_terror_intrustion_stream_tiger",
     "name": "Terror Intrusion Stream",
     "origin": {
       "type": "Class",
@@ -8039,7 +8026,7 @@
     ]
   },
   {
-    "id": "npcf_to_the_limit_tiger",
+    "id": "ubrg_npcf_to_the_limit_tiger",
     "name": "To The Limit",
     "origin": {
       "type": "Class",
@@ -8057,7 +8044,7 @@
     ]
   },
   {
-    "id": "npcf_metamorphic_dissector_barbs_snake",
+    "id": "ubrg_npcf_metamorphic_dissector_barbs_snake",
     "name": "Metamorphic Dissector Barbs",
     "origin": {
       "type": "Class",
@@ -8094,7 +8081,7 @@
     "on_hit": ""
   },
   {
-    "id": "npcf_jockey_snake",
+    "id": "ubrg_npcf_jockey_snake",
     "name": "Jockey",
     "origin": {
       "type": "Class",
@@ -8111,7 +8098,7 @@
     ]
   },
   {
-    "id": "npcf_agile_recovery_snake",
+    "id": "ubrg_npcf_agile_recovery_snake",
     "name": "Agile Recovery",
     "origin": {
       "type": "Class",
@@ -8124,7 +8111,7 @@
     "tags": []
   },
   {
-    "id": "npcf_collateral_damage_snake",
+    "id": "ubrg_npcf_collateral_damage_snake",
     "name": "Collateral Damage",
     "origin": {
       "type": "Class",
@@ -8137,7 +8124,7 @@
     "tags": []
   },
   {
-    "id": "npcf_behemoth_takedown_electrocables_snake",
+    "id": "ubrg_npcf_behemoth_takedown_electrocables_snake",
     "name": "Behemtoh Takedown Electrocables",
     "origin": {
       "type": "Class",
@@ -8159,7 +8146,7 @@
     ]
   },
   {
-    "id": "npcf_defensive_roll_snake",
+    "id": "ubrg_npcf_defensive_roll_snake",
     "name": "Defensive Roll",
     "origin": {
       "type": "Class",
@@ -8172,7 +8159,7 @@
     "tags": []
   },
   {
-    "id": "npcf_flechette_launcer_snake",
+    "id": "ubrg_npcf_flechette_launcer_snake",
     "name": "Flechette Launcher",
     "origin": {
       "type": "Class",
@@ -8217,7 +8204,7 @@
     "on_hit": ""
   },
   {
-    "id": "npcf_flenser_hive_nexus_snake",
+    "id": "ubrg_npcf_flenser_hive_nexus_snake",
     "name": "Flenser Hive Nexus",
     "origin": {
       "type": "Class",
@@ -8230,7 +8217,7 @@
     "tags": []
   },
   {
-    "id": "npcf_sever_ammo_feeds_snake",
+    "id": "ubrg_npcf_sever_ammo_feeds_snake",
     "name": "Sever Ammo Feeds",
     "origin": {
       "type": "Class",
@@ -8243,7 +8230,7 @@
     "tags": []
   },
   {
-    "id": "npcf_sledgehammer_goat",
+    "id": "ubrg_npcf_sledgehammer_goat",
     "name": "Sledgehammer",
     "origin": {
       "type": "Class",
@@ -8284,7 +8271,7 @@
     "on_hit": ""
   },
   {
-    "id": "npcf_gang_up_goat",
+    "id": "ubrg_npcf_gang_up_goat",
     "name": "Gang Up",
     "origin": {
       "type": "Class",
@@ -8297,7 +8284,7 @@
     "tags": []
   },
   {
-    "id": "npcf_pan-class_nhp_goat",
+    "id": "ubrg_npcf_pan-class_nhp_goat",
     "name": "PAN-class NHP",
     "origin": {
       "type": "Class",
@@ -8310,7 +8297,7 @@
     "tags": []
   },
   {
-    "id": "npcf_endure_onslaught_goat",
+    "id": "ubrg_npcf_endure_onslaught_goat",
     "name": "Endure Onslaught",
     "origin": {
       "type": "Class",
@@ -8323,7 +8310,7 @@
     "tags": []
   },
   {
-    "id": "npcf_legbreaker_goat",
+    "id": "ubrg_npcf_legbreaker_goat",
     "name": "Legbreaker",
     "origin": {
       "type": "Class",
@@ -8336,7 +8323,7 @@
     "tags": []
   },
   {
-    "id": "npcf_panic_goat",
+    "id": "ubrg_npcf_panic_goat",
     "name": "PAN-ic",
     "origin": {
       "type": "Class",
@@ -8354,7 +8341,7 @@
     "tech_type": "Quick"
   },
   {
-    "id": "npcf_repair_tools_goat",
+    "id": "ubrg_npcf_repair_tools_goat",
     "name": "Repair Tools",
     "origin": {
       "type": "Class",
@@ -8372,7 +8359,7 @@
     "tech_type": "Quick"
   },
   {
-    "id": "npcf_unlinked_machine_gun_goat",
+    "id": "ubrg_npcf_unlinked_machine_gun_goat",
     "name": "Unlinked Machine Gun",
     "origin": {
       "type": "Class",
@@ -8413,7 +8400,7 @@
     "on-hit": ""
   },
   {
-    "id": "npcf_high_energy_transfer_rod_dragon",
+    "id": "ubrg_npcf_high_energy_transfer_rod_dragon",
     "name": "High Energy Transfer Rod",
     "origin": {
       "type": "Class",
@@ -8456,7 +8443,7 @@
     "on_hit": ""
   },
   {
-    "id": "npcf_heavens_rain_suppression_system_dragon",
+    "id": "ubrg_npcf_heavens_rain_suppression_system_dragon",
     "name": "Heaven's Rain Supression System",
     "origin": {
       "type": "Class",
@@ -8481,7 +8468,7 @@
     ]
   },
   {
-    "id": "npcf_insulation_dragon",
+    "id": "ubrg_npcf_insulation_dragon",
     "name": "Insulation",
     "origin": {
       "type": "Class",
@@ -8494,7 +8481,7 @@
     "tags": []
   },
   {
-    "id": "npcf_hazard_purge_dragon",
+    "id": "ubrg_npcf_hazard_purge_dragon",
     "name": "Hazard Purge",
     "origin": {
       "type": "Class",
@@ -8519,7 +8506,7 @@
     ]
   },
   {
-    "id": "npcf_energy_rerouting_override_dragon",
+    "id": "ubrg_npcf_energy_rerouting_override_dragon",
     "name": "Energy Rerouting Override",
     "origin": {
       "type": "Class",
@@ -8532,7 +8519,7 @@
     "tags": []
   },
   {
-    "id": "npcf_heat_containment_vent_dragon",
+    "id": "ubrg_npcf_heat_containment_vent_dragon",
     "name": "Heat Containment Vent",
     "origin": {
       "type": "Class",
@@ -8553,7 +8540,7 @@
     ]
   },
   {
-    "id": "npcf_hydro_cannon_dragon",
+    "id": "ubrg_npcf_hydro_cannon_dragon",
     "name": "Hydro Cannon",
     "origin": {
       "type": "Class",
@@ -8595,7 +8582,7 @@
     "on_hit": ""
   },
   {
-    "id": "npcf_searing_brand_dragon",
+    "id": "ubrg_npcf_searing_brand_dragon",
     "name": "Searing Brand",
     "origin": {
       "type": "Class",
