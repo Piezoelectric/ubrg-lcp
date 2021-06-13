@@ -7488,5 +7488,154 @@
     "type": "Trait",
     "tags": [],
     "effect": "When the Wrecker makes a Quick Tech action to invade an enemy adjacent to it, it uses Engineering instead of Systems to make the attack and gains 1 Accuracy on the roll."
+  },
+  {
+    "id": "npcf_causality_leech_metafold_wraith",
+    "name": "CAUSALITY LEECH",
+    "origin": {
+      "type": "Template",
+      "name": "METAFOLD WRAITH",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever a PC ends their turn adjacent to one or more Metafold Wraiths, the PC must pass a <i>Grit</i> save. Failure allows the GM to teleport the PC mech up to {2/3/4} spaces in any direction to a free space, to heal an adjacent Metafold Wraith for {2/3/4} HP, or to break future causality for the PC. The GM notes each future causality break a PC earns, and may apply them as Difficulty on any future <i>trigger roll</i> within this or the following mission; any number may be applied to a single roll at once. Failures or complications from a causality break manifest as bewildering and frightening results that make little to no sense within context.",
+    "tags": []
+  },
+  {
+    "id": "npcf_out_of_sync_metafold_wraith",
+    "name": "OUT OF SYNC",
+    "origin": {
+      "type": "Template",
+      "name": "METAFOLD WRAITH",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "All Wraiths in the scene have resistance to one of Burn, energy, explosive, or kinetic damage. As a Full Action, any Wraith can change the Out of Sync resistance to another damage type, affecting all Wraiths with this change.",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      }
+    ]
+  },
+  {
+    "id": "npcf_reality_glitch_metafold_wraith",
+    "name": "REALITY GLITCH",
+    "origin": {
+      "type": "Template",
+      "name": "METAFOLD WRAITH",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Once per round as a reaction in response to being targeted by an attack or effect, the Wraith may immediately teleport to a free space it can see within range {4/6/8}. If this renders the targeted action invalid, the actor may choose a new valid target instead.",
+    "tags": []
+  },
+  {
+    "id": "npcf_spaces_between_the_walls_metafold_wraith",
+    "name": "SPACES BETWEEN THE WALLS",
+    "origin": {
+      "type": "Template",
+      "name": "METAFOLD WRAITH",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever a Metafold Wraith is subjected to forced movement of any kind, the Metafold Wraith chooses the direction it moves instead of the character targeting it. It can even choose the direction if struck with Knockback, rather than having to move directly away from the attacker.",
+    "tags": []
+  },
+  {
+    "id": "npcf_metafold_scars_metafold_wraith",
+    "name": "METAFOLD SCARS",
+    "origin": {
+      "type": "Template",
+      "name": "METAFOLD WRAITH",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "An NPC with the Metafold Wraith template can choose one of the Metafold Wraith systems or traits below."
+  },
+  {
+    "id": "npcf_anchor_metafold_wraith",
+    "name": "ANCHOR",
+    "origin": {
+      "type": "Template",
+      "name": "METAFOLD WRAITH",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_free_action"
+      }
+    ],
+    "effect": "As a Free Action at the end of its turn, the Metafold Wraith can teleport to a free space within range 5 of a specific object or piece of terrain that it is paracausally anchored to. It can always teleport to the anchor in this way, regardless of any separation of time or space between the two."
+  },
+  {
+    "id": "npcf_fractal_kill_metafold_wraith",
+    "name": "FRACTAL KILL",
+    "origin": {
+      "type": "Template",
+      "name": "METAFOLD WRAITH",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "effect": "The Metafold Wraith can create a figment copy of an enemy within range 10, spinning off a hostile part of the target’s own timeline filled with malevolent self-hatred or a yearning hunger to be the sole version of the target in existence. The copy is an NPC with the Grunt template and the characteristics of the target, although it has 0 charges in any Limited systems that the target possesses and cannot use CORE powers. At the end of the scene, if the target is dead but a Fractal Kill copy remains, the copy manifests permanently as a new version of the target in this reality, albeit with a twisted, distorted sense of their own history and a likely very different personality. Otherwise, any surviving Fractal Kill copies will attempt to track down and murder\nthe original over the course of the following mission, appearing from improbable locations via paracausality at critical moments to interfere against their originator."
+  },
+  {
+    "id": "npcf_i_am_you_metafold_wraith",
+    "name": "i am you am i am you am am who am i who am i",
+    "origin": {
+      "type": "Template",
+      "name": "METAFOLD WRAITH",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The Metafold Wraith forces an adjacent enemy to pass a <i>Grit</i> save or become entangled with the Wraith’s causality. Whenever the target receives healing or any sort of temporary benefit from another character, such as being targeted by the Bolster action or receiving temporary resistance to damage from an ally’s shield, the Metafold Wraith receives the same benefit. However, if the target loses a point of Structure or Reactor Stress, so does the Metafold Wraith. The effect of this trait lasts until the Wraith is destroyed, the target leaves the battlefield for any reason—even temporarily—or the scene ends. The target also suffers 1 Difficulty on any trigger for the remainder of the session where the action or the consequences involved relate to the target’s sense of self, isolation, loneliness, or connections to others."
+  },
+  {
+    "id": "npcf_mirror_twin_metafold_wraith",
+    "name": "MIRROR TWIN",
+    "origin": {
+      "type": "Template",
+      "name": "METAFOLD WRAITH",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "When the Metafold Wraith is deployed, it entangles itself with a single enemy mech in the scene. Once per round as a reaction to the entangled character moving, whether with regular movement, a Boost action, or other means, the Wraith may copy the movement to its full distance but in the opposite direction to that which the entangled character moves. However, the Wraith does not apply its Space Between The Walls trait to forced movement that originates from the entangled character. The target also suffers 1 Difficulty to any trigger for the remainder of the session where the action or the consequences involved relate to the target’s sense of spatial relationships between things, precise measurements, or co-ordination of actions with others."
+  },
+  {
+    "id": "npcf_revenant_metafold_wraith",
+    "name": "REVENANT",
+    "origin": {
+      "type": "Template",
+      "name": "METAFOLD WRAITH",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "If the Metafold Wraith is destroyed, it will reform, repair, reassemble, have its reflection emerge from a mirror dimension, or otherwise return from death before the end of the mission, even if suffering total physical annihilation. A character can prevent this from triggering by spending a Full Action adjacent to the Wraith’s wreck and making a <i>Grit</i> check, with a success countering Revenant. Each Revenant is subject to only the first <i>Grit</i> check made against it each scene; subsequent characters attempting the same action against the wreck within a scene will have no effect."
   }
 ]
