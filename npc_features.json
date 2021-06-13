@@ -7637,5 +7637,233 @@
     "locked": false,
     "type": "Trait",
     "effect": "If the Metafold Wraith is destroyed, it will reform, repair, reassemble, have its reflection emerge from a mirror dimension, or otherwise return from death before the end of the mission, even if suffering total physical annihilation. A character can prevent this from triggering by spending a Full Action adjacent to the Wraith’s wreck and making a <i>Grit</i> check, with a success countering Revenant. Each Revenant is subject to only the first <i>Grit</i> check made against it each scene; subsequent characters attempting the same action against the wreck within a scene will have no effect."
+  },
+  {
+    "id": "npcf_disciplined_coordination_regiment",
+    "name": "DISCIPLINED COORDINATION",
+    "origin": {
+      "type": "Template",
+      "name": "REGIMENT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Regiment member gains 1 Accuracy on all skills and checks as long as it is adjacent to at least one friendly mech with the Regiment template.",
+    "tags": []
+  },
+  {
+    "id": "npcf_regiment_systems_regiment",
+    "name": "REGIMENT SYSTEMS",
+    "origin": {
+      "type": "Template",
+      "name": "REGIMENT",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "Choose a single Regiment system or trait from the list below for the group the NPC belongs to. When choosing optional systems and modules, any NPC from the group can pick that particular option. NPCs don’t have to use their group’s Regiment system or trait, but if they do, they can <em>only</em> pick that specific one, and can’t use other Regiment systems or traits from the list."
+  },
+  {
+    "id": "npcf_armed_to_the_teeth_regiment",
+    "name": "ARMED TO THE TEETH",
+    "origin": {
+      "type": "Template",
+      "name": "REGIMENT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Weapon",
+    "weapon_type": "Auxiliary Melee",
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "attack_bonus": [2,4,6],
+    "damage": [
+      {
+        "type": "kinetic",
+        "damage": [3,4,5]
+      }
+    ],
+    "tags": [],
+    "effect": "When the NPC attacks with another weapon as part of a Skirmish or Barrage Action, it may also attack with Armed to the Teeth as a Free Action."
+  },
+  {
+    "id": "npcf_defensive_formation_regiment",
+    "name": "DEFENSIVE FORMATION",
+    "origin": {
+      "type": "Template",
+      "name": "REGIMENT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "As long as the NPC is adjacent to at least two allies with this template, ranged weapon attacks against it or adjacent allies suffer 1 Difficulty."
+  },
+  {
+    "id": "npcf_demolition_experts_regiment",
+    "name": "DEMOLITION EXPERTS",
+    "origin": {
+      "type": "Template",
+      "name": "REGIMENT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "effect": "The NPC deals 10 AP explosive damage to an adjacent object or piece of terrain that at least one ally with this template is also adjacent to."
+  },
+  {
+    "id": "npcf_digiterrorists_regiment",
+    "name": "DIGITERRORISTS",
+    "origin": {
+      "type": "Template",
+      "name": "REGIMENT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The NPC can critically hit with tech attacks. When it does so, the target treats the NPC and its allies with this template as having hard cover until the end of the target’s next turn."
+  },
+  {
+    "id": "npcf_ecm_specialists_regiment",
+    "name": "ECM SPECIALISTS",
+    "origin": {
+      "type": "Template",
+      "name": "REGIMENT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "As long as the NPC is adjacent to at least one ally with this template, tech attacks that hit it also cause the attacker to suffer 1 heat."
+  },
+  {
+    "id": "npcf_extermination_squads_regiment",
+    "name": "EXTERMINATION SQUADS",
+    "origin": {
+      "type": "Template",
+      "name": "REGIMENT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [
+      {
+        "id": "tg_reaction"
+      }
+    ],
+    "effect": "When the NPC deals heat or Burn damage to a target, one adjacent ally with this template may take a reaction to inflict {1/2/3} Burn damage to the target as long as they are within range 5 of the ally."
+  },
+  {
+    "id": "npcf_grenadiers_regiment",
+    "name": "GRENADIERS",
+    "origin": {
+      "type": "Template",
+      "name": "REGIMENT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The NPC gains the Frag Grenade system below. While adjacent to at least one ally with this template, it also gains a +1 bonus to Recharge rolls for any grenade or mine systems or any weapons with the Recharge tag it possesses."
+  },
+  {
+    "id": "npcf_frag_grenade_regiment",
+    "name": "FRAG GRENADE",
+    "origin": {
+      "type": "Template",
+      "name": "REGIMENT",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_grenade"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 5
+      }
+    ],
+    "effect": "<em>This system is meant to be paired with the Grenadiers trait, and cannot be taken on its own.</em><br>Frag Grenade (Grenade, Range 5, Blast 2): The grenade deals {4/5/6} explosive damage to characters caught within, or half on a successful Agility save."
+  },
+  {
+    "id": "npcf_heavy_assault_formation_regiment",
+    "name": "HEAVY ASSAULT FORMATION",
+    "origin": {
+      "type": "Template",
+      "name": "REGIMENT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "As long as the NPC is adjacent to at least one ally with this template, it is immune to critical hits."
+  },
+  {
+    "id": "npcf_outrider_formation_regiment",
+    "name": "OUTRIDER FORMATION",
+    "origin": {
+      "type": "Template",
+      "name": "REGIMENT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "If the NPC is adjacent to the same enemy as one of its allies with this template, the NPC may ignore that enemy for the purposes of engagement and does not trigger the enemy’s Overwatch reaction via movement."
+  },
+  {
+    "id": "npcf_patrol_formation_regiment",
+    "name": "PATROL FORMATION",
+    "origin": {
+      "type": "Template",
+      "name": "REGIMENT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "As long as the NPC is adjacent to at least one ally with this template, it gains 1 Accuracy on Search rolls and on its Overwatch attack rolls."
+  },
+  {
+    "id": "npcf_sharpshooter_teams_regiment",
+    "name": "SHARPSHOOTER TEAMS",
+    "origin": {
+      "type": "Template",
+      "name": "REGIMENT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "The NPC can critically hit with weapons. When it does so, one adjacent ally with this template may immediately take the Lock On action as a reaction against the target, if it is within sensor range."
+  },
+  {
+    "id": "npcf_tenacious_regiment",
+    "name": "TENACIOUS",
+    "origin": {
+      "type": "Template",
+      "name": "REGIMENT",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "tags": [],
+    "effect": "If the NPC loses its last point of Structure while adjacent to at least one ally with this template, it may immediately make a Skirmish action as a reaction before being destroyed."
   }
 ]

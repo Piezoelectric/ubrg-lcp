@@ -18,5 +18,29 @@
       "npcf_revenant_metafold_wraith"
     ],
     "power": 100
+  },
+  {
+    "id": "npct_regiment",
+    "name": "REGIMENT",
+    "description": "The Regiment template lets you depict shared fighting tactics or drilled doctrines across a group that marks them out from other combat formations in the field. Several NPCs with the template may take to the field in wildly different mechs, but the shared systems or traits offer a common thread that gives the players the sense they’re facing a cohesive group or specific strategy. Repeat appearances by the same groups with the same Regiment bonuses and distinct battlefield behaviour can build a certain rapport between the players and the enemy elements their characters face off against.",
+    "base_features": [
+      "npcf_disciplined_coordination_regiment",
+      "npcf_regiment_systems_regiment"
+    ],
+    "optional_features": [
+      "npcf_armed_to_the_teeth_regiment",
+      "npcf_defensive_formation_regiment",
+      "npcf_demolition_experts_regiment",
+      "npcf_digiterrorists_regiment",
+      "npcf_ecm_specialists_regiment",
+      "npcf_extermination_squads_regiment",
+      "npcf_grenadiers_regiment",
+      "npcf_heavy_assault_formation_regiment",
+      "npcf_outrider_formation_regiment",
+      "npcf_patrol_formation_regiment",
+      "npcf_sharpshooter_teams_regiment",
+      "npcf_tenacious_regiment"
+    ],
+    "power": 50
   }
 ]
