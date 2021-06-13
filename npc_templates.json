@@ -1,0 +1,46 @@
+[
+  {
+    "id": "npct_metafold_wraith",
+    "name": "METAFOLD WRAITH",
+    "description": "The Metafold Wraith template allows the creation of bizarre victims of paracausality, whether the maddened survivors of an expedition into a metafold vault like DHIYED, the souls of a long-lost ghost ship in the cold void, or the power-mad villains who would willingly flay their metaphysical nature apart for just a scrap of MONIST enlightenment. Fighting Metafold Wraiths is frightening, disorientating, and comes with lingering scars in the form of Causality Leech tearing apart the fragile threats of a character’s future endeavours. Wraiths play havoc via movement manipulation and cycling resistances, and so can pose a serious threat to most mech team compositions. Combined with appropriate metafold scars, these can be quite complex NPCs to run, so be careful and ensure you’re on top of all the weirdness you’re about to inflict on your hapless players.",
+    "base_features": [
+      "ubrg_npcf_causality_leech_metafold_wraith",
+      "ubrg_npcf_out_of_sync_metafold_wraith",
+      "ubrg_npcf_reality_glitch_metafold_wraith",
+      "ubrg_npcf_spaces_between_the_walls_metafold_wraith",
+      "ubrg_npcf_metafold_scars_metafold_wraith"
+    ],
+    "optional_features": [
+      "ubrg_npcf_anchor_metafold_wraith",
+      "ubrg_npcf_fractal_kill_metafold_wraith",
+      "ubrg_npcf_i_am_you_metafold_wraith",
+      "ubrg_npcf_mirror_twin_metafold_wraith",
+      "ubrg_npcf_revenant_metafold_wraith"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npct_regiment",
+    "name": "REGIMENT",
+    "description": "The Regiment template lets you depict shared fighting tactics or drilled doctrines across a group that marks them out from other combat formations in the field. Several NPCs with the template may take to the field in wildly different mechs, but the shared systems or traits offer a common thread that gives the players the sense they’re facing a cohesive group or specific strategy. Repeat appearances by the same groups with the same Regiment bonuses and distinct battlefield behaviour can build a certain rapport between the players and the enemy elements their characters face off against.",
+    "base_features": [
+      "ubrg_npcf_disciplined_coordination_regiment",
+      "ubrg_npcf_regiment_systems_regiment"
+    ],
+    "optional_features": [
+      "ubrg_npcf_armed_to_the_teeth_regiment",
+      "ubrg_npcf_defensive_formation_regiment",
+      "ubrg_npcf_demolition_experts_regiment",
+      "ubrg_npcf_digiterrorists_regiment",
+      "ubrg_npcf_ecm_specialists_regiment",
+      "ubrg_npcf_extermination_squads_regiment",
+      "ubrg_npcf_grenadiers_regiment",
+      "ubrg_npcf_heavy_assault_formation_regiment",
+      "ubrg_npcf_outrider_formation_regiment",
+      "ubrg_npcf_patrol_formation_regiment",
+      "ubrg_npcf_sharpshooter_teams_regiment",
+      "ubrg_npcf_tenacious_regiment"
+    ],
+    "power": 50
+  }
+]
