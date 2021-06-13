@@ -1646,7 +1646,7 @@
     ]
   },
   {
-    "id": "npcc_kz_tiger",
+    "id": "ubrg_npcc_kz_tiger",
     "name": "KZ TIGER",
     "role": "striker",
     "info": {
@@ -1670,22 +1670,22 @@
       "activations": [1, 1, 1]
     },
     "base_features": [
-      "npcf_bagh_nakh_tiger",
-      "npcf_feature_hacking_pin_tiger",
-      "npcf_hyper_stimulants_tiger",
-      "npcf_safety_limitations_disabled_tiger"
+      "ubrg_npcf_bagh_nakh_tiger",
+      "ubrg_npcf_feature_hacking_pin_tiger",
+      "ubrg_npcf_hyper_stimulants_tiger",
+      "ubrg_npcf_safety_limitations_disabled_tiger"
     ],
     "optional_features": [
-      "npcf_memory_metal_chain_tiger",
-      "npcf_prowler_tiger",
-      "npcf_slaughterer_tiger",
-      "npcf_terror_intrustion_stream_tiger",
-      "npcf_to_the_limit_tiger"
+      "ubrg_npcf_memory_metal_chain_tiger",
+      "ubrg_npcf_prowler_tiger",
+      "ubrg_npcf_slaughterer_tiger",
+      "ubrg_npcf_terror_intrustion_stream_tiger",
+      "ubrg_npcf_to_the_limit_tiger"
     ],
     "power": 100
   },
   {
-    "id": "npcc_kz_snake",
+    "id": "ubrg_npcc_kz_snake",
     "name": "KZ SNAKE",
     "role": "striker",
     "info": {
@@ -1709,22 +1709,22 @@
       "activations": [1, 1, 1]
 
     }, "base_features": [
-    "npcf_metamorphic_dissector_barbs_snake",
-    "npcf_jockey_snake",
-    "npcf_agile_recovery_snake",
-    "npcf_collateral_damage_snake"
+    "ubrg_npcf_metamorphic_dissector_barbs_snake",
+    "ubrg_npcf_jockey_snake",
+    "ubrg_npcf_agile_recovery_snake",
+    "ubrg_npcf_collateral_damage_snake"
   ],
     "optional_features": [
-      "npcf_behemoth_takedown_electrocables_snake",
-      "npcf_defensive_roll_snake",
-      "npcf_flechette_launcer_snake",
-      "npcf_flenser_hive_nexus_snake",
-      "npcf_sever_ammo_feeds_snake"
+      "ubrg_npcf_behemoth_takedown_electrocables_snake",
+      "ubrg_npcf_defensive_roll_snake",
+      "ubrg_npcf_flechette_launcer_snake",
+      "ubrg_npcf_flenser_hive_nexus_snake",
+      "ubrg_npcf_sever_ammo_feeds_snake"
     ],
     "power": 100
   },
   {
-    "id": "npcc_kz_goat",
+    "id": "ubrg_npcc_kz_goat",
     "name": "KZ GOAT",
     "role": "striker",
     "info": {
@@ -1748,21 +1748,21 @@
       "activations": [1, 1, 1]
     },
     "base_features": [
-      "npcf_sledgehammer_goat",
-      "npcf_gang_up_goat",
-      "npcf_pan-class_nhp_goat"
+      "ubrg_npcf_sledgehammer_goat",
+      "ubrg_npcf_gang_up_goat",
+      "ubrg_npcf_pan-class_nhp_goat"
     ],
     "optional_features": [
-      "npcf_endure_onslaught_goat",
-      "npcf_legbreaker_goat",
-      "npcf_panic_goat",
-      "npcf_repair_tools_goat",
-      "npcf_unlinked_machine_gun_goat"
+      "ubrg_npcf_endure_onslaught_goat",
+      "ubrg_npcf_legbreaker_goat",
+      "ubrg_npcf_panic_goat",
+      "ubrg_npcf_repair_tools_goat",
+      "ubrg_npcf_unlinked_machine_gun_goat"
     ],
     "power": 100
   },
   {
-    "id": "npcc_kz_dragon",
+    "id": "ubrg_npcc_kz_dragon",
     "name": "KZ DRAGON",
     "role": "support",
     "info": {
@@ -1787,16 +1787,16 @@
 
     },
     "base_features": [
-      "npcf_high_energy_transfer_rod_dragon",
-      "npcf_heavens_rain_suppression_system_dragon",
-      "npcf_insulation_dragon"
+      "ubrg_npcf_high_energy_transfer_rod_dragon",
+      "ubrg_npcf_heavens_rain_suppression_system_dragon",
+      "ubrg_npcf_insulation_dragon"
     ],
     "optional_features": [
-      "npcf_hazard_purge_dragon",
-      "npcf_energy_rerouting_override_dragon",
-      "npcf_heat_containment_vent_dragon",
-      "npcf_hydro_cannon_dragon",
-      "npcf_searing_brand_dragon"
+      "ubrg_npcf_hazard_purge_dragon",
+      "ubrg_npcf_energy_rerouting_override_dragon",
+      "ubrg_npcf_heat_containment_vent_dragon",
+      "ubrg_npcf_hydro_cannon_dragon",
+      "ubrg_npcf_searing_brand_dragon"
     ],
     "power": 100
   }
